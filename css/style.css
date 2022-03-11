@@ -287,9 +287,6 @@ body {
   font-size: 1.5rem;
 }
 @media screen and (max-width: 1024px) {
-  .card .image-container img {
-    /*height: 15rem;*/
-  }
   .card {
     max-width: 25rem;
   }
