@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>
-      Joan Kouloumba - cv - portfolio développeur web et mobile freelance
+      Joan Kouloumba - web, mobile and software developer - freelance
     </title>
 
     <!--Bootstrap-->
@@ -78,56 +78,26 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarScrollingDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Skills
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarScrollingDropdown"
-                >
-                  <li><a class="dropdown-item" href="#stack">stack</a></li>
-
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#tools">Tools</a>
-                  </li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#trainings">Trainings</a>
-                  </li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="./html/skills.html"> Skills </a>
               </li>
 
+              <li class="nav-item">
+                <a class="nav-link" href="./html/service.html"> Services </a>
+              </li>
               <li class="nav-item">
                 <a
                   class="nav-link"
-                  href="#"
-                  id="navbarScrollingDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Services
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://joanresume.herokuapp.com"
+                  href="https://joanresume.herokuapp.com"
+                  target="_blank"
                   >Resume</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">References</a>
+                <a class="nav-link" href="./html/reference.html">References</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="./html/contact.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -165,6 +135,7 @@
               </p>
               <a
                 href="https://joanresume.herokuapp.com/"
+                target="_blank"
                 class="btn btn-lg border"
                 >to know more about me</a
               >
@@ -321,6 +292,12 @@
           <div id="projects"><!--javascript : appendChild()--></div>
         </div>
       </section>
+      <!--MAINTENANCE
+        <section
+        class="container my-5 p-5 d-flex justify-content-center align-content-center"
+      >
+        <img class="mb-5" src="../img/page_maintenance.png" alt="maintenance" />
+      </section>-->
     </main>
 
     <!--FOOTER-->
@@ -344,19 +321,39 @@
           </li>
         </ul>
         <ul class="footer-nav-list">
-          <li class="footer-nav-item"><a href="#achievements">Portfolio</a></li>
-          <li class="footer-nav-item"><a href="./index.html">Skills</a></li>
-          <li class="footer-nav-item"><a href="./index.html">Services</a></li>
           <li class="footer-nav-item">
-            <a href="https://joanresume.herokuapp.com">Resume</a>
+            <a href="#achievements">Portfolio</a>
           </li>
-          <li class="footer-nav-item"><a href="./index.html">References</a></li>
-          <li class="footer-nav-item"><a href="./index.html">Contact</a></li>
           <li class="footer-nav-item">
-            <a href="./index.html">Legal Notice</a>
+            <a href="./html/skills.html">Skills</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="./html/service.html">Services</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="https://joanresume.herokuapp.com" target="_blank"
+              >Resume</a
+            >
+          </li>
+          <li class="footer-nav-item">
+            <a href="./html/reference.html">References</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="./html/contact.html">Contact</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="./html/legalNotice.html">Legal Notice</a>
           </li>
         </ul>
-        <p>&copy; Develop by Joan Kouloumba</p>
+        <p>Copyright &copy; 2022 - Develop by Joan Kouloumba</p>
+        <button
+          id="scroll-top"
+          class="btn scroll-top"
+          onclick="topFunction()"
+          title="Go at the top of the page"
+        >
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
       </div>
     </footer>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
@@ -381,6 +378,7 @@
     <!--MY JAVASCRIPT FILE-->
     <!-- test : ctrl deux points passage en commentaires -->
     <script src="./JS/data.js"></script>
+    <script src="./JS/utilities.js"></script>
     <script src="./JS/index.js"></script>
   </body>
 </html>

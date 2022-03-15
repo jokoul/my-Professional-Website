@@ -32,6 +32,11 @@ function showProject(dataTab) {
       project.projectName.charAt(0).toUpperCase() +
       project.projectName.slice(1).toLowerCase();
     containerText.appendChild(projectName);
+    //Date
+    let date = document.createElement("p");
+    date.classList.add("date-project");
+    date.innerHTML = `<span>Date:</span> ${project.date}`;
+    containerText.appendChild(date);
     //Stack
     let stack = document.createElement("p");
     stack.classList.add("stack-project");
@@ -49,19 +54,19 @@ function showProject(dataTab) {
     if (project.link1) {
       let link1 = document.createElement("p");
       link1.classList.add("link-card");
-      link1.innerHTML = `<a class="btn" href="${project.link1}" target="_blank">Ouvrir</a>`;
+      link1.innerHTML = `<a class="btn" href="${project.link1}" target="_blank">Open</a>`;
       containerText.appendChild(link1);
     }
     if (project.link2) {
       let link2 = document.createElement("p");
       link2.classList.add("link-card");
-      link2.innerHTML = `<a class="btn" href="${project.link2}" target="_blank">Lien vers github</a>`;
+      link2.innerHTML = `<a class="btn" href="${project.link2}" target="_blank">Github link</a>`;
       containerText.appendChild(link2);
     }
     if (project.link3) {
       let link3 = document.createElement("p");
       link3.classList.add("link-card");
-      link3.innerHTML = `<a class="btn" href="${project.link3}" target="_blank">Lien vers dockerhub</a>`;
+      link3.innerHTML = `<a class="btn" href="${project.link3}" target="_blank">Dockerhub link</a>`;
       containerText.appendChild(link3);
     }
     card.appendChild(containerText);
@@ -74,6 +79,8 @@ showProject(projects.data);
 function filterProject(value) {
   //Button class code
   let buttons = document.querySelectorAll(".button-value");
+  let inputValue = document.getElementById("search-input").value;
+  let input = document.getElementById("search-input");
   buttons.forEach((button) => {
     //check if value equals innerText
     if (value.toUpperCase() === button.innerText.toUpperCase()) {
@@ -81,6 +88,9 @@ function filterProject(value) {
     } else {
       button.classList.remove("activeSearch");
     }
+    input.addEventListener("input", () => {
+      button.classList.remove("activeSearch");
+    });
   });
 
   //select all cards
@@ -134,9 +144,9 @@ inputSearch.addEventListener("keyup", () => {
 
   elements.forEach((element, index) => {
     if (element.innerText.toLowerCase().includes(inputValue.toLowerCase())) {
-      cards[index].style.display = "block";
+      cards[index].classList.remove("hide");
     } else {
-      cards[index].style.display = "none";
+      cards[index].classList.add("hide");
     }
   });
 });
@@ -144,4 +154,13 @@ inputSearch.addEventListener("keyup", () => {
 //Initially display all projects
 window.onload = () => {
   filterProject("All");
+  animeLine();
+};
+
+/*
+DIFFERENT FUNCTION ON SCROLL
+*/
+window.onscroll = function () {
+  scrollFunction();
+  animeLine();
 };
