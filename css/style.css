@@ -541,3 +541,11 @@ body {
 #contactSection .btn:active {
   transform: scale(1.05);
 }
+
+/*============================== CONTACT PAGE END================================================*/
+
+/*============================== LEGAL NOTICE PAGE START================================================*/
+
+#legalNotice {
+  color: var(--green);
+}
