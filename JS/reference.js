@@ -4,7 +4,7 @@ function referenceDisplay(referencesArray) {
     const referenceCard = document.getElementById("reference-card");
 
     referenceCard.innerHTML += `
-        <li class="reference-item col-12 col-md-6 col-lg-3 my-3">
+        <li class="reference-item col-12 col-md-6 col-lg-4 col-xl-3 my-3">
             <img src="${reference.image}" alt="${reference.title}" width="${reference.dimension}"/>
             <h3 class="h2 my-3">${reference.title}</h3>
             <figure>
