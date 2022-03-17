@@ -5,9 +5,9 @@
   --black: #333333a6;
   --green: #043000;
 }
-/*html {
-  scroll-behavior: smooth;
-}*/
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Open-sans";
 }
@@ -22,6 +22,56 @@ body {
   100% {
     width: 15%;
   }
+}
+#progressBar {
+  position: fixed;
+  z-index: 150;
+  top: 4.5rem;
+  width: 100%;
+  height: 0.5rem;
+  -webkit-appearance: none;
+  appearance: none;
+}
+@media screen and (max-width: 767px) {
+  #progressBar {
+    top: 3.5rem;
+  }
+}
+progress::-moz-progress-bar {
+  background-color: var(--orange);
+}
+progress::-webkit-progress-value {
+  background-color: var(--orange);
+}
+#google_translate_element {
+  width: 90px;
+}
+#google_translate_element select {
+  background-color: #ffdcd1b2;
+  color: #d83403;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem 0.2rem;
+  width: 100%;
+}
+.goog-logo-link {
+  display: none;
+}
+.goog-te-gadget {
+  color: transparent !important;
+}
+.goog-te-banner-frame {
+  display: none !important;
+}
+#goog-gt-tt,
+.goog-te-balloon-frame {
+  display: none !important;
+}
+.goog-text-highlight {
+  background: none !important;
+  box-shadow: none !important;
 }
 
 /*============================== HOME PAGE START================================================*/

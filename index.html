@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -99,11 +99,15 @@
               <li class="nav-item">
                 <a class="nav-link" href="./html/contact.html">Contact</a>
               </li>
+              <li class="li_google">
+                <div id="google_translate_element"></div>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
+    <progress id="progressBar" value="0" max="100"></progress>
 
     <!------------------------------------------------------------------------------------------------------------>
     <main>
@@ -129,9 +133,9 @@
                 using differents technologies like React, VueJs, NodeJs, HTML,
                 CSS, etc. But also by using content management system like
                 Wordpress and database management system like MySQL, MongoDB,
-                etc. What i like in this job is the continuous state of
-                evolution and improvement of technologies that challenge me to
-                always training to get better.
+                etc. The continuous state of evolution and improvement of
+                technologies is what challenge me to always training to get
+                better.
               </p>
               <a
                 href="https://joanresume.herokuapp.com/"
@@ -165,40 +169,43 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="./img/carousel/beignet.jpg"
+                src="./img/carousel/banana-design.png"
                 class="d-block w-100"
                 alt="beignet"
               />
-              <h3 class="text-center mt-2">First slide label</h3>
+              <h3 class="text-center mt-2">Achievement : Banana-design</h3>
               <div class="carousel-caption d-none d-sm-block">
                 <h4>
-                  Some representative placeholder content for the first slide.
+                  A new project achieved, It is a showcase website for a web
+                  agency.
                 </h4>
               </div>
             </div>
             <div class="carousel-item">
               <img
-                src="./img//carousel/gombo.jpg"
+                src="./img//carousel/ohmyfood.png"
                 class="d-block w-100"
                 alt="baton"
               />
-              <h3 class="text-center mt-2">Second slide label</h3>
+              <h3 class="text-center mt-2">Achievement : Ohmyfood</h3>
               <div class="carousel-caption d-none d-sm-block">
                 <h4>
-                  Some representative placeholder content for the second slide.
+                  A new project achieved, It is a restaurant booking website
+                  created using Sass preprocessor.
                 </h4>
               </div>
             </div>
             <div class="carousel-item">
               <img
-                src="./img/carousel/fufu.jpg"
+                src="./img/carousel/orinoco.png"
                 class="d-block w-100"
                 alt="..."
               />
-              <h3 class="text-center mt-2">Third slide label</h3>
+              <h3 class="text-center mt-2">Achievement : Orinoco</h3>
               <div class="carousel-caption d-none d-sm-block">
                 <h4>
-                  Some representative placeholder content for the third slide.
+                  A new project achieved, It is an e-commerce website created
+                  with Javascript Vanilla, Nodejs,etc.
                 </h4>
               </div>
             </div>
@@ -240,26 +247,35 @@
             <button class="button-value" onclick="filterProject('All')">
               All
             </button>
-            <button class="button-value" onclick="filterProject('Front-end')">
-              Front-end
+            <button
+              class="button-value"
+              onclick="filterProject('Front-end-development')"
+            >
+              Front-end-development
             </button>
-            <button class="button-value" onclick="filterProject('Back-end')">
-              Back-end
+            <button
+              class="button-value"
+              onclick="filterProject('Back-end-development')"
+            >
+              Back-end-development
             </button>
-            <button class="button-value" onclick="filterProject('Full-stack')">
-              Full-stack
+            <button
+              class="button-value"
+              onclick="filterProject('Full-stack-development')"
+            >
+              Full-stack-development
             </button>
-            <button class="button-value" onclick="filterProject('React')">
-              React
+            <button class="button-value" onclick="filterProject('React.JS')">
+              React.JS
             </button>
-            <button class="button-value" onclick="filterProject('VueJS')">
-              VueJS
+            <button class="button-value" onclick="filterProject('Vue.JS')">
+              Vue.JS
             </button>
-            <button class="button-value" onclick="filterProject('NodeJS')">
-              NodeJS
+            <button class="button-value" onclick="filterProject('Node.JS')">
+              Node.JS
             </button>
-            <button class="button-value" onclick="filterProject('ExpressJS')">
-              ExpressJS
+            <button class="button-value" onclick="filterProject('Express.JS')">
+              Express.JS
             </button>
             <button class="button-value" onclick="filterProject('MySQL')">
               MySQL
@@ -267,8 +283,8 @@
             <button class="button-value" onclick="filterProject('MongoDB')">
               MongoDB
             </button>
-            <button class="button-value" onclick="filterProject('PostgreSQL')">
-              PostgreSQL
+            <button class="button-value" onclick="filterProject('Postgre.SQL')">
+              Postgre.SQL
             </button>
             <button class="button-value" onclick="filterProject('Javascript')">
               Javascript
@@ -279,14 +295,32 @@
             <button class="button-value" onclick="filterProject('HTML-CSS')">
               HTML-CSS
             </button>
-            <button class="button-value" onclick="filterProject('Bootstrap')">
-              Bootstrap
+            <button
+              class="button-value"
+              onclick="filterProject('framework-Bootstrap')"
+            >
+              framework-Bootstrap
             </button>
-            <button class="button-value" onclick="filterProject('Jquery')">
-              Jquery
+            <button
+              class="button-value"
+              onclick="filterProject('library-JQuery')"
+            >
+              library-JQuery
             </button>
-            <button class="button-value" onclick="filterProject('Sass')">
-              Sass
+            <button
+              class="button-value"
+              onclick="filterProject('Sass-preprocessor')"
+            >
+              Sass-preprocessor
+            </button>
+            <button class="button-value" onclick="filterProject('SEO')">
+              SEO
+            </button>
+            <button class="button-value" onclick="filterProject('API-REST')">
+              API-REST
+            </button>
+            <button class="button-value" onclick="filterProject('Docker')">
+              Docker
             </button>
           </div>
           <div id="projects"><!--javascript : appendChild()--></div>
@@ -356,6 +390,23 @@
         </button>
       </div>
     </footer>
+    <!--GOOGLE TRADUCTION-->
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            includedLanguages: "en,fr,zh,yo,sw,de,ha,es,zu,ru,ig,sv,ar,pt,hi",
+          },
+          "google_translate_element"
+        );
+      }
+    </script>
+
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

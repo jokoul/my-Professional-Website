@@ -4,56 +4,115 @@
 let projects = {
   data: [
     {
-      projectName: "Regular White T-shirt",
-      image: "../img/projects/image1.jpg",
-      category: ["Front-end", "Javascript"],
-      date: "2022-03-15",
-      stack: "HTML, CSS, Jquery, Bootstrap",
-      description: "lorem ipsum blabla deco text a venir",
-      feedback:
-        "this project was very useful and i learn a lot on how to use localstorage",
-      link1: "https://joan-kouloumba.in",
-      link2: "https://github.com/jokoul/my-Professional-Website",
-      link3:
-        "https://hub.docker.com/repository/docker/joandock/tennis-score-counter",
+      projectName: "Reservia, accomodation booking website",
+      image: "../img/projects/reservia.png",
+      category: ["Front-end-development", "HTML-CSS"],
+      date: "2021-08-01",
+      stack: "HTML, CSS",
+      description:
+        "Integration of website land page models by using only HTML and CSS from scratch ",
+      feedback: "this project allowed me to understand and use flexbox system.",
+      link1:
+        "https://jokoul.github.io/Projet-2-Transformer-une-maquette-en-site-web-avec-HTML5-CSS3/",
+      link2:
+        "https://github.com/jokoul/Projet-2-Transformer-une-maquette-en-site-web-avec-HTML5-CSS3",
     },
     {
-      projectName: "Beige Short Skirt",
-      image: "../img/projects/image2.jpg",
-      category: ["Full-stack"],
-      date: "2022-03-15",
-      stack: "React, NodeJS, Docker, MongoDB ",
-      description: "lorem ipsum blabla deco text a venir",
+      projectName: "Ohmyfood, restaurant booking website",
+      image: "../img/projects/ohmyfood.png",
+      category: ["Front-end-development", "HTML-CSS", "Sass-preprocessor"],
+      date: "2021-08-23",
+      stack: "HTML, CSS, Sass preprocessor ",
+      description:
+        "Integration of several pages of the website model by using HTML, CSS and Sass from scratch",
       feedback:
-        "this project was very useful and i learn a lot on how to use localstorage",
-      link1: "https://joanresume.herokuapp.com/",
-      link3:
-        "https://hub.docker.com/repository/docker/joandock/tennis-score-counter",
+        "this project allowed me to create advance animations with keyframes and to use Sass preprocessor to structure my CSS code by using nesting, variables, mixins, etc.",
+      link1:
+        "https://jokoul.github.io/Projet-3-Dynamiser-une-page-web-avec-des-animations-CSS",
+      link2:
+        "https://github.com/jokoul/Projet-3-Dynamiser-une-page-web-avec-des-animations-CSS",
     },
     {
-      projectName: "Sporty SmartWatch",
-      image: "../img/projects/image3.jpg",
-      category: ["Wordpress"],
-      date: "2022-03-15",
-      stack: "Wordpress, DOCKER, Plugin Elementor",
-      description: "lorem ipsum blabla deco text a venir",
+      projectName: "Banana-design, web agency showcase site",
+      image: "../img/projects/banana-design.png",
+      category: ["Wordpress", "Docker"],
+      date: "2022-02-20",
+      stack: "Wordpress, Docker, Plugin Elementor",
+      description:
+        "Achievement of a showcase website to promote the activities of the agency.",
       feedback:
-        "this project was very useful and i learn a lot on how to use localstorage",
-      link1: "https://joan-kouloumba.in",
+        "this project was very useful to manipulate basic features of the content management system wordpress as plugins, themes, etc..",
+      link1: "https://joan-kouloumba.in/banana-design",
+      link3:
+        "https://hub.docker.com/r/joandock/wordpress_agence_web_banana_design",
     },
     {
-      projectName: "Basic Knitted Top",
-      image: "../img/projects/image4.jpg",
-      category: ["Back-end"],
-      date: "2022-03-15",
-      stack: "Node.js, Express.js, MySQL",
-      description: "lorem ipsum blabla deco text a venir",
+      projectName: "Orinoco, e-commerce site",
+      image: "../img/projects/orinoco.png",
+      category: ["Javascript", "Front-end-development", "framework-Bootstrap"],
+      date: "2021-10-25",
+      stack: "Javascript Vanilla, Node.JS, Express.js, framework Bootstrap",
+      description:
+        "Achievement of e-commerce site with basket managing system using data mocking and payment simulation. ",
       feedback:
-        "this project was very useful and i learn a lot on how to use localstorage",
-      link1: "https://joanresume.herokuapp.com/",
-      link2: "https://github.com/jokoul/my-Professional-Website",
-      link3:
-        "https://hub.docker.com/repository/docker/joandock/tennis-score-counter",
+        "this project allowed me to familiarize with browser localstorage, fetch API and Javascript basic knowledge.",
+      link1:
+        "https://jokoul.github.io/Projet-5-Construire-un-site-e-commerce-en-JavaScript-vanilla/index.html",
+      link2:
+        "https://github.com/jokoul/Projet-5-Construire-un-site-e-commerce-en-JavaScript-vanilla",
+    },
+    {
+      projectName: "La chouette web agency",
+      image: "../img/projects/chouette.png",
+      category: ["SEO", "HTML-CSS"],
+      date: "2021-10-07",
+      stack: "SEO, HTML, CSS",
+      description:
+        "enhancing web visibility of the agency and the website performance by increasing loading speed, by reducing size of images, etc.",
+      feedback:
+        "this project allowed me to use the good practices of SEO and accessibility by using tools like google search console to set relevant key words, Axe Devtools to fix accessibility issues, etc.",
+      link1:
+        "https://jokoul.github.io/Projet-4-Optimiser-un-site-web-existant-avec-des-outils-SEO/index.html",
+      link2:
+        "https://github.com/jokoul/Projet-4-Optimiser-un-site-web-existant-avec-des-outils-SEO",
+    },
+    {
+      projectName: "Hot_takes, Sauce notation app",
+      image: "../img/projects/hottakes.png",
+      category: [
+        "Back-end-development",
+        "Node.JS",
+        "Express.JS",
+        "MongoDB",
+        "API",
+      ],
+      date: "2021-11-15",
+      stack: "Node.js, Express.js, MongoDB",
+      description:
+        "Achievement of an API REST to run CRUD operations on the Front-end application.",
+      feedback:
+        "this project allowed me to use the Object Data Model Mongoose to manipulate a NoSQL database. ",
+      link2:
+        "https://github.com/jokoul/Projet-6-Construire-une-API-pour-une-application-web",
+    },
+    {
+      projectName: "Groupomania, private social network",
+      image: "../img/projects/groupomania.png",
+      category: [
+        "Full-stack-development",
+        "Node.JS",
+        "Express.JS",
+        "MySQL",
+        "Vue.JS",
+      ],
+      date: "2022-03-15",
+      stack: "Vue.JS, Node.js, Express.js, MySQL",
+      description:
+        "Achievement of an entreprise social network with the framework VueJS.",
+      feedback:
+        "this project allowed me to familiarize with component logic to obtain modulary and maintainable code base. I also used the Object Relational Model Sequelize to manipulate SQL database.",
+      link2:
+        "https://github.com/jokoul/Projet-7-Construire-un-reseau-social-d-entreprise-avec-le-framework-Vue.js",
     },
   ],
 };
@@ -96,7 +155,7 @@ let skills = {
     },
     {
       image: "../img/language/react.png",
-      name: "React",
+      name: "ReactJS",
       description:
         "ReactJS is a Javascript library used to create single page application with an interactive interface. The principle of React is to create components based on state management and render the corresponding html page.",
       dimension: 170,
@@ -117,16 +176,16 @@ let skills = {
     },
     {
       image: "../img/language/bootstrap.png",
-      name: "Bootstrap",
+      name: "framework Bootstrap",
       description:
-        "Bootstrap is a front-end framework using HTML, CSS and Javascript to design customizable responsive interface quickly.",
+        "Framework Bootstrap allows to do front-end development by using HTML, CSS and Javascript. it allows to design customizable responsive interface quickly.",
       dimension: 200,
     },
     {
       image: "../img/language/sass.png",
-      name: "Sass",
+      name: "Sass preprocessor",
       description:
-        "Sass stands for Syntactically Awesome Style Sheets and it is a preprocessor scripting language that is compiled into CSS.",
+        "Sass preprocessor stands for Syntactically Awesome Style Sheets and it is a scripting language that is compiled into CSS.",
       dimension: 150,
     },
     {
@@ -138,9 +197,9 @@ let skills = {
     },
     {
       image: "../img/language/postgre.png",
-      name: "PostgreSQL",
+      name: "Postgre.SQL",
       description:
-        "PostgreSQL is a relational database management system based on the SQL language that allow to communicate with relational database.",
+        "Postgre.SQL is a relational database management system based on the SQL language that allow to communicate with relational database.",
       dimension: 150,
     },
   ],
@@ -154,7 +213,7 @@ let skills = {
     },
     {
       image: "../img/tools/postman.png",
-      name: "Postman",
+      name: "Postman api platform",
       description:
         "Postman is a software application that allows the testing of APIs by creating and sending different type of request.",
       dimension: 110,
@@ -201,51 +260,51 @@ let services = {
       image: "../img/services/wordpress.png",
       title: "WordPress",
       description:
-        "I can create website for you using the famous content management system called Wordpress. There is so many plugins and design pattern which will fit your needs. I can crreate different type of website with it like e-commerce, blogs, showcase website, etc.",
+        "I can create website for you using the famous content management system called Wordpress. There is so many plugins and design pattern which will fit your needs. I will train you also to manage the website content by yourself. I can create different type of website with it like e-commerce, blogs, showcase website, etc.",
       dimension: 150,
     },
-    {
+    /*{
       image: "../img/services/software.png",
       title: "Software",
       description:
         "I can create website for you using the famous content management system called Wordpress. There is so many plugins and design pattern which will fit your needs. I can crreate different type of website with it like e-commerce, blogs, showcase website, etc.",
       dimension: 150,
-    },
+    },*/
     {
       image: "../img/services/seo.png",
       title: "Search Engine Optimization",
       description:
-        "I can create website for you using the famous content management system called Wordpress. There is so many plugins and design pattern which will fit your needs. I can crreate different type of website with it like e-commerce, blogs, showcase website, etc.",
+        "I can optimize the visibility of your website on search engine like google, bing, Yahoo, etc. We define together the key words needed in your website and I restructure the content using best practices of SEO. ",
       dimension: 160,
     },
     {
       image: "../img/services/web_app.png",
       title: "Web Application",
       description:
-        "I can create website for you using the famous content management system called Wordpress. There is so many plugins and design pattern which will fit your needs. I can crreate different type of website with it like e-commerce, blogs, showcase website, etc.",
+        "I can create web application to perform some tasks for you. The application will be available online and you can access it trough your browser. I usually use some technology like ReactJS, VueJS, NodeJS, MySQL and other to do it.",
       dimension: 150,
     },
-    {
+    /*{
       image: "../img/services/pwa.png",
       title: "Progressive Web Application",
       description:
         "I can create website for you using the famous content management system called Wordpress. There is so many plugins and design pattern which will fit your needs. I can crreate different type of website with it like e-commerce, blogs, showcase website, etc.",
       dimension: 200,
-    },
+    },*/
     {
       image: "../img/services/dynamic_website.png",
       title: "Dynamic Website",
       description:
-        "I can create website for you using the famous content management system called Wordpress. There is so many plugins and design pattern which will fit your needs. I can crreate different type of website with it like e-commerce, blogs, showcase website, etc.",
+        "I can create dynamic website for you from scratch. This type of website allows high level customization and a full control on content and data used. I usually use some technology like Javascript, HTML, CSS, NodeJS, Postgre.SQL and other to do it.",
       dimension: 130,
     },
-    {
+    /*{
       image: "../img/services/mobile.png",
       title: "Mobile Application",
       description:
         "I can create website for you using the famous content management system called Wordpress. There is so many plugins and design pattern which will fit your needs. I can crreate different type of website with it like e-commerce, blogs, showcase website, etc.",
       dimension: 60,
-    },
+    },*/
   ],
 };
 //==========================================================================================================================
@@ -255,7 +314,7 @@ let services = {
 
 let references = {
   data: [
-    {
+    /*{
       image: "../img/references/site_artiste_lionel.jpg",
       title: "Painting showcase website",
       address: "https://www.linkedin.com/feed/",
@@ -304,6 +363,6 @@ let references = {
       author: "Hamed PIRAKI",
       position: "real estate agent",
       dimension: 150,
-    },
+    },*/
   ],
 };

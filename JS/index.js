@@ -9,7 +9,10 @@ function showProject(dataTab) {
       "hide",
       project.category[0],
       project.category[1],
-      project.category[2]
+      project.category[2],
+      project.category[3],
+      project.category[4],
+      project.category[5]
     );
 
     //image div
@@ -79,7 +82,6 @@ showProject(projects.data);
 function filterProject(value) {
   //Button class code
   let buttons = document.querySelectorAll(".button-value");
-  let inputValue = document.getElementById("search-input").value;
   let input = document.getElementById("search-input");
   buttons.forEach((button) => {
     //check if value equals innerText
