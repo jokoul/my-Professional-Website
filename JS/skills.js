@@ -5,7 +5,7 @@ function showProgramming(languageArray) {
     languageGallery.innerHTML += `
       <li class="grid-item">
             <a href="#exampleModal" class="thumbnail" data-toggle="modal" onclick="modalContent('${language.name}','${language.description}')">
-              <img src="${language.image}" alt="html" width="${language.dimension}" />
+              <img src="${language.image}" alt="${language.name}" width="${language.dimension}" />
               <div class="words">
                 <h3 class="grid-title">${language.name}</h3>
                 <p class="grid-text">
@@ -27,7 +27,7 @@ function showTool(toolArray) {
     toolGallery.innerHTML += `
       <li class="grid-item">
             <a href="#exampleModal" onclick="modalContent('${tool.name}','${tool.description}')" class="thumbnail" data-toggle="modal" >
-              <img src="${tool.image}" alt="html" width="${tool.dimension}" />
+              <img src="${tool.image}" alt="${tool.name}" width="${tool.dimension}" />
               <div class="words">
                 <h3 class="grid-title">${tool.name}</h3>
                 <p class="grid-text">

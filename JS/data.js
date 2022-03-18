@@ -179,7 +179,7 @@ let skills = {
       name: "framework Bootstrap",
       description:
         "Framework Bootstrap allows to do front-end development by using HTML, CSS and Javascript. it allows to design customizable responsive interface quickly.",
-      dimension: 200,
+      dimension: 190,
     },
     {
       image: "../img/language/sass.png",
@@ -260,7 +260,7 @@ let services = {
       image: "../img/services/wordpress.png",
       title: "WordPress",
       description:
-        "I can create website for you using the famous content management system called Wordpress. There is so many plugins and design pattern which will fit your needs. I will train you also to manage the website content by yourself. I can create different type of website with it like e-commerce, blogs, showcase website, etc.",
+        "I can create website for you by using the famous content management system called Wordpress. There is so many plugins and design pattern which will fit your needs. I will train you also to manage the website content by yourself. I can create different type of website with it like e-commerce, blogs, showcase website, etc.",
       dimension: 150,
     },
     /*{
@@ -295,7 +295,7 @@ let services = {
       image: "../img/services/dynamic_website.png",
       title: "Dynamic Website",
       description:
-        "I can create dynamic website for you from scratch. This type of website allows high level customization and a full control on content and data used. I usually use some technology like Javascript, HTML, CSS, NodeJS, Postgre.SQL and other to do it.",
+        "I can create dynamic website for you from scratch. This type of website allows a high level customization and a full control on content and data used. I usually use some technology like Javascript, HTML, CSS, NodeJS, Postgre.SQL and other to do it.",
       dimension: 130,
     },
     /*{
