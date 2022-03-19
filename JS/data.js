@@ -5,7 +5,7 @@ let projects = {
   data: [
     {
       projectName: "Reservia, accomodation booking website",
-      image: "../img/projects/reservia.png",
+      image: "./img/projects/reservia.png",
       category: ["Front-end-development", "HTML-CSS"],
       date: "2021-08-01",
       stack: "HTML, CSS",
@@ -19,7 +19,7 @@ let projects = {
     },
     {
       projectName: "Ohmyfood, restaurant booking website",
-      image: "../img/projects/ohmyfood.png",
+      image: "./img/projects/ohmyfood.png",
       category: ["Front-end-development", "HTML-CSS", "Sass-preprocessor"],
       date: "2021-08-23",
       stack: "HTML, CSS, Sass preprocessor ",
@@ -34,7 +34,7 @@ let projects = {
     },
     {
       projectName: "Banana-design, web agency showcase site",
-      image: "../img/projects/banana-design.png",
+      image: "./img/projects/banana-design.png",
       category: ["Wordpress", "Docker"],
       date: "2022-02-20",
       stack: "Wordpress, Docker, Plugin Elementor",
@@ -48,7 +48,7 @@ let projects = {
     },
     {
       projectName: "Orinoco, e-commerce site",
-      image: "../img/projects/orinoco.png",
+      image: "./img/projects/orinoco.png",
       category: ["Javascript", "Front-end-development", "framework-Bootstrap"],
       date: "2021-10-25",
       stack: "Javascript Vanilla, Node.JS, Express.js, framework Bootstrap",
@@ -63,7 +63,7 @@ let projects = {
     },
     {
       projectName: "La chouette web agency",
-      image: "../img/projects/chouette.png",
+      image: "./img/projects/chouette.png",
       category: ["SEO", "HTML-CSS"],
       date: "2021-10-07",
       stack: "SEO, HTML, CSS",
@@ -78,7 +78,7 @@ let projects = {
     },
     {
       projectName: "Hot_takes, Sauce notation app",
-      image: "../img/projects/hottakes.png",
+      image: "./img/projects/hottakes.png",
       category: [
         "Back-end-development",
         "Node.JS",
@@ -97,7 +97,7 @@ let projects = {
     },
     {
       projectName: "Groupomania, private social network",
-      image: "../img/projects/groupomania.png",
+      image: "./img/projects/groupomania.png",
       category: [
         "Full-stack-development",
         "Node.JS",
