@@ -8,9 +8,9 @@ console.log(scrollValue);
 
 function scrollFunction() {
   if (
-    document.body.scrollTop > 850 /**Safari */ ||
+    document.body.scrollTop > 420 /**Safari */ ||
     document.documentElement.scrollTop >
-      850 /**Chrome, Firefox, IE and Opera places the overflow at the <html> level */
+      420 /**Chrome, Firefox, IE and Opera places the overflow at the <html> level */
   ) {
     scrollTopBtn.style.display = "block";
   } else {

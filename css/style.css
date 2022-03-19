@@ -11,6 +11,9 @@
 body {
   font-family: "Open-sans";
 }
+main {
+  min-height: calc(100vh - 19rem);
+}
 /*ANIME LINE*/
 @keyframes animeLine {
   0% {
@@ -54,6 +57,7 @@ progress::-webkit-progress-value {
   border: none;
   border-radius: 0.3rem;
   padding: 0.5rem 0.2rem;
+  margin-left: 0.25rem;
   width: 100%;
 }
 .goog-logo-link {
@@ -310,7 +314,7 @@ progress::-webkit-progress-value {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-column-gap: 1.5rem;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 .card {
   background-color: white;
@@ -367,6 +371,18 @@ progress::-webkit-progress-value {
   #projects {
     grid-template-columns: auto;
   }
+}
+/*PAGINATION*/
+#pagination {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
 }
 /*FOOTER STYLE*/
 .footer {
