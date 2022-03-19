@@ -12,7 +12,7 @@ body {
   font-family: "Open-sans";
 }
 main {
-  min-height: calc(100vh - 19rem);
+  min-height: calc(100vh - 18rem);
 }
 /*ANIME LINE*/
 @keyframes animeLine {
@@ -234,10 +234,13 @@ progress::-webkit-progress-value {
   margin-bottom: 3.5rem;
   background-color: var(--orange);
 }
-@media screen and (min-width: 575px) {
+@media screen and (min-width: 576px) {
   .carousel-indicators li {
     margin-bottom: 0rem;
     background-color: var(--orange);
+  }
+  .carousel-indicators {
+    margin-bottom: 0rem;
   }
   .carousel-control-prev {
     margin-left: -0.5rem;
@@ -373,7 +376,7 @@ progress::-webkit-progress-value {
   }
 }
 /*PAGINATION*/
-#pagination {
+.pagination {
   padding: 0;
   display: flex;
   flex-direction: column;

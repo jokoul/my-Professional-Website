@@ -244,9 +244,7 @@
             <button class="btn" id="searchBtn">Search</button>
           </div>
           <div class="buttons-wrapper">
-            <button class="button-value" onclick="filterProject('All')">
-              All
-            </button>
+            <button class="button-value" onclick="displayAll()">All</button>
             <button
               class="button-value"
               onclick="filterProject('Front-end-development')"
@@ -323,7 +321,7 @@
               Docker
             </button>
           </div>
-          <div id="pagination" class="container-fluid pagination mt-3">
+          <div id="pagination1" class="container-fluid pagination mt-3">
             <p class="page-title">page</p>
             <div class="page-btn-wrapper">
               <a class="btn border" href="javascript:prevPage()" id="btn_prev1"
@@ -336,7 +334,7 @@
             </div>
           </div>
           <div id="projects"><!--javascript : appendChild()--></div>
-          <div id="pagination" class="container-fluid pagination">
+          <div id="pagination2" class="container-fluid pagination">
             <p class="page-title">page</p>
             <div class="page-btn-wrapper">
               <a class="btn border" href="javascript:prevPage()" id="btn_prev2"

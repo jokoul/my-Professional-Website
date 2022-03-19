@@ -1,5 +1,5 @@
 /*ACHIEVEMENT SECTION SEARCH */
-/*function showProject(dataTab) {
+function showProject(dataTab) {
   for (let project of dataTab) {
     //create Card
     let card = document.createElement("div");
@@ -75,8 +75,7 @@
     card.appendChild(containerText);
     document.getElementById("projects").appendChild(card);
   }
-}*/
-//showProject(projects.data);
+}
 
 /**PAGINATION */
 let current_page = 1;
@@ -90,14 +89,14 @@ function prevPage() {
   if (current_page > 1) {
     current_page--;
     changePage(projects.data, cardsContainer, cards_per_page, current_page);
-    filterProject("All");
+    //filterProject("All");
   }
 }
 function nextPage() {
   if (current_page < numPages()) {
     current_page++;
     changePage(projects.data, cardsContainer, cards_per_page, current_page);
-    filterProject("All");
+    //filterProject("All");
   }
 }
 
@@ -119,7 +118,7 @@ function changePage(dataArray, wrapper, rows_per_page, page) {
   let start = rows_per_page * page;
   let end = start + rows_per_page;
   let paginatedItems = dataArray.slice(start, end);
-  console.log(paginatedItems);
+
   //for loop
   for (let project of paginatedItems) {
     //create Card
@@ -127,7 +126,7 @@ function changePage(dataArray, wrapper, rows_per_page, page) {
     //Card should have category
     card.classList.add(
       "card",
-      "hide",
+      /*"hide",*/
       project.category[0],
       project.category[1],
       project.category[2],
@@ -196,6 +195,12 @@ function changePage(dataArray, wrapper, rows_per_page, page) {
     card.appendChild(containerText);
     wrapper.appendChild(card);
   }
+  //activeSearch style on All button
+  const buttons = document.getElementsByClassName("button-value");
+  Array.from(buttons).forEach((button) => {
+    button.classList.remove("activeSearch");
+  });
+  buttons[0].classList.add("activeSearch");
 
   /*if (page == 1) {
     btn_prev1.style.visibility = "hidden";
@@ -217,6 +222,60 @@ function changePage(dataArray, wrapper, rows_per_page, page) {
 
 //Parameter passed from button (Parameter same as category)
 function filterProject(value) {
+  const pagesContainer = document.getElementsByClassName("pagination");
+  const buttons = document.getElementsByClassName("button-value");
+  console.log(pagesContainer);
+  if (value !== "All") {
+    Array.from(pagesContainer).forEach((pageContainer) => {
+      pageContainer.classList.add("hide");
+      pageContainer.classList.remove("pagination");
+    });
+  }
+
+  const cardsContainer = document.getElementById("projects");
+  cardsContainer.innerHTML = "";
+  showProject(projects.data);
+  //Remove activeSearch style on All button
+
+  buttons[0].classList.remove("activeSearch");
+
+  //Button class code
+  //let buttons = document.querySelectorAll(".button-value");
+  let input = document.getElementById("search-input");
+  Array.from(buttons).forEach((button) => {
+    //check if value equals innerText
+    if (value.toUpperCase() === button.innerText.toUpperCase()) {
+      button.classList.add("activeSearch");
+    } else {
+      button.classList.remove("activeSearch");
+    }
+    input.addEventListener("input", () => {
+      button.classList.remove("activeSearch");
+    });
+  });
+
+  //select all cards
+  const elements = document.querySelectorAll(".card");
+  //loop trough all cards
+  elements.forEach((element) => {
+    //check if element contains category class
+    if (element.classList.contains(value)) {
+      //display element based on category
+      element.classList.remove("hide");
+    } else {
+      //hide other elements
+      element.classList.add("hide");
+    }
+  });
+}
+
+/**FILTER PROJECT BUTTON */
+/*
+function filterProjectButton(value) {
+  const cardsContainer = document.getElementById("projects");
+  cardsContainer.innerHTML = "";
+  showProject(projects.data);
+
   //Button class code
   let buttons = document.querySelectorAll(".button-value");
   let input = document.getElementById("search-input");
@@ -250,7 +309,7 @@ function filterProject(value) {
     }
   });
 }
-
+*/
 //Search button click
 const searchBtn = document.getElementById("searchBtn");
 
@@ -290,12 +349,25 @@ inputSearch.addEventListener("keyup", () => {
   });
 });
 
+function displayAll() {
+  changePage(projects.data, cardsContainer, cards_per_page, 1);
+
+  const pageContainer1 = document.getElementById("pagination1");
+  const pageContainer2 = document.getElementById("pagination2");
+  const buttons = document.getElementsByClassName("button-value");
+  console.log(buttons[0]);
+  if (buttons[0].classList.contains("activeSearch")) {
+    pageContainer1.classList.add("pagination");
+    pageContainer1.classList.remove("hide");
+    pageContainer2.classList.add("pagination");
+    pageContainer2.classList.remove("hide");
+  }
+}
+
 //Initially display all projects
 window.onload = () => {
   animeLine();
   changePage(projects.data, cardsContainer, cards_per_page, 1);
-  filterProject("All");
-  //showProject(projects.data);
 };
 
 /*

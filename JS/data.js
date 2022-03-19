@@ -84,7 +84,7 @@ let projects = {
         "Node.JS",
         "Express.JS",
         "MongoDB",
-        "API",
+        "API-REST",
       ],
       date: "2021-11-15",
       stack: "Node.js, Express.js, MongoDB",
