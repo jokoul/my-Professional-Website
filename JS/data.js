@@ -10,12 +10,27 @@ let projects = {
       date: "2021-08-01",
       stack: "HTML, CSS",
       description:
-        "Integration of website land page models by using only HTML and CSS from scratch ",
+        "Integration of website land page models by using only HTML and CSS from scratch.",
       feedback: "this project allowed me to understand and use flexbox system.",
       link1:
         "https://jokoul.github.io/Projet-2-Transformer-une-maquette-en-site-web-avec-HTML5-CSS3/",
       link2:
         "https://github.com/jokoul/Projet-2-Transformer-une-maquette-en-site-web-avec-HTML5-CSS3",
+    },
+    {
+      projectName: "Tennis-Score-Counter application",
+      image: "./img/projects/tennis-score.png",
+      category: ["Front-end-development", "React.JS"],
+      date: "2022-02-12",
+      stack: "ReactJS, Redux",
+      description:
+        "This application is useful to follow and register a score of tennis game.",
+      feedback:
+        "this project allowed me to manipulate the most used state management library called Redux.",
+      link1: "https://tennis-score-counter.herokuapp.com/",
+      link2:
+        "https://github.com/jokoul/project-RT-RX-01-Tennis-score-counter-Redux-React",
+      link3: "https://hub.docker.com/r/joandock/tennis-score-counter",
     },
     {
       projectName: "Ohmyfood, restaurant booking website",
