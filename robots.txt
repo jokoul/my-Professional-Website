@@ -1,0 +1,9 @@
+#rule 1
+
+User-agent : *
+Disallow : /css/style.css
+Disallow : /README.md
+
+#Sitemap 
+
+Sitemap : https://joan-kouloumba.in/professional-site/sitemap.xml

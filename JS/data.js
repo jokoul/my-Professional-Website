@@ -20,7 +20,7 @@ let projects = {
     {
       projectName: "Tennis-Score-Counter application",
       image: "./img/projects/tennis-score.png",
-      category: ["Front-end-development", "React.JS"],
+      category: ["Front-end-development", "React.JS", "Docker"],
       date: "2022-02-12",
       stack: "ReactJS, Redux",
       description:
@@ -275,7 +275,7 @@ let services = {
       image: "../img/services/wordpress.png",
       title: "WordPress",
       description:
-        "I can create website for you by using the famous content management system called Wordpress. There is so many plugins and design pattern which will fit your needs. I will train you also to manage the website content by yourself. I can create different type of website with it like e-commerce, blogs, showcase website, etc.",
+        "I can create website for you by using the famous content management system called Wordpress. There is lots of plugins and design pattern which will fit your needs. I will train you also to manage the website content by yourself. I can create different type of website that will boost your productivity like e-commerce sites, blogs, showcase websites, etc.",
       dimension: 150,
     },
     /*{
@@ -289,14 +289,14 @@ let services = {
       image: "../img/services/seo.png",
       title: "Search Engine Optimization",
       description:
-        "I can optimize the visibility of your website on search engine like google, bing, Yahoo, etc. We define together the key words needed in your website and I restructure the content using best practices of SEO. ",
+        "I can optimize the visibility of your website on search engine like google, bing, Yahoo, etc. this is very useful in Webmarketing to increase traffic to your site, build customer loyalty and attract new prospects. We define together the key words needed in your website and I restructure the content using best practices of SEO. ",
       dimension: 160,
     },
     {
       image: "../img/services/web_app.png",
       title: "Web Application",
       description:
-        "I can create web application to perform some tasks for you. The application will be available online and you can access it trough your browser. I usually use some technology like ReactJS, VueJS, NodeJS, MySQL and other to do it.",
+        "I can create web applications to automatize and simplify performing of some tasks for you. The application will be available online and you can access it trough your browser. I usually use some technology like ReactJS, VueJS, NodeJS, MySQL and other to do it.",
       dimension: 150,
     },
     /*{
