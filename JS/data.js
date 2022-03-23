@@ -4,6 +4,19 @@
 let projects = {
   data: [
     {
+      projectName: "Math The Fun way, Maths learning site",
+      image: "./img/projects/maths-tutorial.png",
+      category: ["Front-end-development", "HTML-CSS", "Javascript"],
+      date: "2022-03-23",
+      stack: "Javascript, HTML, CSS",
+      description:
+        "Achievement of a Maths learning website including a game of Maths for practice.",
+      feedback:
+        "this project allowed me to manipulate maths functions of javascript, Grid CSS, advanced form input and setTimeout fonction.",
+      link1: "https://joan-kouloumba.in/maths-tutorial/index.html",
+      link2: "https://github.com/jokoul/project-8-Maths-the-Fun-way",
+    },
+    {
       projectName: "Reservia, accomodation booking website",
       image: "./img/projects/reservia.png",
       category: ["Front-end-development", "HTML-CSS"],
