@@ -21,6 +21,7 @@ function showProject(dataTab) {
     //img tag
     let image = document.createElement("img");
     image.setAttribute("src", project.image);
+    image.setAttribute("loading", "lazy");
     imgContainer.appendChild(image);
     card.appendChild(imgContainer);
 
@@ -141,6 +142,7 @@ function changePage(dataArray, wrapper, rows_per_page, page) {
     //img tag
     let image = document.createElement("img");
     image.setAttribute("src", project.image);
+    image.setAttribute("loading", "lazy");
     imgContainer.appendChild(image);
     card.appendChild(imgContainer);
 
