@@ -4,10 +4,36 @@
 let projects = {
   data: [
     {
+      projectName: "Fruits Slice game",
+      image: "./img/projects/fruits-game.png",
+      category: ["Front-end-development", "HTML-CSS", "library-JQuery"],
+      date: "03-29-2022",
+      stack: "jQuery, HTML, CSS",
+      description:
+        "Achievement of a Fruits Slice Game website for entertainment.",
+      feedback:
+        "this project allowed me to manipulate jQuery functions and algorithmic logic.",
+      link1: "https://joan-kouloumba.in/fruits-game/",
+      link2: "https://github.com/jokoul/project-JQ-01-Fruit-slice-game",
+    },
+    {
+      projectName: "generalWP, an entrepreneur website.",
+      image: "./img/projects/general-wp.png",
+      category: ["Wordpress", "Docker"],
+      date: "04-02-2022",
+      stack: "Docker, Wordpress, Plugin Elementor",
+      description:
+        "Achievement of a business promotional website wich can fit any kind of business activities.",
+      feedback:
+        "this project allow me to manipulate wordpress Phlox theme, Elementor plugins, etc..",
+      link1: "https://joan-kouloumba.in/general-wp",
+      link3: "https://hub.docker.com/r/joandock/wordpress_generalwp",
+    },
+    {
       projectName: "Math The Fun way, Maths learning site",
       image: "./img/projects/maths-tutorial.png",
       category: ["Front-end-development", "HTML-CSS", "Javascript"],
-      date: "2022-03-23",
+      date: "03-23-2022",
       stack: "Javascript, HTML, CSS",
       description:
         "Achievement of a Maths learning website including a game of Maths for practice.",
@@ -20,7 +46,7 @@ let projects = {
       projectName: "Reservia, accomodation booking website",
       image: "./img/projects/reservia.png",
       category: ["Front-end-development", "HTML-CSS"],
-      date: "2021-08-01",
+      date: "08-01-2021",
       stack: "HTML, CSS",
       description:
         "Integration of website land page models by using only HTML and CSS from scratch.",
@@ -34,7 +60,7 @@ let projects = {
       projectName: "Tennis-Score-Counter application",
       image: "./img/projects/tennis-score.png",
       category: ["Front-end-development", "React.JS", "Docker"],
-      date: "2022-02-12",
+      date: "02-12-2022",
       stack: "ReactJS, Redux",
       description:
         "This application is useful to follow and register a score of tennis game.",
@@ -49,10 +75,10 @@ let projects = {
       projectName: "Ohmyfood, restaurant booking website",
       image: "./img/projects/ohmyfood.png",
       category: ["Front-end-development", "HTML-CSS", "Sass-preprocessor"],
-      date: "2021-08-23",
+      date: "08-23-2021",
       stack: "HTML, CSS, Sass preprocessor ",
       description:
-        "Integration of several pages of the website model by using HTML, CSS and Sass from scratch",
+        "Integration of several pages of the website model by using HTML, CSS and Sass from scratch.",
       feedback:
         "this project allowed me to create advance animations with keyframes and to use Sass preprocessor to structure my CSS code by using nesting, variables, mixins, etc.",
       link1:
@@ -64,7 +90,7 @@ let projects = {
       projectName: "Banana-design, web agency showcase site",
       image: "./img/projects/banana-design.png",
       category: ["Wordpress", "Docker"],
-      date: "2022-02-20",
+      date: "02-20-2022",
       stack: "Wordpress, Docker, Plugin Elementor",
       description:
         "Achievement of a showcase website to promote the activities of the agency.",
@@ -78,7 +104,7 @@ let projects = {
       projectName: "Orinoco, e-commerce site",
       image: "./img/projects/orinoco.png",
       category: ["Javascript", "Front-end-development", "framework-Bootstrap"],
-      date: "2021-10-25",
+      date: "10-25-2021",
       stack: "Javascript Vanilla, Node.JS, Express.js, framework Bootstrap",
       description:
         "Achievement of e-commerce site with basket managing system using data mocking and payment simulation. ",
@@ -93,7 +119,7 @@ let projects = {
       projectName: "La chouette web agency",
       image: "./img/projects/chouette.png",
       category: ["SEO", "HTML-CSS"],
-      date: "2021-10-07",
+      date: "10-07-2021",
       stack: "SEO, HTML, CSS",
       description:
         "enhancing web visibility of the agency and the website performance by increasing loading speed, by reducing size of images, etc.",
@@ -114,7 +140,7 @@ let projects = {
         "MongoDB",
         "API-REST",
       ],
-      date: "2021-11-15",
+      date: "11-15-2021",
       stack: "Node.js, Express.js, MongoDB",
       description:
         "Achievement of an API REST to run CRUD operations on the Front-end application.",
@@ -133,7 +159,7 @@ let projects = {
         "MySQL",
         "Vue.JS",
       ],
-      date: "2022-03-15",
+      date: "01-15-2022",
       stack: "Vue.JS, Node.js, Express.js, MySQL",
       description:
         "Achievement of an entreprise social network with the framework VueJS.",

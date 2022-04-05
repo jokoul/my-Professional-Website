@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--A) ajouter balise meta "robots" afin d'indiquer au moteur d'exploration d'indéxer la page et suivre les liens-->
+    <meta name="robots" content="index, follow" />
+    <!--Implementation of multilingual website-->
+    <link rel="alternate" hreflang="en" href="../../html/service.html" />
+    <link rel="alternate" hreflang="en-US" href="../../html/service.html" />
+    <link rel="alternate" hreflang="fr" href="./prestation-service.html" />
+    <link rel="alternate" hreflang="fr-FR" href="./prestation-service.html" />
+    <link rel="alternate" hreflang="x-default" href="../../html/service.html" />
+    <!--Ajout d'un favicon-->
+    <link
+      rel="shorcut icon"
+      type="image/png"
+      href="../img/favicon_io/logomakr.png"
+    />
+    <!--A) ajout d'une description attrayante (language parlé ex questionnement, mot d'appel à l'action ex achetez, 
+		faites-le,etc argument convainquant) pour le lecteur et qui reprend certain mot-clé-->
+    <meta
+      name="description"
+      content="Joan Kouloumba est un développeur web, mobile et logiciel situé à Lyon. il est à l'écoute des opportunités pour la réalisation de sites web, d'applications mobile et de logiciels. Le portfolio de ses projets consultable sur ce site témoigne de ses compétences en programmation informatique qui sont actualisés constamment afin de répondre aux besoins du marché et à l'évolution constante des technologies comme Javascript, SQL, HTML, CSS, Java, PHP, etc. "
+    />
+    <!-- A) Ajout des "open graph" pour Facebook -->
+    <meta
+      property="og:title"
+      content="Joan Kouloumba - web, mobile and software developer in Lyon - freelance"
+    />
+    <meta
+      property="og:url"
+      content="https://joan-kouloumba.in/professional-site"
+    />
+    <!--M) A modifier plus tard-->
+    <meta property="og:image" content="./img/moi.jpg" />
+    <meta
+      property="og:description"
+      content="Joan Kouloumba est un développeur web, mobile et logiciel situé à Lyon. il est à l'écoute des opportunités pour la réalisation de sites web, d'applications mobile et de logiciels. Le portfolio de ses projets consultable sur ce site témoigne de ses compétences en programmation informatique qui sont actualisés constamment afin de répondre aux besoins du marché et à l'évolution constante des technologies comme Javascript, SQL, HTML, CSS, Java, PHP, etc."
+    />
+    <meta
+      property="og:site_name"
+      content="Joan Kouloumba professionnal website"
+    />
+    <meta property="og:type" content="siteweb" />
+    <!--M)Emplacement pour video youtube à venir-->
+    <meta property="og:video" content="#" />
+
+    <!-- A) Ajout des "open graph" pour Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <!--M) A modifier plus tard-->
+    <meta name="twitter:site" content="@joanKouloumba" />
+    <meta
+      name="twitter:title"
+      content="Joan Kouloumba - web, mobile and software developer in Lyon- freelance"
+    />
+    <meta
+      name="twitter:description"
+      content="Joan Kouloumba est un développeur web, mobile et logiciel situé à Lyon. il est à l'écoute des opportunités pour la réalisation de sites web, d'applications mobile et de logiciels. Le portfolio de ses projets consultable sur ce site témoigne de ses compétences en programmation informatique qui sont actualisés constamment afin de répondre aux besoins du marché et à l'évolution constante des technologies comme Javascript, SQL, HTML, CSS, Java, PHP, etc."
+    />
+    <meta name="twitter:image" content="./img/moi.jpg" />
+
+    <title>
+      Joan Kouloumba - Service web, mobile and developer in Lyon - freelance
+    </title>
+
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <!--M) minification des fichier CSS afin de réduire la taille des fichiers et augmenter la vitesse de chargement-->
+    <link rel="stylesheet" href="../css/styles-min.css" />
+    <!--Google font family-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Arvo"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--FONT AWESOME-->
+    <script
+      src="https://kit.fontawesome.com/52339f9582.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-X89D9ZX7Q3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-X89D9ZX7Q3");
+    </script>
+  </head>
+  <body data-spy="scroll" data-target="#mynavBar">
+    <!--NAVIGATION BAR WITH SCROLLSPY-->
+    <header>
+      <nav
+        role="navigation"
+        class="navbar navbar-expand-md fixed-top navbar-dark"
+        id="mynavBar"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../developpeur-web.html">JK</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-md-flex justify-content-md-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav navbar-nav-scroll">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="../developpeur-web.html"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Accueil
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="../developpeur-web.html#news"
+                      >Nouvelles</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../developpeur-web.html#achievements"
+                      >Réalisations</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./competences.html"> Compétences </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./prestation-service.html">
+                  Services
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://joanresume.herokuapp.com"
+                  target="_blank"
+                  >CV</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./references-avis.html">Références</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+              <li>
+                <div id="google_translate_element"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!------------------------------------------------------------------------------------------------------------>
+    <main>
+      <progress id="progressBar" value="0" max="100"></progress>
+
+      <!--PROGRAMMING LANGUAGE-->
+      <section id="programming" class="programmingSection container-fluid">
+        <h1 class="sectionTitle text-center display-4">
+          Prestations de service
+        </h1>
+        <div class="line"></div>
+        <h2 class="subTitle">
+          Je propose mes services pour développer des sites web, des
+          applications et des logiciels comme indiqué ci-dessous.
+        </h2>
+        <ul
+          id="service-card"
+          class="services row d-flex justify-content-center align-content-center my-5 pl-0"
+        >
+          <!--Dynamic content-->
+        </ul>
+      </section>
+      <!-- MAINTENANCE
+          <section
+        class="container my-5 p-5 d-flex justify-content-center align-content-center"
+      >
+        <img class="mb-5" src="../img/page_maintenance.png" alt="maintenance" width="150"/>
+      </section> -->
+    </main>
+    <!--FOOTER-->
+    <footer class="footer">
+      <div class="footer-content">
+        <ul class="social-media">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/joan-kouloumba-570a7680/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/joanKouloumba" target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/jokoul" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+        </ul>
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <a href="../developpeur-web.html#achievements">Portfolio</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="./competences.html">Compétences</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="./prestation-service.html">Services</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="https://joanresume.herokuapp.com" target="_blank">CV</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="./references-avis.html">Références</a>
+          </li>
+          <li class="footer-nav-item"><a href="./contact.html">Contact</a></li>
+          <li class="footer-nav-item">
+            <a href="./mention-legale.html">Mention légale</a>
+          </li>
+        </ul>
+        <p>Copyright &copy; 2022 - Développé par Joan Kouloumba</p>
+        <button
+          id="scroll-top"
+          class="btn scroll-top"
+          onclick="topFunction()"
+          title="Go at the top of the page"
+        >
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </footer>
+    <!--GOOGLE TRADUCTION-->
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            includedLanguages: "en,fr,zh,yo,sw,de,ha,es,zu,ru,ig,sv,ar,pt,hi",
+          },
+          "google_translate_element"
+        );
+      }
+    </script>
+
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <!-- MY JQUERY CODE-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../JS/jquery.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+    <!--MY JAVASCRIPT FILE-->
+    <!-- test : ctrl deux points passage en commentaires -->
+    <script src="../JS/data_fr.js"></script>
+    <script src="../JS/utilities.js"></script>
+    <script src="../JS/service.js"></script>
+  </body>
+</html>
