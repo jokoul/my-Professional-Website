@@ -4,6 +4,62 @@
 let projects = {
   data: [
     {
+      projectName: "Zarasclo, basket-ball club site.",
+      image: "./img/projects/zarasclo.png",
+      category: ["Wordpress", "Docker", "SEO"],
+      date: "02-05-2022",
+      stack: "Docker, Wordpress, Plugin Elementor, SEO yoast",
+      description:
+        "Achievement of a Basket-ball website which present the club, players, management team, display match planning, results, etc.",
+      feedback:
+        "this project allow me to work on a real world case of a client needs. I worked with a customer specifications and a time deadline to respect. I iterated many interviews with the client to precise the features to implement and to train him on updating wordpress content.",
+      link1: "https://joan-kouloumba.in/zarasclo",
+      link3: "https://hub.docker.com/r/joandock/zarasclo",
+    },
+    {
+      projectName: "Drawing app for desktop",
+      image: "./img/projects/drawing-app.png",
+      category: ["Front-end-development", "library-JQuery", "HTML-CSS"],
+      date: "25-04-2022",
+      stack: "HTML, CSS, jQuery",
+      description:
+        "Achievement of a drawing app designed to work on desktop and allow to sketch fun things.",
+      feedback:
+        "In this project, I used HTML, CSS and jQuery. An UML-diagram allowed to map all user interaction before coding. 'getContext' function allowed me to set 2D canvas type.",
+      link1: "https://joan-kouloumba.in/drawing-app",
+      link2: "https://github.com/jokoul/project-10-Drawing-App-JQ",
+    },
+    {
+      projectName: "StopWatch app",
+      image: "./img/projects/stopwatch.png",
+      category: [
+        "Front-end-development",
+        "library-JQuery",
+        "framework-Bootstrap",
+      ],
+      date: "20-04-2022",
+      stack: "Bootstrap 5.1, jQuery",
+      description:
+        "Achievement of a stopwatch app designed to measure time in different situation like sport, work, cooking, etc.",
+      feedback:
+        "In this project, I use Bootstrap 5.1 and jQuery. I first thought about interaction logic through an UML-diagram. 'setInterval' function was crucial to set centiseconds, seconds and minutes counter.",
+      link1: "https://joan-kouloumba.in/stopwatch",
+      link2: "https://github.com/jokoul/project-9-Stopwatch-JQ-BP",
+    },
+    {
+      projectName: "Holidious, an Holiday finder website",
+      image: "./img/projects/holidious.png",
+      category: ["Sass-preprocessor", "HTML-CSS", "framework-Bootstrap"],
+      date: "04-10-2022",
+      stack: "Bootstrap 5.1, Sass preprocessor, HTML, CSS",
+      description:
+        "Achievement of an holiday finder website wich provide many Holiday offers.",
+      feedback:
+        "this project allowed me to use the last version of Bootstrap 5.1. I also use Keyframes to build advanced animation and Sass preprocessor to structure my CSS code with mixins, variables, nesting, etc.",
+      link1: "https://joan-kouloumba.in/holidious",
+      link2: "https://github.com/jokoul/project-SS-BP-Holidious-holiday-finder",
+    },
+    {
       projectName: "Fruits Slice game",
       image: "./img/projects/fruits-game.png",
       category: ["Front-end-development", "HTML-CSS", "library-JQuery"],

@@ -4,6 +4,58 @@
 let projects = {
   data: [
     {
+      projectName: "Zarasclo, site du club de basket-ball.",
+      image: "./img/projects/zarasclo.png",
+      category: ["Wordpress", "Docker"],
+      date: "02-05-2022",
+      stack: "Docker, Wordpress, Plugin Elementor, SEO yoast",
+      description:
+        "Réalisation d'un site Web de Basket-ball qui présente le club, les joueurs, l'équipe dirigeante, affiche le planning des matchs, les résultats, etc.",
+      feedback:
+        "ce projet m'a permis de travailler sur un cas réel d'un besoin client. J'ai travaillé avec un cahier des charges client et un délai à respecter. J'ai itéré de nombreux entretiens avec le client pour préciser les fonctionnalités à mettre en place et le former à la mise à jour du contenu wordpress.",
+      link1: "https://joan-kouloumba.in/zarasclo",
+      link3: "https://hub.docker.com/r/joandock/zarasclo",
+    },
+    {
+      projectName: "application de dessein pour ordinateur",
+      image: "./img/projects/drawing-app.png",
+      category: ["HTML-CSS", "Front-end", "bibliothèque-JQuery"],
+      date: "25-04-2022",
+      stack: "HTML, CSS, jQuery",
+      description:
+        "Réalisation d'une application de dessin conçue pour fonctionner sur ordinateur et permettre de dessiner des choses amusantes.",
+      feedback:
+        "Dans ce projet, j'ai utilisé HTML, CSS et jQuery. Un diagramme UML a permis de cartographier toutes les interactions de l'utilisateur avant le codage.  La fonction 'getContext' m'a permis de définir le type de canevas 2D.",
+      link1: "https://joan-kouloumba.in/drawing-app",
+      link2: "https://github.com/jokoul/project-10-Drawing-App-JQ",
+    },
+    {
+      projectName: "application Chronomètre",
+      image: "./img/projects/stopwatch.png",
+      category: ["framework-Bootstrap", "Front-end", "bibliothèque-JQuery"],
+      date: "20-04-2022",
+      stack: "Bootstrap 5.1, jQuery",
+      description:
+        "Réalisation d'une application chronomètre conçue pour mesurer le temps dans différentes situations comme le sport, le travail, la cuisine, etc.",
+      feedback:
+        "Dans ce projet, j'utilise Bootstrap 5.1 et jQuery. J'ai d'abord pensé à la logique d'interaction à travers un diagramme UML. La fonction 'setInterval' était cruciale pour régler le compteur des centisecondes, des secondes et des minutes.",
+      link1: "https://joan-kouloumba.in/stopwatch",
+      link2: "https://github.com/jokoul/project-9-Stopwatch-JQ-BP",
+    },
+    {
+      projectName: "Holidious, un site de recherche de vacances",
+      image: "./img/projects/holidious.png",
+      category: ["framework-Bootstrap", "HTML-CSS", "Sass-préprocesseur"],
+      date: "10-04-2022",
+      stack: "Bootstrap 5.1, HTML, CSS, Sass préprocesseur",
+      description:
+        "Réalisation d'un site de recherche de vacances proposant de nombreuses offres de vacances.",
+      feedback:
+        "ce projet m'a permis d'utiliser la dernière version de Bootstrap 5.1. J'utilise également des images clés pour créer des animations avancées et le préprocesseur Sass pour structurer mon code CSS avec des mixins, des variables, des imbrications, etc.",
+      link1: "https://joan-kouloumba.in/holidious/",
+      link2: "https://github.com/jokoul/project-SS-BP-Holidious-holiday-finder",
+    },
+    {
       projectName: "Jeu de tranches de fruits",
       image: "./img/projects/fruits-game.png",
       category: ["Front-end", "HTML-CSS", "bibliothèque-JQuery"],
@@ -180,7 +232,7 @@ let skills = {
       image: "../img/language/css.png",
       name: "CSS",
       description:
-        "CSS signifie Cascading Style Sheets et décrit comment les éléments HTML doivent être affichés à l'écran ou sur d'autres supports.",
+        "CSS signifie Cascading Style Sheets et décrit comment les éléments HTML doivent être affichés à l`écran ou sur d`autres supports.",
       dimension: 110,
     },
     {
@@ -201,7 +253,7 @@ let skills = {
       image: "../img/language/react.png",
       name: "ReactJS",
       description:
-        "ReactJS est une bibliothèque Javascript utilisée pour créer une application d'une seule page avec une interface interactive. Le principe de React est de créer des composants basés sur la gestion d'état et de restituer la page html correspondante.",
+        "ReactJS est une bibliothèque Javascript utilisée pour créer une application d`une seule page avec une interface interactive. Le principe de React est de créer des composants basés sur la gestion d`état et de restituer la page html correspondante.",
       dimension: 170,
     },
     {
@@ -215,7 +267,7 @@ let skills = {
       image: "../img/language/mongo.png",
       name: "MongoDB",
       description:
-        "MongoDB est un système de gestion de base de données orienté document permettant d'exploiter des bases de données non relationnelles.",
+        "MongoDB est un système de gestion de base de données orienté document permettant d`exploiter des bases de données non relationnelles.",
       dimension: 220,
     },
     {
@@ -229,8 +281,8 @@ let skills = {
       image: "../img/language/sass.png",
       name: "Sass preprocessor",
       description:
-        "Le préprocesseur Sass signifie Syntactically Awesome Style Sheets et c'est un langage de script qui est compilé en CSS.",
-      dimension: 150,
+        "Le préprocesseur Sass signifie Syntactically Awesome Style Sheets et c`est un langage de script qui est compilé en CSS.",
+      dimension: 140,
     },
     {
       image: "../img/language/vue.png",
@@ -252,14 +304,14 @@ let skills = {
       image: "../img/tools/github.png",
       name: "GitHub",
       description:
-        "GitHub est un fournisseur d'hébergement Internet pour le développement de logiciels et c'est également un outil de contrôle de version utilisant le logiciel Git pour suivre les modifications.",
+        "GitHub est un fournisseur d`hébergement Internet pour le développement de logiciels et c`est également un outil de contrôle de version utilisant le logiciel Git pour suivre les modifications.",
       dimension: 190,
     },
     {
       image: "../img/tools/postman.png",
       name: "Plateforme API Postman",
       description:
-        "Postman est une application logicielle qui permet de tester des API en créant et en envoyant différents types de requêtes.",
+        "Postman est une application logiciel qui permet de tester des API en créant et en envoyant différents types de requêtes.",
       dimension: 110,
     },
     {
@@ -273,21 +325,21 @@ let skills = {
       image: "../img/tools/docker.png",
       name: "Docker",
       description:
-        "Docker est un ensemble de plateformes en tant que produits de service qui utilisent la virtualisation au niveau du système d'exploitation pour fournir des logiciels dans des packages appelés conteneurs.",
+        "Docker est un ensemble de plateformes en tant que produits de service qui utilisent la virtualisation au niveau du système d`exploitation pour fournir des logiciels dans des packages appelés conteneurs.",
       dimension: 120,
     },
     {
       image: "../img/tools/google_sc.png",
       name: "Google Search Console",
       description:
-        "Google Search Console est un service Web de Google qui permet de vérifier l'état de l'indexation et d'optimiser la visibilité d'un site Web par référencement.",
+        "Google Search Console est un service Web de Google qui permet de vérifier l`état de l`indexation et d`optimiser la visibilité d`un site Web par référencement.",
       dimension: 220,
     },
     {
       image: "../img/tools/axe.png",
       name: "Axe DevTools",
       description:
-        "Axe DevTools est un outil utilisé pour tester l'accessibilité du site Web.",
+        "Axe DevTools est un outil utilisé pour tester l`accessibilité du site Web.",
       dimension: 150,
     },
   ],
