@@ -410,6 +410,16 @@ let services = {
 
 let references = {
   data: [
+    {
+      image: "../img/references/zarasclo.png",
+      title: "Zarasclo, site du club de basket",
+      address: "https://www.linkedin.com/in/guy-maurice-limbio-78953285/",
+      quotation:
+        "Joan a compris nos besoins en matière de communication digital et a conçu un site Web qui y correspond.",
+      author: "Guy Maurice LIMBIO",
+      position: "Président du club",
+      dimension: 250,
+    },
     /*{
       image: "../img/references/site_artiste_lionel.jpg",
       title: "Painting showcase website",

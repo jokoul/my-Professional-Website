@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,27 +10,27 @@
     <link
       rel="alternate"
       hreflang="en"
-      href="https://joan-kouloumba.in/professional-site/html/contact.html"
+      href="https://joan-kouloumba.in/professional-site/html/contact.php"
     />
     <link
       rel="alternate"
       hreflang="en-US"
-      href="https://joan-kouloumba.in/professional-site/html/contact.html"
+      href="https://joan-kouloumba.in/professional-site/html/contact.php"
     />
     <link
       rel="alternate"
       hreflang="fr"
-      href="https://joan-kouloumba.in/professional-site/fr/html/contact.html"
+      href="https://joan-kouloumba.in/professional-site/fr/html/contact.php"
     />
     <link
       rel="alternate"
       hreflang="fr-FR"
-      href="https://joan-kouloumba.in/professional-site/fr/html/contact.html"
+      href="https://joan-kouloumba.in/professional-site/fr/html/contact.php"
     />
     <link
       rel="alternate"
       hreflang="x-default"
-      href="https://joan-kouloumba.in/professional-site/html/contact.html"
+      href="https://joan-kouloumba.in/professional-site/html/contact.php"
     />
     <!--Ajout d'un favicon-->
     <link
@@ -42,7 +42,7 @@
 		faites-le,etc argument convainquant) pour le lecteur et qui reprend certain mot-clé-->
     <meta
       name="description"
-      content="Joan Kouloumba is a web, mobile and software developer based in Lyon. he listens to opportunities for the creation of websites, mobile applications and software. The portfolio of its projects available on this site testifies to its skills in computer programming which are constantly updated in order to meet market needs and the constant evolution of technologies such as Javascript, SQL, HTML, CSS, Java, PHP, etc. "
+      content="Joan Kouloumba est un développeur web, mobile et logiciel situé à Lyon. il est à l'écoute des opportunités pour la réalisation de sites web, d'applications mobile et de logiciels. Le portfolio de ses projets consultable sur ce site témoigne de ses compétences en programmation informatique qui sont actualisés constamment afin de répondre aux besoins du marché et à l'évolution constante des technologies comme Javascript, SQL, HTML, CSS, Java, PHP, etc. "
     />
     <!-- A) Ajout des "open graph" pour Facebook -->
     <meta
@@ -57,7 +57,7 @@
     <meta property="og:image" content="./img/moi.jpg" />
     <meta
       property="og:description"
-      content="Joan Kouloumba is a web, mobile and software developer based in Lyon. he listens to opportunities for the creation of websites, mobile applications and software. The portfolio of its projects available on this site testifies to its skills in computer programming which are constantly updated in order to meet market needs and the constant evolution of technologies such as Javascript, SQL, HTML, CSS, Java, PHP, etc."
+      content="Joan Kouloumba est un développeur web, mobile et logiciel situé à Lyon. il est à l'écoute des opportunités pour la réalisation de sites web, d'applications mobile et de logiciels. Le portfolio de ses projets consultable sur ce site témoigne de ses compétences en programmation informatique qui sont actualisés constamment afin de répondre aux besoins du marché et à l'évolution constante des technologies comme Javascript, SQL, HTML, CSS, Java, PHP, etc."
     />
     <meta
       property="og:site_name"
@@ -77,12 +77,13 @@
     />
     <meta
       name="twitter:description"
-      content="Joan Kouloumba is a web, mobile and software developer based in Lyon. he listens to opportunities for the creation of websites, mobile applications and software. The portfolio of its projects available on this site testifies to its skills in computer programming which are constantly updated in order to meet market needs and the constant evolution of technologies such as Javascript, SQL, HTML, CSS, Java, PHP, etc."
+      content="Joan Kouloumba est un développeur web, mobile et logiciel situé à Lyon. il est à l'écoute des opportunités pour la réalisation de sites web, d'applications mobile et de logiciels. Le portfolio de ses projets consultable sur ce site témoigne de ses compétences en programmation informatique qui sont actualisés constamment afin de répondre aux besoins du marché et à l'évolution constante des technologies comme Javascript, SQL, HTML, CSS, Java, PHP, etc."
     />
     <meta name="twitter:image" content="./img/moi.jpg" />
 
     <title>
-      Joan Kouloumba - Contact web, mobile and developer in Lyon - freelance
+      Joan Kouloumba - Contact développeur web, mobile et logiciel à Lyon -
+      freelance
     </title>
 
     <!--Bootstrap-->
@@ -93,7 +94,7 @@
       crossorigin="anonymous"
     />
     <!--M) minification des fichier CSS afin de réduire la taille des fichiers et augmenter la vitesse de chargement-->
-    <link rel="stylesheet" href="../css/styles-min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <!--Google font family-->
     <link
       href="https://fonts.googleapis.com/css?family=Arvo"
@@ -129,7 +130,7 @@
         id="mynavBar"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">JK</a>
+          <a class="navbar-brand" href="../developpeur-web.html">JK</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -149,54 +150,60 @@
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle active"
-                  href="../index.html"
+                  href="../developpeur-web.html"
                   id="navbarScrollingDropdown"
                   role="button"
                   data-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Home
+                  Accueil
                 </a>
                 <ul
                   class="dropdown-menu"
                   aria-labelledby="navbarScrollingDropdown"
                 >
                   <li>
-                    <a class="dropdown-item" href="../index.html#news">News</a>
+                    <a class="dropdown-item" href="../developpeur-web.html#news"
+                      >Nouvelles</a
+                    >
                   </li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href="../index.html#achievements"
-                      >Achievements</a
+                    <a
+                      class="dropdown-item"
+                      href="../developpeur-web.html#achievements"
+                      >Réalisations</a
                     >
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./skills.html"> Skills </a>
+                <a class="nav-link" href="./competences.html"> Compétences </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="./service.html"> Services </a>
+                <a class="nav-link" href="./prestation-service.html">
+                  Services
+                </a>
               </li>
               <li class="nav-item">
                 <a
                   class="nav-link"
                   href="https://joanresume.herokuapp.com"
                   target="_blank"
-                  >Resume</a
+                  >CV</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./reference.html">References</a>
+                <a class="nav-link" href="./references-avis.html">Références</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
+                <a class="nav-link" href="./contact.php">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../fr/html/contact.html"
+                <a class="nav-link" href="../../html/contact.php"
                   ><img
-                    src="../img/icons8-france-48.png"
+                    src="../img/icons8-uk-flag-64.png"
                     alt="french"
                     width="25"
                 /></a>
@@ -218,10 +225,10 @@
         <h1 class="sectionTitle text-center display-4">Contact</h1>
         <div class="line"></div>
         <h2 class="subTitle">
-          Feel free to get in touch with me and we will discuss about your
-          digital project.
+          N'hésitez pas à me contacter et nous discuterons de votre projet
+          numérique.
         </h2>
-        <article class="container-fluid mt-5">
+        <article class="container-fluid mt-3">
           <ul
             id="contact-info"
             class="col-12 d-flex flex-column flex-lg-row justify-content-center align-content-center"
@@ -254,7 +261,7 @@
             </li>
           </ul>
         </article>
-        <article
+        <!-- <article
           id="contactSection"
           class="container-fluid d-flex justify-content-center align-content-center"
         >
@@ -263,20 +270,119 @@
             target="_blank"
             class="btn btn-lg border mb-5"
           >
-            send email
+            envoyer un e-mail
           </a>
-        </article>
+        </article> -->
+        <!--CONTACT FORM-->
         <article>
-          <form action="../sendMail.php" method="post">
-            <div class="form-group">
-              <label for="name">Name : </label>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                class="form-control"
-                placeholder="ex: Omoye"
-              />
+          <?php 
+              //form submit script
+              require_once('../sendMail-fr.php');
+            ?>
+          <form
+            action="contact.php"
+            method="POST"
+            enctype="multipart/form-data"
+          >
+            <div class="d-md-flex justify-content-center align-item-center">
+              <div class="form-group col-md-6">
+                <label class="fw-bold" for="name">Nom : </label>
+                <input
+                  type="text"
+                  name="lastname"
+                  id="lastname"
+                  class="form-control"
+                  placeholder="exemple: Omoye"
+                  value="<?php echo !empty($postData['lastname'])?$postData['lastname']:''; ?>"
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <label class="fw-bold" for="name">Prénom : </label>
+                <input
+                  type="text"
+                  name="firstname"
+                  id="firstname"
+                  class="form-control"
+                  placeholder="exemple: Mike"
+                  value="<?php echo !empty($postData['firstname'])?$postData['firstname']:''; ?>"
+                />
+              </div>
+            </div>
+            <div class="px-3">
+              <div class="form-group">
+                <label class="fw-bold" for="email">E-mail :</label>
+                <div class="input-group">
+                  <label class="input-group-text">@</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="exemple : joankouloumba@yahoo.fr"
+                    class="form-control"
+                    value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="fw-bold" for="subject"
+                  >Sujet du message :</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  id="subject"
+                  placeholder="exemple: demande de devis"
+                  value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>"
+                />
+              </div>
+              <div class="form-group">
+                <label class="fw-bold" for="message">Message :</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Bonjour..."
+                  class="form-control"
+                  rows="5"
+                >
+<?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea
+                >
+              </div>
+              <div class="form-group">
+                <label class="fw-bold" for="file"
+                  >Choisir un fichier (taille max : 1 Mo et format accepté : pdf, doc, odt, docx, jpg, jpeg, png) :</label
+                >
+                <input
+                  type="file"
+                  class="form-control"
+                  name="file"
+                  id="file"
+                  placeholder="choose file"
+                />
+              </div>
+              <div class="form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  value=""
+                  id="check"
+                  required
+                />
+                <label class="form-check-label" for="check"
+                  >J'accepte de partager mes données selon les termes et dispositions légaux.</label
+                >
+              </div>
+
+              <div
+                class="form-group d-flex justify-content-center align-content-center"
+              >
+                <input
+                  type="submit"
+                  name="submit"
+                  value="Envoyer le message"
+                  class="btn submitBtn my-3"
+                />
+              </div>
             </div>
           </form>
         </article>
@@ -312,24 +418,26 @@
         </ul>
         <ul class="footer-nav-list">
           <li class="footer-nav-item">
-            <a href="../index.html#achievements">Portfolio</a>
-          </li>
-          <li class="footer-nav-item"><a href="./skills.html">Skills</a></li>
-          <li class="footer-nav-item"><a href="./service.html">Services</a></li>
-          <li class="footer-nav-item">
-            <a href="https://joanresume.herokuapp.com" target="_blank"
-              >Resume</a
-            >
+            <a href="../developpeur-web.html#achievements">Portfolio</a>
           </li>
           <li class="footer-nav-item">
-            <a href="./reference.html">References</a>
+            <a href="./competences.html">Compétences</a>
           </li>
-          <li class="footer-nav-item"><a href="./contact.html">Contact</a></li>
           <li class="footer-nav-item">
-            <a href="./legal-notice.html">Legal Notice</a>
+            <a href="./prestation-service.html">Services</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="https://joanresume.herokuapp.com" target="_blank">CV</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="./references-avis.html">Références</a>
+          </li>
+          <li class="footer-nav-item"><a href="./contact.php">Contact</a></li>
+          <li class="footer-nav-item">
+            <a href="./mention-legale.html">Mention légale</a>
           </li>
         </ul>
-        <p>Copyright &copy; 2022 - Develop by Joan Kouloumba</p>
+        <p>Copyright &copy; 2022 - Développé par Joan Kouloumba</p>
         <button
           id="scroll-top"
           class="btn scroll-top"
@@ -378,7 +486,7 @@
     ></script>
     <!--MY JAVASCRIPT FILE-->
     <!-- test : ctrl deux points passage en commentaires -->
-    <script src="../JS/data.js"></script>
+    <script src="../JS/data_fr.js"></script>
     <script src="../JS/utilities.js"></script>
     <script src="../JS/contact.js"></script>
   </body>

@@ -14,7 +14,7 @@ body {
 main {
   min-height: calc(100vh - 18rem);
 }
-/*ANIME LINE*/
+/*KEYFRAMES*/
 @keyframes animeLine {
   0% {
     width: 2%;
@@ -26,6 +26,18 @@ main {
     width: 15%;
   }
 }
+@keyframes animeRefCard {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/*ANIME LINE*/
 #progressBar {
   position: fixed;
   z-index: 150;
@@ -585,22 +597,47 @@ progress::-webkit-progress-value {
 .references li {
   text-align: center;
   color: #043000;
+  position: relative;
+}
+.refTitle {
+  font-size: 1.2rem;
 }
 .references li q {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .references li img {
   border-radius: 0.5rem;
 }
-.references li a {
-  color: #043000;
+.references li i {
+  color: white;
   text-decoration: none;
-  transition: all 0.7s ease;
+  transition: all 0.2s ease;
 }
-.references li a:hover {
-  font-weight: 800;
+.references li i:hover {
+  transform: scale(1.5);
 }
-
+.overlay {
+  position: absolute;
+  top: unset;
+  bottom: 100%;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  background-color: #043000;
+  color: white;
+}
+.reference-item:hover .overlay {
+  height: 100%;
+  bottom: 0;
+}
+.refImg {
+  animation: animeRefCard 2s ease-in-out infinite;
+  margin-top: 0.1rem;
+  margin-bottom: 0.2rem;
+}
 /*============================== REFERENCE PAGE END================================================*/
 
 /*============================== CONTACT PAGE START================================================*/
@@ -646,6 +683,15 @@ progress::-webkit-progress-value {
   width: 100%;
   height: 15rem;
 }
+.submitBtn {
+  background-color: #ff5823;
+  color: white;
+}
+.submitBtn:hover {
+  color: white;
+  opacity: 0.75;
+}
+
 /*============================== CONTACT PAGE END================================================*/
 
 /*============================== LEGAL NOTICE PAGE START================================================*/
