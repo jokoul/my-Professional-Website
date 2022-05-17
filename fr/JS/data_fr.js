@@ -4,6 +4,19 @@
 let projects = {
   data: [
     {
+      projectName: "Application d'exploration de fichiers.",
+      image: "./img/projects/file-explorer.png",
+      category: ["Back-end", "Node.JS", "framework-Bootstrap"],
+      date: "15-05-2022",
+      stack: "Node.js, Bootstrap 5.1",
+      description:
+        "Réalisation d'une application d'exploration de fichiers permettant de naviguer dans des répertoires et de lire différents types d'extensions de fichiers.",
+      feedback:
+        "ce projet m'a permis de travailler avec le runtime Node.js. J'ai utilisé le module Node.js appelé File System (fs) et certaines de ses méthodes comme statSync() pour obtenir des informations sur les fichiers, readdirSync() pour lire le contenu du répertoire, readFileSync() pour lire le contenu du fichier.",
+      link1: "https://jo-online-file-explorer.herokuapp.com",
+      link2: "https://github.com/jokoul/project-11-Online-file-explorer",
+    },
+    {
       projectName: "Zarasclo, site du club de basket-ball.",
       image: "./img/projects/zarasclo.png",
       category: ["Wordpress", "Docker"],

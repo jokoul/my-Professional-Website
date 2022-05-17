@@ -4,6 +4,19 @@
 let projects = {
   data: [
     {
+      projectName: "File Explorer app.",
+      image: "./img/projects/file-explorer.png",
+      category: ["Back-end-development", "Node.JS", "framework-Bootstrap"],
+      date: "15-05-2022",
+      stack: "Node.js, Bootstrap 5.1",
+      description:
+        "Achievement of a file explorer app which allow to navigate through directories and read different kind of file extension.",
+      feedback:
+        "this project allowed me to work with the runtime Node.js. I used Node.js module called File System (fs) and some of its methods like statSync() to get file information, readdirSync() to read directory content, readFileSync() to read file content.",
+      link1: "https://jo-online-file-explorer.herokuapp.com",
+      link2: "https://github.com/jokoul/project-11-Online-file-explorer",
+    },
+    {
       projectName: "Zarasclo, basket-ball club site.",
       image: "./img/projects/zarasclo.png",
       category: ["Wordpress", "Docker", "SEO"],
@@ -12,7 +25,7 @@ let projects = {
       description:
         "Achievement of a Basket-ball website which present the club, players, management team, display match planning, results, etc.",
       feedback:
-        "this project allow me to work on a real world case of a client needs. I worked with a customer specifications and a time deadline to respect. I iterated many interviews with the client to precise the features to implement and to train him on updating wordpress content.",
+        "this project allowed me to work on a real world case of a client needs. I worked with a customer specifications and a time deadline to respect. I iterated many interviews with the client to precise the features to implement and to train him on updating wordpress content.",
       link1: "https://joan-kouloumba.in/zarasclo",
       link3: "https://hub.docker.com/r/joandock/zarasclo",
     },
