@@ -4,6 +4,25 @@
 let projects = {
   data: [
     {
+      projectName: "Application de notes en ligne.",
+      image: "./img/projects/note-app.png",
+      category: [
+        "Full-stack",
+        "PHP",
+        "MySQL",
+        "bibliothèque-JQuery",
+        "framework-Bootstrap",
+      ],
+      date: "24-05-2022",
+      stack: "PHP, jQuery, MySQL, Bootstrap 5.1",
+      description:
+        "Réalisation d'une application permettant de prendre facilement des notes partout et de les stocker en toute sécurité.",
+      feedback:
+        "ce projet m'a permis de travailler avec le langage de programmation côté serveur PHP. J'ai utilisé jQuery pour faire des appels AJAX, MySQL pour gérer la base de données et Bootstrap pour définir rapidement un design responsive. J'ai implémenté de nombreuses fonctionnalités telles que l'inscription/la connexion avec un jeton d'activation et un e-mail de confirmation. La gestion des comptes utilisateurs avec des variables de session, des opérations CRUD sur les Notes et la persistance des données avec des cookies.",
+      link1: "https://joan-kouloumba.in/note-app",
+      link2: "https://github.com/jokoul/project-19-Online-Note-App",
+    },
+    {
       projectName: "Application d'exploration de fichiers.",
       image: "./img/projects/file-explorer.png",
       category: ["Back-end", "Node.JS", "framework-Bootstrap"],
@@ -254,6 +273,13 @@ let skills = {
       description:
         "Javascript est un langage de programmation de script couramment utilisé pour créer des effets interactifs et du contenu dynamique dans le navigateur.",
       dimension: 130,
+    },
+    {
+      image: "../img/language/php.png",
+      name: "PHP",
+      description:
+        "PHP signifie HyperText Preprocessor, c`est un langage de script à usage général pour le développement Web. Le code PHP est interprété par un interpréteur PHP implémenté sous la forme d`un module sur le serveur Web.",
+      dimension: 170,
     },
     {
       image: "../img/language/node.png",

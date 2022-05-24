@@ -4,6 +4,25 @@
 let projects = {
   data: [
     {
+      projectName: "Online Note app.",
+      image: "./img/projects/note-app.png",
+      category: [
+        "Full-stack-development",
+        "PHP",
+        "MySQL",
+        "framework-Bootstrap",
+        "library-JQuery",
+      ],
+      date: "24-05-2022",
+      stack: "PHP, jQuery, MySQL, Bootstrap 5.1",
+      description:
+        "Achievement of an app allowing to take note easely everywhere and store it safely.",
+      feedback:
+        "this project allowed me to work with the server-side programming language PHP. I used jQuery to do AJAX calls, MySQL to manage the database and Bootstrap to set responsive design quickly. I implemented many features like signup/login with activation token and confirmation email. User Account management with session variables, CRUD operations on the Notes and data persistence with cookies.",
+      link1: "https://joan-kouloumba.in/note-app",
+      link2: "https://github.com/jokoul/project-19-Online-Note-App",
+    },
+    {
       projectName: "File Explorer app.",
       image: "./img/projects/file-explorer.png",
       category: ["Back-end-development", "Node.JS", "framework-Bootstrap"],
@@ -268,6 +287,13 @@ let skills = {
       description:
         "Javascript is a script programming language commonly used to create interactive effects and dynamic content within the browser.",
       dimension: 130,
+    },
+    {
+      image: "../img/language/php.png",
+      name: "PHP",
+      description:
+        "PHP stand for HyperText Preprocessor, it is a general-purpose scripting language suit for web developpement. PHP code is interpreted by PHP interpreter implemented as a module on web server.",
+      dimension: 170,
     },
     {
       image: "../img/language/node.png",
