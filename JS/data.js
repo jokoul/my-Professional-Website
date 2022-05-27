@@ -4,6 +4,24 @@
 let projects = {
   data: [
     {
+      projectName: "Distance between cities.",
+      image: "./img/projects/distance-between-cities.png",
+      category: [
+        "Front-end-development",
+        "Javascript",
+        "framework-Bootstrap",
+        "Google-API-GCP",
+      ],
+      date: "27-05-2022",
+      stack: "Google Maps API-GCP, Javascript, Bootstrap 5.1",
+      description:
+        "Achievement of an app that provides travelling assistance by getting information between to location like the distance and time. It is based on google maps API (Application Programming Interface) and Google Cloud Platform (GCP).",
+      feedback:
+        "this project was an opportunity to work with a public API to retrieve external data in JSON format and manipulate them in my way. I used GCP which is a Platform as a Service (PaaS) to monitor, authenticate and access to the API service.",
+      link1: "https://joan-kouloumba.in/distance-between-cities",
+      link2: "https://github.com/jokoul/project-20-distance-between-cities",
+    },
+    {
       projectName: "Online Note app.",
       image: "./img/projects/note-app.png",
       category: [

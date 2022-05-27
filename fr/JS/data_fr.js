@@ -4,6 +4,24 @@
 let projects = {
   data: [
     {
+      projectName: "Distance entre villes.",
+      image: "./img/projects/distance-between-cities.png",
+      category: [
+        "Front-end",
+        "Javascript",
+        "Google-API-GCP",
+        "framework-Bootstrap",
+      ],
+      date: "27-05-2022",
+      stack: "API Google Maps-GCP, Javascript, Bootstrap 5.1",
+      description:
+        "Réalisation d'une application qui fournit une assistance aux déplacements en obtenant des informations entre les lieux, telles que la distance et l'heure. Il est basé sur l'API google maps (Application Programming Interface) et Google Cloud Platform (GCP).",
+      feedback:
+        "ce projet a été l'occasion de travailler avec une API publique pour récupérer des données externes au format JSON et les manipuler à ma façon. J'ai utilisé GCP qui est une plate-forme en tant que service (PaaS) pour surveiller, authentifier et accéder au service API.",
+      link1: "https://joan-kouloumba.in/distance-between-cities",
+      link2: "https://github.com/jokoul/project-20-distance-between-cities",
+    },
+    {
       projectName: "Application de notes en ligne.",
       image: "./img/projects/note-app.png",
       category: [
@@ -38,7 +56,7 @@ let projects = {
     {
       projectName: "Zarasclo, site du club de basket-ball.",
       image: "./img/projects/zarasclo.png",
-      category: ["Wordpress", "Docker"],
+      category: ["Wordpress", "Docker", "SEO"],
       date: "02-05-2022",
       stack: "Docker, Wordpress, Plugin Elementor, SEO yoast",
       description:
