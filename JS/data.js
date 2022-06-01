@@ -4,6 +4,24 @@
 let projects = {
   data: [
     {
+      projectName: "Animed quotes generator.",
+      image: "./img/projects/quote-generator.png",
+      category: [
+        "Front-end-development",
+        "Vue.JS",
+        "FIREBASE",
+        "Entertainment-App",
+      ],
+      date: "31-05-2022",
+      stack: "Vue.js,FIREBASE",
+      description:
+        "Achievement of a anime quotes generator app designed with Vue.js and deployed with Firebase Hosting. It consumes data from API called Animechan and display it in a cool way.",
+      feedback:
+        "this project allowed me to use the javascript framwork called Vue.js. I used directives like v-for to loop on array of data. I created reusable components to make my code easy to maintain and modular.",
+      link1: "https://quote-generator-2d5c4.web.app/",
+      link2: "https://github.com/jokoul/project-21-quote-generator",
+    },
+    {
       projectName: "Distance between cities.",
       image: "./img/projects/distance-between-cities.png",
       category: [

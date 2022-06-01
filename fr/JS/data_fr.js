@@ -4,6 +4,19 @@
 let projects = {
   data: [
     {
+      projectName: "Générateur de citations Manga.",
+      image: "./img/projects/quote-generator.png",
+      category: ["Front-end", "Vue.JS", "FIREBASE", "Divertissement"],
+      date: "31-05-2022",
+      stack: "Vue.js, FIREBASE",
+      description:
+        "Réalisation d'une application de génération de citations conçue avec Vue.js et déployée avec Firebase Hosting. Il consomme des données d'une API appelée Animechan et les affiche de manière cool.",
+      feedback:
+        "ce projet m'a permis d'utiliser le framework javascript appelé Vue.js. J'ai utilisé des directives comme v-for pour boucler sur un tableau de données. J'ai créé des composants réutilisables pour rendre mon code facile à maintenir et modulaire.",
+      link1: "https://quote-generator-2d5c4.web.app/",
+      link2: "https://github.com/jokoul/project-21-quote-generator",
+    },
+    {
       projectName: "Distance entre villes.",
       image: "./img/projects/distance-between-cities.png",
       category: [

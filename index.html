@@ -282,6 +282,24 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
+                src="./img/carousel/quote-generator.png"
+                class="d-block w-100"
+                alt="image-1"
+                loading="lazy"
+              />
+              <h3 class="text-center mt-2">
+                Achievement : Animed quotes Generator
+              </h3>
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>
+                  A new project achieved, this is a quote generator app designed
+                  with Vue.js and deployed with Firebase Hosting. It consumes
+                  data from API called Animechan and display it in a cool way.
+                </h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
                 src="./img/carousel/distance-between-cities.png"
                 class="d-block w-100"
                 alt="orinoco"
@@ -311,22 +329,6 @@
                   A new project achieved, this app allow to take notes easily
                   online and keeps available to users everywhere. It is designed
                   using PHP, jQuery, AJAX call, MySQL, Bootstrap
-                </h4>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./img/carousel/file-explorer.png"
-                class="d-block w-100"
-                alt="image-1"
-                loading="lazy"
-              />
-              <h3 class="text-center mt-2">Achievement : File Explorer</h3>
-              <div class="carousel-caption d-none d-sm-block">
-                <h4>
-                  A new project achieved, this is a file explorer designed with
-                  Node.js to move through directories and read different kind of
-                  file extension.
                 </h4>
               </div>
             </div>
@@ -399,6 +401,18 @@
             >
               Full-stack-development
             </button>
+            <button class="button-value" onclick="filterProject('Game-App')">
+              Game-App
+            </button>
+            <button class="button-value" onclick="filterProject('Tools-App')">
+              Tools-App
+            </button>
+            <button
+              class="button-value"
+              onclick="filterProject('Entertainment-App')"
+            >
+              Entertainment-App
+            </button>
             <button class="button-value" onclick="filterProject('React.JS')">
               React.JS
             </button>
@@ -416,6 +430,9 @@
             </button>
             <button class="button-value" onclick="filterProject('MongoDB')">
               MongoDB
+            </button>
+            <button class="button-value" onclick="filterProject('FIREBASE')">
+              FIREBASE
             </button>
             <button class="button-value" onclick="filterProject('PHP')">
               PHP
