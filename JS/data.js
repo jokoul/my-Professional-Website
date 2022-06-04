@@ -4,13 +4,47 @@
 let projects = {
   data: [
     {
+      projectName: "Infinity Scroll Website.",
+      image: "./img/projects/infinity-scroll.png",
+      category: ["Front-end-development", "Javascript", "Feature", "HTML-CSS"],
+      date: "04-06-2022",
+      stack: "Javascript, unsplash API, HTML, CSS",
+      description:
+        "Achievement of a showcase website which implements infinity scroll feature and it consumes image data from Unsplash API to populate image container dynamically in the DOM. When user scroll down and almost reach the bottom, new content is automatically loaded which result to an infinity scroll effect.",
+      feedback:
+        "This project allowed me to manipulate DOM element's properties like document.body.offsetHeight, document.body.scrollTop and window object's properties like window.innerHeight, window.scrollY.",
+      link1:
+        "https://jokoul.github.io/project-23-Infinity-Scroll-Unsplash-API/",
+      link2:
+        "https://github.com/jokoul/project-23-Infinity-Scroll-Unsplash-API",
+    },
+    {
+      projectName: "Job Lister Website.",
+      image: "./img/projects/job-lister.png",
+      category: [
+        "Full-stack-development",
+        "PHP",
+        "MySQL",
+        "framework-Bootstrap",
+        "Tool",
+      ],
+      date: "02-06-2022",
+      stack: "PHP, MySQL, Bootstrap 5",
+      description:
+        "Achievement of a dynamical job search and posting website using PHP OOP (Object-Oriented Programming) and MySQL databse which is a database management system (DBMS).",
+      feedback:
+        "This project allowed me to use MVC design pattern to structure my project's architecture. I did advanced SQL queries with inner joins to perform CRUD operations. I created several Class like Job, Template, Database and instantiated them to use their properties and methods at different places within my code.",
+      link1: "https://joan-kouloumba.in/job-lister",
+      link2: "https://github.com/jokoul/project-22-job-lister",
+    },
+    {
       projectName: "Animed quotes generator.",
       image: "./img/projects/quote-generator.png",
       category: [
         "Front-end-development",
         "Vue.JS",
         "FIREBASE",
-        "Entertainment-App",
+        "Entertainment",
       ],
       date: "31-05-2022",
       stack: "Vue.js,FIREBASE",
@@ -31,7 +65,7 @@ let projects = {
         "Google-API-GCP",
       ],
       date: "27-05-2022",
-      stack: "Google Maps API-GCP, Javascript, Bootstrap 5.1",
+      stack: "Google Maps API-GCP, Javascript, Bootstrap 5",
       description:
         "Achievement of an app that provides travelling assistance by getting information between to location like the distance and time. It is based on google maps API (Application Programming Interface) and Google Cloud Platform (GCP).",
       feedback:
@@ -50,7 +84,7 @@ let projects = {
         "library-JQuery",
       ],
       date: "24-05-2022",
-      stack: "PHP, jQuery, MySQL, Bootstrap 5.1",
+      stack: "PHP, jQuery, MySQL, Bootstrap 5",
       description:
         "Achievement of an app allowing to take note easely everywhere and store it safely.",
       feedback:
@@ -63,7 +97,7 @@ let projects = {
       image: "./img/projects/file-explorer.png",
       category: ["Back-end-development", "Node.JS", "framework-Bootstrap"],
       date: "15-05-2022",
-      stack: "Node.js, Bootstrap 5.1",
+      stack: "Node.js, Bootstrap 5",
       description:
         "Achievement of a file explorer app which allow to navigate through directories and read different kind of file extension.",
       feedback:

@@ -4,6 +4,40 @@
 let projects = {
   data: [
     {
+      projectName: "Site Web de défilement infini.",
+      image: "./img/projects/infinity-scroll.png",
+      category: ["Front-end", "Javascript", "HTML-CSS", "Fonctionnalité"],
+      date: "04-06-2022",
+      stack: "Javascript, API Unsplash, HTML, CSS",
+      description:
+        "Réalisation d'un site Web vitrine qui implémente la fonctionnalité de défilement à l'infini et qui consomme les données d'image de l'API Unsplash pour remplir dynamiquement le conteneur d'images dans le DOM. Lorsque l'utilisateur fait défiler vers le bas et atteint presque le bas, le nouveau contenu est automatiquement chargé, ce qui donne un effet de défilement à l'infini.",
+      feedback:
+        "Ce projet m'a permis de manipuler les propriétés des éléments DOM comme document.body.offsetHeight, document.body.scrollTop et les propriétés des objets window comme window.innerHeight, window.scrollY.",
+      link1:
+        "https://jokoul.github.io/project-23-Infinity-Scroll-Unsplash-API/",
+      link2:
+        "https://github.com/jokoul/project-23-Infinity-Scroll-Unsplash-API",
+    },
+    {
+      projectName: "Site d'offre d'emplois.",
+      image: "./img/projects/job-lister.png",
+      category: [
+        "Full-stack",
+        "PHP",
+        "MySQL",
+        "framework-Bootstrap",
+        "Utilitaire",
+      ],
+      date: "02-06-2022",
+      stack: "PHP, MySQL, Bootstrap 5",
+      description:
+        "Réalisation d'un site Web dynamique de recherche et d'affichage d'emploi en utilisant PHP OOP (Programmation Orientée Objet) et la base de données MySQL qui est un système de gestion de base de données (SGBD).",
+      feedback:
+        "Ce projet m'a permis d'utiliser le design pattern MVC pour structurer l'architecture de mon projet. J'ai fait des requêtes SQL avancées avec des jointures internes pour effectuer des opérations CRUD. J'ai créé plusieurs classes comme Job, Template, Database et je les ai instanciés pour utiliser leurs propriétés et méthodes à différents endroits de mon code.",
+      link1: "https://joan-kouloumba.in/job-lister",
+      link2: "https://github.com/jokoul/project-22-job-lister",
+    },
+    {
       projectName: "Générateur de citations Manga.",
       image: "./img/projects/quote-generator.png",
       category: ["Front-end", "Vue.JS", "FIREBASE", "Divertissement"],
@@ -26,7 +60,7 @@ let projects = {
         "framework-Bootstrap",
       ],
       date: "27-05-2022",
-      stack: "API Google Maps-GCP, Javascript, Bootstrap 5.1",
+      stack: "API Google Maps-GCP, Javascript, Bootstrap 5",
       description:
         "Réalisation d'une application qui fournit une assistance aux déplacements en obtenant des informations entre les lieux, telles que la distance et l'heure. Il est basé sur l'API google maps (Application Programming Interface) et Google Cloud Platform (GCP).",
       feedback:
@@ -45,7 +79,7 @@ let projects = {
         "framework-Bootstrap",
       ],
       date: "24-05-2022",
-      stack: "PHP, jQuery, MySQL, Bootstrap 5.1",
+      stack: "PHP, jQuery, MySQL, Bootstrap 5",
       description:
         "Réalisation d'une application permettant de prendre facilement des notes partout et de les stocker en toute sécurité.",
       feedback:
@@ -97,7 +131,7 @@ let projects = {
       image: "./img/projects/stopwatch.png",
       category: ["framework-Bootstrap", "Front-end", "bibliothèque-JQuery"],
       date: "20-04-2022",
-      stack: "Bootstrap 5.1, jQuery",
+      stack: "Bootstrap 5, jQuery",
       description:
         "Réalisation d'une application chronomètre conçue pour mesurer le temps dans différentes situations comme le sport, le travail, la cuisine, etc.",
       feedback:
@@ -110,7 +144,7 @@ let projects = {
       image: "./img/projects/holidious.png",
       category: ["framework-Bootstrap", "HTML-CSS", "Sass-préprocesseur"],
       date: "10-04-2022",
-      stack: "Bootstrap 5.1, HTML, CSS, Sass préprocesseur",
+      stack: "Bootstrap 5, HTML, CSS, Sass préprocesseur",
       description:
         "Réalisation d'un site de recherche de vacances proposant de nombreuses offres de vacances.",
       feedback:
@@ -222,7 +256,7 @@ let projects = {
       image: "./img/projects/orinoco.png",
       category: ["Javascript", "Front-end", "framework-Bootstrap"],
       date: "25-10-2021",
-      stack: "Javascript Vanilla, Node.JS, Express.js, framework Bootstrap",
+      stack: "Javascript Vanilla, Node.JS, Express.js, Bootstrap 5",
       description:
         "Réalisation d'un site e-commerce avec système de gestion de panier utilisant le data mocking et la simulation de paiement.",
       feedback:
