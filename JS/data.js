@@ -4,6 +4,19 @@
 let projects = {
   data: [
     {
+      projectName: "Currency Converter.",
+      image: "./img/projects/currency-converter.png",
+      category: ["Front-end-development", "React.JS", "Tool", "FIREBASE"],
+      date: "06-06-2022",
+      stack: "React.js, exchangeRate-API, FIREBASE",
+      description:
+        "Achievement of a currency converter app designed with React.js and deployed with Firebase Hosting. It consumes data from exchangeRate-API and display the current currency exchange rate.",
+      feedback:
+        "This project allowed me to use Hooks like useState to store data, useEffect to run fonction when some data change in the dependency array. I used also props to pass datas and methods from the parent component to the child components.",
+      link1: "https://currency-converter-22b76.firebaseapp.com/",
+      link2: "https://github.com/jokoul/project-24-currency-converter",
+    },
+    {
       projectName: "Infinity Scroll Website.",
       image: "./img/projects/infinity-scroll.png",
       category: ["Front-end-development", "Javascript", "Feature", "HTML-CSS"],

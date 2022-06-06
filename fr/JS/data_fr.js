@@ -4,6 +4,19 @@
 let projects = {
   data: [
     {
+      projectName: "Convertisseur de devises.",
+      image: "./img/projects/currency-converter.png",
+      category: ["Front-end", "React.JS", "FIREBASE", "Utilitaire"],
+      date: "06-06-2022",
+      stack: "React.js, exchangeRate-API, FIREBASE",
+      description:
+        "Réalisation d'une application de conversion de devises conçue avec React.js et déployée avec Firebase Hosting. Il consomme les données de exchangeRate-API et affiche le taux de change actuel.",
+      feedback:
+        "Ce projet m'a permis d'utiliser des Hooks comme useState pour stocker des données, useEffect pour exécuter une fonction lorsque certaines données changent dans le tableau de dépendances. J'ai également utilisé des props pour transmettre des données et des méthodes du composant parent aux composants enfants.",
+      link1: "https://currency-converter-22b76.firebaseapp.com/",
+      link2: "https://github.com/jokoul/project-24-currency-converter",
+    },
+    {
       projectName: "Site Web de défilement infini.",
       image: "./img/projects/infinity-scroll.png",
       category: ["Front-end", "Javascript", "HTML-CSS", "Fonctionnalité"],
