@@ -4,11 +4,37 @@
 let projects = {
   data: [
     {
+      projectName: "Compteur de temps de réaction..",
+      image: "./img/projects/reaction-time.gif",
+      category: [
+        "Front-end",
+        "Vue.JS",
+        "Netlify",
+        "Utilitaire",
+        "Divertissement",
+        "Application-Web",
+      ],
+      date: "08-06-2022",
+      stack: "Vue.js, Netlify",
+      description:
+        "Réalisation d'une application de compteur de temps de réaction permettant de tester et de mesurer votre temps de réaction, elle a été conçue avec vuejs et déployée avec Netlify Hosting.",
+      feedback:
+        "Ce projet m'a permis d'utiliser des Hooks de cycle de vie comme mounted() pour déclencher certaines fonctions à différentes étapes de l'exécution de mon application. J'utilise également un événement personnalisé avec la méthode $emit pour envoyer des données des composants enfants au composant parent.",
+      link1: "https://jade-griffin-d47936.netlify.app/",
+      link2: "https://github.com/jokoul/project-26-reaction-time-counter",
+    },
+    {
       projectName: "Convertisseur de devises.",
       image: "./img/projects/currency-converter.png",
-      category: ["Front-end", "React.JS", "FIREBASE", "Utilitaire"],
+      category: [
+        "Front-end",
+        "React.JS",
+        "Firebase",
+        "Utilitaire",
+        "Application-Web",
+      ],
       date: "06-06-2022",
-      stack: "React.js, exchangeRate-API, FIREBASE",
+      stack: "React.js, exchangeRate-API, Firebase",
       description:
         "Réalisation d'une application de conversion de devises conçue avec React.js et déployée avec Firebase Hosting. Il consomme les données de exchangeRate-API et affiche le taux de change actuel.",
       feedback:
@@ -17,9 +43,15 @@ let projects = {
       link2: "https://github.com/jokoul/project-24-currency-converter",
     },
     {
-      projectName: "Site Web de défilement infini.",
+      projectName: "Défilement d'image à l'infini.",
       image: "./img/projects/infinity-scroll.png",
-      category: ["Front-end", "Javascript", "HTML-CSS", "Fonctionnalité"],
+      category: [
+        "Front-end",
+        "Javascript",
+        "HTML-CSS",
+        "Fonctionnalité",
+        "Application-Web",
+      ],
       date: "04-06-2022",
       stack: "Javascript, API Unsplash, HTML, CSS",
       description:
@@ -40,6 +72,7 @@ let projects = {
         "MySQL",
         "framework-Bootstrap",
         "Utilitaire",
+        "Site-Web",
       ],
       date: "02-06-2022",
       stack: "PHP, MySQL, Bootstrap 5",
@@ -53,9 +86,15 @@ let projects = {
     {
       projectName: "Générateur de citations Manga.",
       image: "./img/projects/quote-generator.png",
-      category: ["Front-end", "Vue.JS", "FIREBASE", "Divertissement"],
+      category: [
+        "Front-end",
+        "Vue.JS",
+        "Firebase",
+        "Divertissement",
+        "Application-Web",
+      ],
       date: "31-05-2022",
-      stack: "Vue.js, FIREBASE",
+      stack: "Vue.js, Firebase",
       description:
         "Réalisation d'une application de génération de citations conçue avec Vue.js et déployée avec Firebase Hosting. Il consomme des données d'une API appelée Animechan et les affiche de manière cool.",
       feedback:
@@ -71,6 +110,8 @@ let projects = {
         "Javascript",
         "Google-API-GCP",
         "framework-Bootstrap",
+        "Utilitaire",
+        "Application-Web",
       ],
       date: "27-05-2022",
       stack: "API Google Maps-GCP, Javascript, Bootstrap 5",
@@ -90,6 +131,8 @@ let projects = {
         "MySQL",
         "bibliothèque-JQuery",
         "framework-Bootstrap",
+        "Utilitaire",
+        "Application-Web",
       ],
       date: "24-05-2022",
       stack: "PHP, jQuery, MySQL, Bootstrap 5",
@@ -103,7 +146,13 @@ let projects = {
     {
       projectName: "Application d'exploration de fichiers.",
       image: "./img/projects/file-explorer.png",
-      category: ["Back-end", "Node.JS", "framework-Bootstrap"],
+      category: [
+        "Back-end",
+        "Node.JS",
+        "framework-Bootstrap",
+        "Utilitaire",
+        "Application-Web",
+      ],
       date: "15-05-2022",
       stack: "Node.js, Bootstrap 5.1",
       description:
@@ -116,7 +165,7 @@ let projects = {
     {
       projectName: "Zarasclo, site du club de basket-ball.",
       image: "./img/projects/zarasclo.png",
-      category: ["Wordpress", "Docker", "SEO"],
+      category: ["Wordpress", "Docker", "SEO", "Site-Web"],
       date: "02-05-2022",
       stack: "Docker, Wordpress, Plugin Elementor, SEO yoast",
       description:
@@ -129,7 +178,13 @@ let projects = {
     {
       projectName: "application de dessein pour ordinateur",
       image: "./img/projects/drawing-app.png",
-      category: ["HTML-CSS", "Front-end", "bibliothèque-JQuery"],
+      category: [
+        "HTML-CSS",
+        "Front-end",
+        "bibliothèque-JQuery",
+        "Divertissement",
+        "Application-Web",
+      ],
       date: "25-04-2022",
       stack: "HTML, CSS, jQuery",
       description:
@@ -142,7 +197,13 @@ let projects = {
     {
       projectName: "application Chronomètre",
       image: "./img/projects/stopwatch.png",
-      category: ["framework-Bootstrap", "Front-end", "bibliothèque-JQuery"],
+      category: [
+        "framework-Bootstrap",
+        "Front-end",
+        "bibliothèque-JQuery",
+        "Utilitaire",
+        "Application-Web",
+      ],
       date: "20-04-2022",
       stack: "Bootstrap 5, jQuery",
       description:
@@ -155,7 +216,12 @@ let projects = {
     {
       projectName: "Holidious, un site de recherche de vacances",
       image: "./img/projects/holidious.png",
-      category: ["framework-Bootstrap", "HTML-CSS", "Sass-préprocesseur"],
+      category: [
+        "framework-Bootstrap",
+        "HTML-CSS",
+        "Sass-préprocesseur",
+        "Site-Web",
+      ],
       date: "10-04-2022",
       stack: "Bootstrap 5, HTML, CSS, Sass préprocesseur",
       description:
@@ -168,7 +234,13 @@ let projects = {
     {
       projectName: "Jeu de tranches de fruits",
       image: "./img/projects/fruits-game.png",
-      category: ["Front-end", "HTML-CSS", "bibliothèque-JQuery"],
+      category: [
+        "Front-end",
+        "HTML-CSS",
+        "bibliothèque-JQuery",
+        "Divertissement",
+        "Application-Web",
+      ],
       date: "29-03-2022",
       stack: "jQuery, HTML, CSS",
       description:
@@ -181,7 +253,7 @@ let projects = {
     {
       projectName: "Generalwp, un site Web entreprenarial.",
       image: "./img/projects/general-wp.png",
-      category: ["Wordpress", "Docker"],
+      category: ["Wordpress", "Docker", "Site-Web"],
       date: "02-04-2022",
       stack: "Docker, Wordpress, Plugin Elementor",
       description:
@@ -195,7 +267,14 @@ let projects = {
       projectName:
         "Mathématiques en s'amusant, site d'apprentissage des mathématique",
       image: "./img/projects/maths-tutorial.png",
-      category: ["Front-end", "HTML-CSS", "Javascript"],
+      category: [
+        "Front-end",
+        "HTML-CSS",
+        "Javascript",
+        "Utilitaire",
+        "Divertissement",
+        "Site-Web",
+      ],
       date: "23-03-2022",
       stack: "Javascript, HTML, CSS",
       description:
@@ -208,7 +287,7 @@ let projects = {
     {
       projectName: "Reservia, accomodation booking website",
       image: "./img/projects/reservia.png",
-      category: ["Front-end", "HTML-CSS"],
+      category: ["Front-end", "HTML-CSS", "Site-Web"],
       date: "08-01-2021",
       stack: "HTML, CSS",
       description:
@@ -223,7 +302,13 @@ let projects = {
     {
       projectName: "Application compteur de score de tennis",
       image: "./img/projects/tennis-score.png",
-      category: ["Front-end", "React.JS", "Docker"],
+      category: [
+        "Front-end",
+        "React.JS",
+        "Docker",
+        "Utilitaire",
+        "Application-Web",
+      ],
       date: "12-02-2022",
       stack: "ReactJS, Redux",
       description:
@@ -238,7 +323,13 @@ let projects = {
     {
       projectName: "Ohmyfood, site de réservation de restaurant",
       image: "./img/projects/ohmyfood.png",
-      category: ["Front-end", "HTML-CSS", "Sass-préprocesseur"],
+      category: [
+        "Front-end",
+        "HTML-CSS",
+        "Sass-préprocesseur",
+        "Utilitaire",
+        "Site-Web",
+      ],
       date: "23-08-2021",
       stack: "HTML, CSS, préprocesseur Sass ",
       description:
@@ -253,7 +344,7 @@ let projects = {
     {
       projectName: "Banana-design, site vitrine agence web",
       image: "./img/projects/banana-design.png",
-      category: ["Wordpress", "Docker"],
+      category: ["Wordpress", "Docker", "Site-Web"],
       date: "20-02-2022",
       stack: "Wordpress, Docker, Plugin Elementor",
       description:
@@ -267,7 +358,7 @@ let projects = {
     {
       projectName: "Orinoco, site e-commerce",
       image: "./img/projects/orinoco.png",
-      category: ["Javascript", "Front-end", "framework-Bootstrap"],
+      category: ["Javascript", "Front-end", "framework-Bootstrap", "Site-Web"],
       date: "25-10-2021",
       stack: "Javascript Vanilla, Node.JS, Express.js, Bootstrap 5",
       description:
@@ -282,7 +373,7 @@ let projects = {
     {
       projectName: "La chouette, site agence web",
       image: "./img/projects/chouette.png",
-      category: ["SEO", "HTML-CSS"],
+      category: ["SEO", "HTML-CSS", "Site-Web"],
       date: "07-10-2021",
       stack: "SEO, HTML, CSS",
       description:
@@ -297,7 +388,15 @@ let projects = {
     {
       projectName: "Hot_takes, Application de notation de sauce",
       image: "./img/projects/hottakes.png",
-      category: ["Back-end", "Node.JS", "Express.JS", "MongoDB", "API-REST"],
+      category: [
+        "Back-end",
+        "Node.JS",
+        "Express.JS",
+        "MongoDB",
+        "API-REST",
+        "Utilitaire",
+        "Application-Web",
+      ],
       date: "15-11-2021",
       stack: "Node.js, Express.js, MongoDB",
       description:
@@ -310,7 +409,14 @@ let projects = {
     {
       projectName: "Groupomania, réseau social privé",
       image: "./img/projects/groupomania.png",
-      category: ["Full-stack", "Node.JS", "Express.JS", "MySQL", "Vue.JS"],
+      category: [
+        "Full-stack",
+        "Node.JS",
+        "Express.JS",
+        "MySQL",
+        "Vue.JS",
+        "Application-Web",
+      ],
       date: "15-01-2022",
       stack: "Vue.JS, Node.js, Express.js, MySQL",
       description:

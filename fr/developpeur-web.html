@@ -289,6 +289,25 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
+                src="./img/carousel/reaction-time.gif"
+                class="d-block w-100"
+                alt="banana"
+                loading="lazy"
+              />
+              <h3 class="text-center mt-2">
+                Réalisation : Compteur de temps de réaction
+              </h3>
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>
+                  Un nouveau projet réalisé, il s'agit d'une application de
+                  compteur de temps de réaction qui vous permet de tester et de
+                  mesurer votre temps de réaction, elle a été conçue avec vuejs
+                  et déployée avec Netlify Hosting.
+                </h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
                 src="./img/carousel/currency-converter.png"
                 class="d-block w-100"
                 alt="banana"
@@ -322,25 +341,6 @@
                   implémente la fonction de défilement à l'infini et qui
                   consomme des données d'image de l'API Unsplash pour remplir
                   dynamiquement le conteneur d'image dans le DOM.
-                </h4>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./img/carousel/job-lister.png"
-                class="d-block w-100"
-                alt="banana"
-                loading="lazy"
-              />
-              <h3 class="text-center mt-2">
-                Réalisation : Site d'offre d'emplois
-              </h3>
-              <div class="carousel-caption d-none d-sm-block">
-                <h4>
-                  Un nouveau projet réalisé, il s'agit d'un site Web dynamique
-                  de recherche et d'affichage d'emplois utilisant PHP OOP
-                  (Programmation Orienté Objet) et la base de données MySQL qui
-                  est un système de gestion de base de données (SGBD).
                 </h4>
               </div>
             </div>
@@ -419,6 +419,27 @@
             >
               Fonctionnalité
             </button>
+            <button class="button-value" onclick="filterProject('Site-Web')">
+              Site-Web
+            </button>
+            <button
+              class="button-value"
+              onclick="filterProject('Application-Web')"
+            >
+              Application-Web
+            </button>
+            <button class="button-value" onclick="filterProject('API-REST')">
+              API-REST
+            </button>
+            <button class="button-value" onclick="filterProject('HTML-CSS')">
+              HTML-CSS
+            </button>
+            <button class="button-value" onclick="filterProject('Javascript')">
+              Javascript
+            </button>
+            <button class="button-value" onclick="filterProject('PHP')">
+              PHP
+            </button>
             <button class="button-value" onclick="filterProject('React.JS')">
               React.js
             </button>
@@ -430,30 +451,6 @@
             </button>
             <button class="button-value" onclick="filterProject('Express.JS')">
               Express.js
-            </button>
-            <button class="button-value" onclick="filterProject('MySQL')">
-              MySQL
-            </button>
-            <button class="button-value" onclick="filterProject('MongoDB')">
-              MongoDB
-            </button>
-            <button class="button-value" onclick="filterProject('FIREBASE')">
-              FIREBASE
-            </button>
-            <button class="button-value" onclick="filterProject('PHP')">
-              PHP
-            </button>
-            <button class="button-value" onclick="filterProject('Postgre.SQL')">
-              Postgre.SQL
-            </button>
-            <button class="button-value" onclick="filterProject('Javascript')">
-              Javascript
-            </button>
-            <button class="button-value" onclick="filterProject('Wordpress')">
-              Wordpress
-            </button>
-            <button class="button-value" onclick="filterProject('HTML-CSS')">
-              HTML-CSS
             </button>
             <button
               class="button-value"
@@ -467,6 +464,24 @@
             >
               bibliothèque-JQuery
             </button>
+            <button class="button-value" onclick="filterProject('MySQL')">
+              MySQL
+            </button>
+            <button class="button-value" onclick="filterProject('Postgre.SQL')">
+              Postgre.SQL
+            </button>
+            <button class="button-value" onclick="filterProject('MongoDB')">
+              MongoDB
+            </button>
+            <button class="button-value" onclick="filterProject('Firebase')">
+              Firebase
+            </button>
+            <button class="button-value" onclick="filterProject('Netlify')">
+              Netlify
+            </button>
+            <button class="button-value" onclick="filterProject('Wordpress')">
+              Wordpress
+            </button>
             <button
               class="button-value"
               onclick="filterProject('Sass-préprocesseur')"
@@ -475,9 +490,6 @@
             </button>
             <button class="button-value" onclick="filterProject('SEO')">
               SEO
-            </button>
-            <button class="button-value" onclick="filterProject('API-REST')">
-              API-REST
             </button>
             <button class="button-value" onclick="filterProject('Docker')">
               Docker
