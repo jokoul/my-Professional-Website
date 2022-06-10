@@ -340,6 +340,10 @@ progress::-webkit-progress-value {
   box-shadow: 0rem 0rem 1.5rem var(--green);
   border-radius: 1rem;
 }
+.card:hover {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
 .image-container {
   text-align: center;
   width: 100%;

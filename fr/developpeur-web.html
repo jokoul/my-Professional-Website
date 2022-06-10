@@ -99,7 +99,7 @@
       crossorigin="anonymous"
     />
     <!--M) minification des fichier CSS afin de réduire la taille des fichiers et augmenter la vitesse de chargement-->
-    <link rel="stylesheet" href="./css/styles-min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <!--Google font family-->
     <link
       href="https://fonts.googleapis.com/css?family=Arvo"
@@ -289,6 +289,25 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
+                src="./img/carousel/animated-template.png"
+                class="d-block w-100"
+                alt="orinoco"
+                loading="lazy"
+              />
+              <h3 class="text-center mt-2">
+                Réalisation : Modèle animé de site.
+              </h3>
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>
+                  Un nouveau projet réalisé, c'est un modèle de site animé
+                  réalisé avec Javascript, Tailwindcss. J'ai utilisé l'API du
+                  générateur d'utilisateurs aléatoires pour remplir le site Web
+                  et la bibliothèque AOS pour définir des animations.
+                </h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
                 src="./img/carousel/reaction-time.gif"
                 class="d-block w-100"
                 alt="banana"
@@ -322,25 +341,6 @@
                   conversion de devises conçue avec React.js et déployée avec
                   Firebase Hosting. Il consomme les données de exchangeRate-API
                   et affiche le taux de change actuel.
-                </h4>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./img/carousel/infinity-scroll.png"
-                class="d-block w-100"
-                alt="orinoco"
-                loading="lazy"
-              />
-              <h3 class="text-center mt-2">
-                Réalisation : Site Web de défilement infini.
-              </h3>
-              <div class="carousel-caption d-none d-sm-block">
-                <h4>
-                  Un nouveau projet réalisé, c'est un site Web vitrine qui
-                  implémente la fonction de défilement à l'infini et qui
-                  consomme des données d'image de l'API Unsplash pour remplir
-                  dynamiquement le conteneur d'image dans le DOM.
                 </h4>
               </div>
             </div>
@@ -457,6 +457,9 @@
               onclick="filterProject('framework-Bootstrap')"
             >
               framework-Bootstrap
+            </button>
+            <button class="button-value" onclick="filterProject('Tailwindcss')">
+              Tailwindcss
             </button>
             <button
               class="button-value"

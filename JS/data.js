@@ -4,6 +4,26 @@
 let projects = {
   data: [
     {
+      projectName: "Animated Template of site.",
+      image: "./img/projects/animated-template.png",
+      category: [
+        "Front-end-development",
+        "Javascript",
+        "Functionality",
+        "Tailwindcss",
+        "Netlify",
+        "Web-site",
+      ],
+      date: "09-06-2022",
+      stack: "Javascript, Tailwindcss",
+      description:
+        "Achievement of a dynamic website made with Javascript, Tailwindcss and deployed with Netlify.",
+      feedback:
+        "This project allowed me to use Tailwindcss which is a CSS framework. I used also random user generator API to populate the website and AOS javascript library to set animations with data-aos attribute.",
+      link1: "https://loquacious-rugelach-13856d.netlify.app/",
+      link2: "https://github.com/jokoul/project-27-Animated-template",
+    },
+    {
       projectName: "Reaction Time Counter.",
       image: "./img/projects/reaction-time.gif",
       category: [
@@ -17,7 +37,7 @@ let projects = {
       date: "08-06-2022",
       stack: "Vue.js, Netlify",
       description:
-        "Achievement of a a Reaction Time counter App that allow you to test and measure your reaction time, it was designed with vuejs and deployed with Netlify Hosting.",
+        "Achievement of a Reaction Time counter App that allow you to test and measure your reaction time, it was designed with vuejs and deployed with Netlify Hosting.",
       feedback:
         "This project allowed me to use lifecycle Hooks like mounted() to fire some functions at different stages of my application running. I use also custom event with $emit method to send data from child components to the parent component.",
       link1: "https://jade-griffin-d47936.netlify.app/",

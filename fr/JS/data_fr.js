@@ -4,7 +4,26 @@
 let projects = {
   data: [
     {
-      projectName: "Compteur de temps de réaction..",
+      projectName: "Modèle animé de site.",
+      image: "./img/projects/animated-template.png",
+      category: [
+        "Front-end",
+        "Javascript",
+        "Netlify",
+        "Fonctionnalité",
+        "Site-Web",
+      ],
+      date: "09-06-2022",
+      stack: "Javascript, Tailwind",
+      description:
+        "Réalisation d'un site web dynamique réalisé avec Javascript, Tailwindcss et déployé avec Netlify.",
+      feedback:
+        "Ce projet m'a permis d'utiliser Tailwindcss qui est un framework CSS. J'ai également utilisé l'API du générateur d'utilisateurs aléatoires pour remplir le site Web et la bibliothèque javascript AOS pour définir des animations avec l'attribut data-aos.",
+      link1: "https://loquacious-rugelach-13856d.netlify.app/",
+      link2: "https://github.com/jokoul/project-27-Animated-template",
+    },
+    {
+      projectName: "Compteur de temps de réaction.",
       image: "./img/projects/reaction-time.gif",
       category: [
         "Front-end",

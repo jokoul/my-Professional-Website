@@ -99,7 +99,7 @@
       crossorigin="anonymous"
     />
     <!--M) minification des fichier CSS afin de réduire la taille des fichiers et augmenter la vitesse de chargement-->
-    <link rel="stylesheet" href="./css/styles-min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <!--Google font family-->
     <link
       href="https://fonts.googleapis.com/css?family=Arvo"
@@ -282,9 +282,25 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
+                src="./img/carousel/animated-template.png"
+                class="d-block w-100"
+                alt="image-a"
+                loading="lazy"
+              />
+              <h3 class="text-center mt-2">
+                Achievement : Animated Template
+              </h3>
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>
+                  A new project achieved, It's an Animated template of site made with Javascript, Tailwindcss. I used random user generator API to populate the website and AOS library to set animations.
+                </h4>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <img
                 src="./img/carousel/reaction-time.gif"
                 class="d-block w-100"
-                alt="image-1"
+                alt="image-c"
                 loading="lazy"
               />
               <h3 class="text-center mt-2">
@@ -302,7 +318,7 @@
               <img
                 src="./img/carousel/currency-converter.png"
                 class="d-block w-100"
-                alt="image-1"
+                alt="image-b"
                 loading="lazy"
               />
               <h3 class="text-center mt-2">Achievement : Currency converter</h3>
@@ -312,25 +328,6 @@
                   designed with React.js and deployed with Firebase Hosting. It
                   consumes data from exchangeRate-API and display the current
                   currency exchange rate.
-                </h4>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./img/carousel/infinity-scroll.png"
-                class="d-block w-100"
-                alt="orinoco"
-                loading="lazy"
-              />
-              <h3 class="text-center mt-2">
-                Achievement : Infinity scroll website
-              </h3>
-              <div class="carousel-caption d-none d-sm-block">
-                <h4>
-                  A new project achieved, It's a showcase website which
-                  implements infinity scroll feature and it consumes image data
-                  from Unsplash API to populate image container dynamically in
-                  the DOM.
                 </h4>
               </div>
             </div>
@@ -453,6 +450,12 @@
               onclick="filterProject('framework-Bootstrap')"
             >
               framework-Bootstrap
+            </button>
+            <button
+              class="button-value"
+              onclick="filterProject('Tailwindcss')"
+            >
+              Tailwindcss
             </button>
             <button
               class="button-value"
