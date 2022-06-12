@@ -4,6 +4,26 @@
 let projects = {
   data: [
     {
+      projectName: "Boîte de message",
+      image: "./img/projects/message-box.png",
+      category: [
+        "Back-end",
+        "PHP",
+        "HTML-CSS",
+        "MySQL",
+        "Utilitaire",
+        "Application-Web",
+      ],
+      date: "12-06-2022",
+      stack: "PHP, HTML, CSS, MySQL",
+      description:
+        "Réalisation d'une application de messagerie permettant de créer, lire, mettre à jour et supprimer des messages. J'ai utilisé la programmation procédurale PHP pour y parvenir.",
+      feedback:
+        "Ce projet m'a permis d'utiliser un langage de programmation côté serveur appelé PHP. J'ai implémenté des opérations CRUD à l'aide de requêtes SQL et de fonctions PHP telles que mysqli_connect, mysqli_query, mysqli_fetch_assoc, mysqli_real_escape_string",
+      link1: "https://joan-kouloumba.in/message-box/",
+      link2: "https://github.com/jokoul/project-28-message-box",
+    },
+    {
       projectName: "Modèle animé de site.",
       image: "./img/projects/animated-template.png",
       category: [

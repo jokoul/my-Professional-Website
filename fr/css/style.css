@@ -339,6 +339,7 @@ progress::-webkit-progress-value {
   border: 0.5rem;
   box-shadow: 0rem 0rem 1.5rem var(--green);
   border-radius: 1rem;
+  transition: all 0.3s ease;
 }
 .card:hover {
   margin-top: 1rem;

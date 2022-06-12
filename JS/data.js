@@ -4,6 +4,26 @@
 let projects = {
   data: [
     {
+      projectName: "message box.",
+      image: "./img/projects/message-box.png",
+      category: [
+        "Back-end-development",
+        "PHP",
+        "Tool",
+        "HTML-CSS",
+        "MySQL",
+        "Web-App",
+      ],
+      date: "12-06-2022",
+      stack: "PHP, HTML, CSS, MySQL",
+      description:
+        "Achievement of a message box app that allow you to create, read, update and delete message. I used PHP Procedural programmation to achieve it.",
+      feedback:
+        "This project allowed me to use a server side programming language called PHP. I implemented CRUD operations using SQL requests and PHP functions like mysqli_connect, mysqli_query, mysqli_fetch_assoc, mysqli_real_escape_string",
+      link1: "https://joan-kouloumba.in/message-box/",
+      link2: "https://github.com/jokoul/project-28-message-box",
+    },
+    {
       projectName: "Animated Template of site.",
       image: "./img/projects/animated-template.png",
       category: [
