@@ -4,6 +4,28 @@
 let projects = {
   data: [
     {
+      projectName: "Liste de tâches Pern.",
+      image: "./img/projects/pern-todo-list.png",
+      category: [
+        "Full-stack",
+        "React.JS",
+        "Node.JS",
+        "Heroku",
+        "Postgre.SQL",
+        "Utilitaire",
+        "Application-Web",
+        "Express.JS",
+      ],
+      date: "14-06-2022",
+      stack: "React.js, Express.js, Node.js, PostgreSQL",
+      description:
+        "Réalisation d'une application de todo-list réalisée avec les technologies PERN et permettant d'organiser les tâches. Il a été déployé avec Heroku.",
+      feedback:
+        "Ce projet m'a permis d'utiliser la pile PERN, c'est-à-dire Postgresql comme système de gestion de base de données, Express.js comme bibliothèque pour créer l'API REST, React.js comme framework pour créer une interface côté client et Node.js comme plate-forme d'exécution Javascript pour exécuter javascript côté serveur.",
+      link1: "https://pern-todo-list-joan.herokuapp.com/",
+      link2: "https://github.com/jokoul/project-29-pern-todo-list",
+    },
+    {
       projectName: "Boîte de message",
       image: "./img/projects/message-box.png",
       category: [
@@ -30,6 +52,7 @@ let projects = {
         "Front-end",
         "Javascript",
         "Netlify",
+        "Tailwindcss",
         "Fonctionnalité",
         "Site-Web",
       ],
@@ -188,6 +211,7 @@ let projects = {
       category: [
         "Back-end",
         "Node.JS",
+        "Heroku",
         "framework-Bootstrap",
         "Utilitaire",
         "Application-Web",
@@ -345,6 +369,7 @@ let projects = {
         "Front-end",
         "React.JS",
         "Docker",
+        "Heroku",
         "Utilitaire",
         "Application-Web",
       ],

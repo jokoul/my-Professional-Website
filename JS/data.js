@@ -4,6 +4,28 @@
 let projects = {
   data: [
     {
+      projectName: "Pern Todo List.",
+      image: "./img/projects/pern-todo-list.png",
+      category: [
+        "Full-stack-development",
+        "React.JS",
+        "Node.JS",
+        "Heroku",
+        "Web-App",
+        "Tool",
+        "Express.JS",
+        "Postgre.SQL",
+      ],
+      date: "14-06-2022",
+      stack: "React.js, Express.js, Node.js, PostgreSQL",
+      description:
+        "Achievement of a todo-list app made with PERN technologies stack and allow you to organise tasks. It was deployed with Heroku.",
+      feedback:
+        "This project allowed me to use PERN stack that's mean Postgresql as database management system, Express.js as library to create the REST API, React.js as framework to build client-side interface and Node.js as Javascript runtime platform to run javascript by server-side.",
+      link1: "https://pern-todo-list-joan.herokuapp.com/",
+      link2: "https://github.com/jokoul/project-29-pern-todo-list",
+    },
+    {
       projectName: "message box.",
       image: "./img/projects/message-box.png",
       category: [
@@ -190,6 +212,7 @@ let projects = {
         "Back-end-development",
         "Node.JS",
         "framework-Bootstrap",
+        "Heroku",
         "Tool",
         "Web-App",
       ],
@@ -345,6 +368,7 @@ let projects = {
         "Front-end-development",
         "React.JS",
         "Docker",
+        "Heroku",
         "Tool",
         "Web-App",
       ],

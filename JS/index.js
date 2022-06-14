@@ -12,7 +12,9 @@ function showProject(dataTab) {
       project.category[2],
       project.category[3],
       project.category[4],
-      project.category[5]
+      project.category[5],
+      project.category[6],
+      project.category[7]
     );
 
     //image div
