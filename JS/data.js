@@ -4,6 +4,19 @@
 let projects = {
   data: [
     {
+      projectName: "contact Registration app.",
+      image: "./img/projects/contact-register.png",
+      category: ["Back-end-development", "Web-App", "Tool", "Laravel", "MySQL"],
+      date: "20-06-2022",
+      stack: "Laravel, MySQL, Bootstrap",
+      description:
+        "Achievement of a contact register app that allow to register contact information such as address, phone number, etc. I used PHP framework called Laravel to achieve this app by implementing CRUD operations.",
+      feedback:
+        "This project allowed me to use Laravel which is based on MVC pattern, so I designed specific routes wich call a resource controller and the controller handle database through models from one side and return corresponding views with blade extension from other side.",
+      link1: "https://joan-kouloumba.in/contact-register",
+      link2: "https://github.com/jokoul/project-40-contact-registerer",
+    },
+    {
       projectName: "Pern Todo List.",
       image: "./img/projects/pern-todo-list.png",
       category: [

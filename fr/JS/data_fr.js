@@ -4,6 +4,25 @@
 let projects = {
   data: [
     {
+      projectName: "Application d'enregistrement de contacts.",
+      image: "./img/projects/contact-register.png",
+      category: [
+        "Back-end",
+        "MySQL",
+        "Utilitaire",
+        "Application-Web",
+        "Laravel",
+      ],
+      date: "20-06-2022",
+      stack: "Laravel, Bootstrap, MySQL",
+      description:
+        "Réalisation d'une application d'enregistrement de contacts permettant d'enregistrer des informations de contact telles que l'adresse, le numéro de téléphone, etc. J'ai utilisé le framework PHP appelé Laravel pour réaliser cette application en implémentant les opérations CRUD.",
+      feedback:
+        "Ce projet m'a permis d'utiliser Laravel qui est basé sur le modèle MVC. J'ai donc conçu des routes spécifiques qui appellent un contrôleur de ressources et le contrôleur gère la base de données via des modèles d'une part et renvoient les vues correspondantes avec l'extension blade d'autre part.",
+      link1: "https://joan-kouloumba.in/contact-register",
+      link2: "https://github.com/jokoul/project-40-contact-registerer",
+    },
+    {
       projectName: "Liste de tâches Pern.",
       image: "./img/projects/pern-todo-list.png",
       category: [
