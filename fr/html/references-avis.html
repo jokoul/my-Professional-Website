@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--A) ajouter balise meta "robots" afin d'indiquer au moteur d'exploration d'indéxer la page et suivre les liens-->
     <meta name="robots" content="index, follow" />
+    <!--AOS Animation-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!--Implementation of multilingual website-->
     <link
       rel="alternate"
@@ -220,15 +222,32 @@
     <main>
       <progress id="progressBar" value="0" max="100"></progress>
 
-      <!--PROGRAMMING LANGUAGE-->
+      <!--REFERENCE PROFESSIONNELLE-->
       <section id="programming" class="programmingSection container-fluid">
-        <h2 class="sectionTitle text-center display-4">Références</h2>
+        <h2 class="sectionTitle text-center display-4">
+          Références Professionnelles
+        </h2>
         <div class="line"></div>
         <p class="subTitle">
           Voici quelques références et témoignages de personnes et
           d'organisations dont j'ai fourni mes services numériques.
         </p>
-        <ul id="reference-card" class="references row pl-0">
+        <ul id="pro-reference-card" class="references row pl-0">
+          <!--Dynamic content-->
+        </ul>
+      </section>
+      <!--REFERENCE ACADEMIQUE-->
+      <section id="programming" class="programmingSection container-fluid">
+        <h2 class="sectionTitle text-center display-4">
+          Références Académiques
+        </h2>
+        <div class="line"></div>
+        <p class="subTitle">
+          Voici quelques références et diplômes que j'ai réussi à valider après
+          avoir suivi plusieurs cursus de formation au travers d'écoles,
+          d'universités et d'autres structures e-learning.
+        </p>
+        <ul id="aca-reference-card" class="references row pl-0">
           <!--Dynamic content-->
         </ul>
       </section>
@@ -243,6 +262,21 @@
           width="150"
         />
       </section> -->
+      <!--MODAL-->
+      <div id="myModal" class="cssModal px-1">
+        <span class="closeBtn">&times;</span>
+        <img class="imgModal" id="imgModal" />
+        <h3 id="diploma" class="refTitle my-3">
+          <!--Dynamic content-->
+        </h3>
+        <p id="level"><!--Dynamic content--></p>
+        <p id="year">
+          <!--Dynamic content-->
+        </p>
+        <p id="school">
+          <a target="_blank"><!--Dynamic content--></a>
+        </p>
+      </div>
     </main>
     <!--FOOTER-->
     <footer class="footer">
@@ -339,5 +373,8 @@
     <script src="../JS/data_fr.js"></script>
     <script src="../JS/utilities.js"></script>
     <script src="../JS/reference.js"></script>
+    <!--AOS Animation-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../JS/aos.js"></script>
   </body>
 </html>

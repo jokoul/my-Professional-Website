@@ -510,6 +510,58 @@ let projects = {
   ],
 };
 
+//==========================================================================================================================
+/*
+ * DATA REFERENCES
+ */
+
+let proReferences = {
+  data: [
+    {
+      image: "../img/pro-references/zarasclo.png",
+      title: "Zarasclo, basket-ball club site",
+      address: "https://www.linkedin.com/in/guy-maurice-limbio-78953285/",
+      quotation:
+        "Joan has understood our digital needs and design a website that match them.",
+      author: "Guy Maurice LIMBIO",
+      position: "Zarasclo Basketball club president",
+      dimension: 250,
+    },
+  ],
+};
+let acaReferences = {
+  data: [
+    {
+      image: "../img/aca-references/dev-island-complete-web-dev.png",
+      title: "Complete web development course bootcamp",
+      level: "Certificate",
+      year: "2022",
+      school: "Development Island, UK",
+      address: "https://www.udemy.com/user/ib12/",
+      dimension: 250,
+    },
+    {
+      image: "../img/aca-references/openclassroom-dev-web.png",
+      title: "Web Developer Profesional Certificate",
+      level: "Certificate",
+      year: "2022",
+      school: "Openclassroom, FR",
+      address: "https://openclassrooms.com",
+      dimension: 250,
+    },
+    {
+      image: "../img/aca-references/licence-pro-ind.png",
+      title:
+        "3 year college degree in Industrial Production specialized in metrology, control and quality insurance.",
+      level: "Bachelor degree",
+      year: "2014",
+      school: "University of Grenoble, FR",
+      address: "https://www.univ-grenoble-alpes.fr/",
+      dimension: 250,
+    },
+  ],
+};
+
 //=========================================================================================================================
 
 /*
@@ -547,13 +599,6 @@ let skills = {
       dimension: 170,
     },
     {
-      image: "../img/language/node.png",
-      name: "Node.js",
-      description:
-        "Node.js is a software development platform based on javascript for server-side.",
-      dimension: 150,
-    },
-    {
       image: "../img/language/react.png",
       name: "ReactJS",
       description:
@@ -561,11 +606,39 @@ let skills = {
       dimension: 170,
     },
     {
+      image: "../img/language/vue.png",
+      name: "Vue.js",
+      description:
+        "Vue.js is an open-source framework based on javascript to create user interfaces and single page application.",
+      dimension: 150,
+    },
+    {
+      image: "../img/language/laravel.png",
+      name: "Laravel",
+      description:
+        "Laravel is a free, open-source PHP web framework intended for the development of web applications following the model–view–controller (MVC) architectural pattern and based on Symfony.",
+      dimension: 170,
+    },
+    {
+      image: "../img/language/node.png",
+      name: "Node.js",
+      description:
+        "Node.js is a software development platform based on javascript for server-side.",
+      dimension: 150,
+    },
+    {
       image: "../img/language/mysql.png",
       name: "MySQL",
       description:
         "MySQL is a relational database management system based on the SQL language which allow to communicate with relational database.",
       dimension: 190,
+    },
+    {
+      image: "../img/language/postgre.png",
+      name: "Postgre.SQL",
+      description:
+        "Postgre.SQL is a relational database management system based on the SQL language that allow to communicate with relational database.",
+      dimension: 150,
     },
     {
       image: "../img/language/mongo.png",
@@ -586,20 +659,6 @@ let skills = {
       name: "Sass preprocessor",
       description:
         "Sass preprocessor stands for Syntactically Awesome Style Sheets and it is a scripting language that is compiled into CSS.",
-      dimension: 150,
-    },
-    {
-      image: "../img/language/vue.png",
-      name: "Vue.js",
-      description:
-        "Vue.js is an open-source framework based on javascript to create user interfaces and single page application.",
-      dimension: 150,
-    },
-    {
-      image: "../img/language/postgre.png",
-      name: "Postgre.SQL",
-      description:
-        "Postgre.SQL is a relational database management system based on the SQL language that allow to communicate with relational database.",
       dimension: 150,
     },
   ],
@@ -704,75 +763,6 @@ let services = {
       description:
         "I can create website for you using the famous content management system called Wordpress. There is so many plugins and design pattern which will fit your needs. I can crreate different type of website with it like e-commerce, blogs, showcase website, etc.",
       dimension: 60,
-    },*/
-  ],
-};
-//==========================================================================================================================
-/*
- * DATA REFERENCES
- */
-
-let references = {
-  data: [
-    {
-      image: "../img/references/zarasclo.png",
-      title: "Zarasclo, basket-ball club site",
-      address: "https://www.linkedin.com/in/guy-maurice-limbio-78953285/",
-      quotation:
-        "Joan has understood our digital needs and design a website that match them.",
-      author: "Guy Maurice LIMBIO",
-      position: "Zarasclo Basketball club president",
-      dimension: 250,
-    },
-    /*{
-      image: "../img/references/site_artiste_lionel.jpg",
-      title: "Painting showcase website",
-      address: "https://www.linkedin.com/feed/",
-      quotation:
-        "Joan achieve this wonderful website for my society, now i have a better sight on internet.",
-      author: "Lionel PAMADOU",
-      position: "painter",
-      dimension: 150,
-    },
-    {
-      image: "../img/references/site_club_basket.jpg",
-      title: "Basket-ball club website",
-      address: "https://www.linkedin.com/feed/",
-      quotation:
-        "Joan achieve this wonderful website for my society, now i have a better sight on internet.",
-      author: "Loïc CHAMEL",
-      position: "club manager",
-      dimension: 150,
-    },
-    {
-      image: "../img/references/site_boulangerie.jpg",
-      title: "Bakery website",
-      address: "https://www.linkedin.com/feed/",
-      quotation:
-        "Joan achieve this wonderful website for my society, now i have a better sight on internet.",
-      author: "Didier CLOVIS",
-      position: "Baker entrepreneur",
-      dimension: 170,
-    },
-    {
-      image: "../img/references/site_marketing.jpg",
-      title: "Marketing agency wabsite",
-      address: "https://www.linkedin.com/feed/",
-      quotation:
-        "Joan achieve this wonderful website for my society, now i have a better sight on internet.",
-      author: "Bella MANOUKA",
-      position: "marketing manager",
-      dimension: 170,
-    },
-    {
-      image: "../img/references/site_immobilier.jpg",
-      title: "Real estate website",
-      address: "https://www.linkedin.com/feed/",
-      quotation:
-        "Joan achieve this wonderful website for my society, now i have a better sight on internet.",
-      author: "Hamed PIRAKI",
-      position: "real estate agent",
-      dimension: 150,
     },*/
   ],
 };

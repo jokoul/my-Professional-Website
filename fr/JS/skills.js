@@ -2,8 +2,11 @@
 function showProgramming(languageArray) {
   for (let language of languageArray) {
     const languageGallery = document.getElementById("language-gallery");
+
+    let delay = 0;
+
     languageGallery.innerHTML += `
-      <li class="grid-item">
+      <li data-aos="zoom-in" data-aos-delay="${delay}" class="grid-item">
             <a href="#exampleModal" class="thumbnail" data-toggle="modal" onclick="modalContent('${language.name}','${language.description}')">
               <img src="${language.image}" alt="${language.name}" width="${language.dimension}" loading="lazy"/>
               <div class="words">
@@ -15,6 +18,8 @@ function showProgramming(languageArray) {
             </a>
           </li> 
       `;
+
+    delay += 300;
   }
 }
 showProgramming(skills.language);
@@ -24,8 +29,10 @@ function showTool(toolArray) {
   for (let tool of toolArray) {
     const toolGallery = document.getElementById("tool-gallery");
 
+    let delay = 0;
+
     toolGallery.innerHTML += `
-      <li class="grid-item">
+      <li data-aos="zoom-out-up" data-aos-delay="${delay}" class="grid-item">
             <a href="#exampleModal" onclick="modalContent('${tool.name}','${tool.description}')" class="thumbnail" data-toggle="modal" >
               <img src="${tool.image}" alt="${tool.name}" width="${tool.dimension}" loading="lazy"/>
               <div class="words">
@@ -37,6 +44,8 @@ function showTool(toolArray) {
             </a>
         </li>  
       `;
+
+    delay += 300;
   }
 }
 showTool(skills.tool);

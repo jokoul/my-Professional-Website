@@ -512,6 +512,59 @@ let projects = {
   ],
 };
 
+//==========================================================================================================================
+/*
+ * DATA REFERENCES
+ */
+
+let proReferences = {
+  data: [
+    {
+      image: "../img/pro-references/zarasclo.png",
+      title: "Zarasclo, site du club de basket",
+      address: "https://www.linkedin.com/in/guy-maurice-limbio-78953285/",
+      quotation:
+        "Joan a compris nos besoins en matière de communication digital et a conçu un site Web qui y correspond.",
+      author: "Guy Maurice LIMBIO",
+      position: "Président du club",
+      dimension: 250,
+    },
+  ],
+};
+
+let acaReferences = {
+  data: [
+    {
+      image: "../img/aca-references/dev-island-complete-web-dev.png",
+      title: "Cours développement web fullstack bootcamp",
+      level: "Certification",
+      year: "2022",
+      school: "Development Island, UK",
+      address: "https://www.udemy.com/user/ib12/",
+      dimension: 250,
+    },
+    {
+      image: "../img/aca-references/openclassroom-dev-web.png",
+      title: "Web Developer Profesional Certificate",
+      level: "Certification",
+      year: "2022",
+      school: "Openclassroom, FR",
+      address: "https://openclassrooms.com",
+      dimension: 250,
+    },
+    {
+      image: "../img/aca-references/licence-pro-ind.png",
+      title:
+        "3 year college degree in Industrial Production specialized in metrology, control and quality insurance.",
+      level: "Bachelor degree",
+      year: "2014",
+      school: "University of Grenoble, FR",
+      address: "https://www.univ-grenoble-alpes.fr/",
+      dimension: 250,
+    },
+  ],
+};
+
 //=========================================================================================================================
 
 /*
@@ -549,18 +602,32 @@ let skills = {
       dimension: 170,
     },
     {
-      image: "../img/language/node.png",
-      name: "Node.js",
-      description:
-        "Node.js est une plateforme de développement logiciel basée sur javascript pour le côté serveur.",
-      dimension: 150,
-    },
-    {
       image: "../img/language/react.png",
       name: "ReactJS",
       description:
         "ReactJS est une bibliothèque Javascript utilisée pour créer une application d`une seule page avec une interface interactive. Le principe de React est de créer des composants basés sur la gestion d`état et de restituer la page html correspondante.",
       dimension: 170,
+    },
+    {
+      image: "../img/language/vue.png",
+      name: "Vue.js",
+      description:
+        "Vue.js est un framework open-source basé sur javascript pour créer des interfaces utilisateur et des applications à page unique.",
+      dimension: 150,
+    },
+    {
+      image: "../img/language/laravel.png",
+      name: "Laravel",
+      description:
+        "Laravel est un framework Web PHP gratuit et open source destiné au développement d`applications Web suivant le modèle architectural modèle-vue-contrôleur (MVC) et basé sur Symfony.",
+      dimension: 170,
+    },
+    {
+      image: "../img/language/node.png",
+      name: "Node.js",
+      description:
+        "Node.js est une plateforme de développement logiciel basée sur javascript pour le côté serveur.",
+      dimension: 150,
     },
     {
       image: "../img/language/mysql.png",
@@ -589,13 +656,6 @@ let skills = {
       description:
         "Le préprocesseur Sass signifie Syntactically Awesome Style Sheets et c`est un langage de script qui est compilé en CSS.",
       dimension: 140,
-    },
-    {
-      image: "../img/language/vue.png",
-      name: "Vue.js",
-      description:
-        "Vue.js est un framework open-source basé sur javascript pour créer des interfaces utilisateur et des applications à page unique.",
-      dimension: 150,
     },
     {
       image: "../img/language/postgre.png",
@@ -706,75 +766,6 @@ let services = {
       description:
         "I can create website for you using the famous content management system called Wordpress. There is so many plugins and design pattern which will fit your needs. I can crreate different type of website with it like e-commerce, blogs, showcase website, etc.",
       dimension: 60,
-    },*/
-  ],
-};
-//==========================================================================================================================
-/*
- * DATA REFERENCES
- */
-
-let references = {
-  data: [
-    {
-      image: "../img/references/zarasclo.png",
-      title: "Zarasclo, site du club de basket",
-      address: "https://www.linkedin.com/in/guy-maurice-limbio-78953285/",
-      quotation:
-        "Joan a compris nos besoins en matière de communication digital et a conçu un site Web qui y correspond.",
-      author: "Guy Maurice LIMBIO",
-      position: "Président du club",
-      dimension: 250,
-    },
-    /*{
-      image: "../img/references/site_artiste_lionel.jpg",
-      title: "Painting showcase website",
-      address: "https://www.linkedin.com/feed/",
-      quotation:
-        "Joan achieve this wonderful website for my society, now i have a better sight on internet.",
-      author: "Lionel PAMADOU",
-      position: "painter",
-      dimension: 150,
-    },
-    {
-      image: "../img/references/site_club_basket.jpg",
-      title: "Basket-ball club website",
-      address: "https://www.linkedin.com/feed/",
-      quotation:
-        "Joan achieve this wonderful website for my society, now i have a better sight on internet.",
-      author: "Loïc CHAMEL",
-      position: "club manager",
-      dimension: 150,
-    },
-    {
-      image: "../img/references/site_boulangerie.jpg",
-      title: "Bakery website",
-      address: "https://www.linkedin.com/feed/",
-      quotation:
-        "Joan achieve this wonderful website for my society, now i have a better sight on internet.",
-      author: "Didier CLOVIS",
-      position: "Baker entrepreneur",
-      dimension: 170,
-    },
-    {
-      image: "../img/references/site_marketing.jpg",
-      title: "Marketing agency wabsite",
-      address: "https://www.linkedin.com/feed/",
-      quotation:
-        "Joan achieve this wonderful website for my society, now i have a better sight on internet.",
-      author: "Bella MANOUKA",
-      position: "marketing manager",
-      dimension: 170,
-    },
-    {
-      image: "../img/references/site_immobilier.jpg",
-      title: "Real estate website",
-      address: "https://www.linkedin.com/feed/",
-      quotation:
-        "Joan achieve this wonderful website for my society, now i have a better sight on internet.",
-      author: "Hamed PIRAKI",
-      position: "real estate agent",
-      dimension: 150,
     },*/
   ],
 };
