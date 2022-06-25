@@ -175,6 +175,11 @@
                       >Réalisations</a
                     >
                   </li>
+                  <li>
+                    <a class="dropdown-item" href="../developpeur-web.html#media"
+                      >Média</a
+                    >
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -196,6 +201,14 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./references-avis.html">Références</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  target="_blank"
+                  href="https://joan-kouloumba.in/joan-kouloumba-blog"
+                  >Blog
+                </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./contact.php">Contact</a>
@@ -413,6 +426,13 @@
           <li>
             <a href="https://github.com/jokoul" target="_blank"
               ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCNAnFZ-GPEkayXRv6K6xD6Q"
+              target="_blank"
+              ><i class="fa-brands fa-youtube"></i
             ></a>
           </li>
         </ul>
