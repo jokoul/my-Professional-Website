@@ -4,6 +4,26 @@
 let projects = {
   data: [
     {
+      projectName: "African City Quizzer.",
+      image: "./img/projects/african-city-quizzer.png",
+      category: [
+        "Back-end-development",
+        "Web-App",
+        "Entertainment",
+        "HTML-CSS",
+        "PHP",
+        "MySQL",
+      ],
+      date: "26-06-2022",
+      stack: "PHP, MySQL, HTML, CSS",
+      description:
+        "Achievement of a Quizz app to test your knowledge on African Capital City. It is build with PHP procedural mode and MySQL database management system.",
+      feedback:
+        "This project allowed me to create an User Interface made only with HTML and CSS. I used session super global variable to save the score and unset() methode to reset the score.",
+      link1: "https://joan-kouloumba.in/african-city-quizzer",
+      link2: "https://github.com/jokoul/prioject-31-African-City-Quizzer",
+    },
+    {
       projectName: "contact Registration app.",
       image: "./img/projects/contact-register.png",
       category: ["Back-end-development", "Web-App", "Tool", "Laravel", "MySQL"],

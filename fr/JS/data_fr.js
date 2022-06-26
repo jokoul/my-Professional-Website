@@ -4,6 +4,26 @@
 let projects = {
   data: [
     {
+      projectName: "Quizz des Villes Africaines",
+      image: "./img/projects/african-city-quizzer.png",
+      category: [
+        "Back-end",
+        "MySQL",
+        "PHP",
+        "Application-Web",
+        "HTML-CSS",
+        "Divertissement",
+      ],
+      date: "26-06-2022",
+      stack: "PHP, HTML, CSS, MySQL",
+      description:
+        "Réalisation d'une application Quizz pour tester vos connaissances sur les villes Capitale Africaine. Il est construit avec le mode procédural PHP et le système de gestion de base de données MySQL.",
+      feedback:
+        "Ce projet m'a permis de créer une interface utilisateur faite uniquement avec HTML et CSS. J'ai utilisé la super variable globale de session pour enregistrer le score et la méthode unset() pour réinitialiser le score.",
+      link1: "https://joan-kouloumba.in/african-city-quizzer",
+      link2: "https://github.com/jokoul/prioject-31-African-City-Quizzer",
+    },
+    {
       projectName: "Application d'enregistrement de contacts.",
       image: "./img/projects/contact-register.png",
       category: [
