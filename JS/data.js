@@ -4,6 +4,25 @@
 let projects = {
   data: [
     {
+      projectName: "Project Planner.",
+      image: "./img/projects/project-planner.png",
+      category: [
+        "Front-end-development",
+        "Web-App",
+        "Tool",
+        "Vue.JS",
+        "Netlify",
+      ],
+      date: "06-07-2022",
+      stack: "Vue.js, Netlify, Json-server",
+      description:
+        "Achievement of a Project Planning app that allows to organise project steps. It was deployed with Netlify.",
+      feedback:
+        "This project allowed me to use Json Server to simulate an API in my app. I implemented CRUD operations and I used router-link to manage navigation through the app. Custom events made with $emit, props, methods, data properties and computed data helped me to set the logic of my app.",
+      link1: "https://fabulous-genie-3b1b9c.netlify.app",
+      link2: "https://github.com/jokoul/project-32-Project-planner",
+    },
+    {
       projectName: "African City Quizzer.",
       image: "./img/projects/african-city-quizzer.png",
       category: [
