@@ -37,6 +37,17 @@ main {
     transform: scale(1);
   }
 }
+@keyframes statNum {
+  from {
+    color: #ffffff;
+  }
+  50% {
+    color: #ff5823;
+  }
+  to {
+    color: #ffffff;
+  }
+}
 /*ANIME LINE*/
 #progressBar {
   position: fixed;
@@ -340,6 +351,7 @@ progress::-webkit-progress-value {
   background: #043000;
   border-radius: 50%;
   color: #fff;
+  animation: statNum 2s ease-in-out infinite;
 }
 .sectionStat {
   font-size: 1.2rem;
