@@ -284,7 +284,7 @@ function filterProject(value) {
   filteredElements.forEach((element) => (counter += 1));
   parentStat.innerHTML = "";
   parentStat.innerHTML = `
-  <p><span class="numStat">${counter}</span> Projets dans la : <span class="sectionStat">${value}</span></p>
+  <p><span class="numStat">${counter}</span> Projets dans la section : <span class="sectionStat">${value}</span></p>
   `;
 }
 
