@@ -4,6 +4,28 @@
 let projects = {
   data: [
     {
+      projectName: "Online Shopping Store.",
+      image: "./img/projects/garatimbi.png",
+      category: [
+        "Full-stack-development",
+        "E-commerce",
+        "Heroku",
+        "Tool",
+        "MongoDB",
+        "Express.JS",
+        "React.JS",
+        "Node.JS",
+      ],
+      date: "12-07-2022",
+      stack: "MongoDB, Express.js, React.js, Node.js",
+      description:
+        "Achievement of an online shopping store which allows to sell and manage products. It is made with MERN stack. It implements many features like cart managing, CRUD operation on user profile, search feature, payment feature,etc.",
+      feedback:
+        "In this project, First I did a node.js server and I deployed it on heroku. then I implemented api routes, models and controllers for user, products, orders, etc. Then, I used react-bootstrap library to create User Interface. I also used react Hooks like useState, useReducer, useNavigate, useEffect to implement my app logic and manage data state.",
+      link1: "https://garatimbi-ecommerce.herokuapp.com/",
+      link2: "https://github.com/jokoul/project-33-garatimbi-ecommerce",
+    },
+    {
       projectName: "Project Planner.",
       image: "./img/projects/project-planner.png",
       category: [
@@ -572,7 +594,7 @@ let acaReferences = {
   data: [
     {
       image: "../img/aca-references/dev-island-complete-web-dev.png",
-      title: "Complete web development course bootcamp",
+      title: "Complete web development course Bootcamp",
       level: "Certificate",
       year: "2022",
       school: "Development Island, UK",
@@ -596,6 +618,16 @@ let acaReferences = {
       year: "2014",
       school: "University of Grenoble, FR",
       address: "https://www.univ-grenoble-alpes.fr/",
+      dimension: 250,
+    },
+    {
+      image: "../img/aca-references/freecodecamp-javascript.png",
+      title: "JavaScript Algorithms and Data Structures",
+      level: "Certitficate",
+      year: "2022",
+      school: "FreeCodeCamp, US",
+      address:
+        "https://www.freecodecamp.org/certification/joankouloumba/javascript-algorithms-and-data-structures",
       dimension: 250,
     },
   ],

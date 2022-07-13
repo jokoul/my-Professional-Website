@@ -271,8 +271,22 @@ function filterProject(value) {
       element.classList.add("hide");
     }
   });
+  //Counter number of card filter
+  const parentStat = document.getElementById("stat");
+  let filteredElements = [];
+  elements.forEach((element) => {
+    if (element.classList.contains(value)) {
+      filteredElements.push(element);
+    }
+  });
+  console.log(filteredElements);
+  let counter = 0;
+  filteredElements.forEach((element) => (counter += 1));
+  parentStat.innerHTML = "";
+  parentStat.innerHTML = `
+  <p><span class="numStat">${counter}</span> Projects in section : <span class="sectionStat">${value}</span></p>
+  `;
 }
-
 /**FILTER PROJECT BUTTON */
 /*
 function filterProjectButton(value) {
@@ -359,19 +373,29 @@ function displayAll() {
   const pageContainer1 = document.getElementById("pagination1");
   const pageContainer2 = document.getElementById("pagination2");
   const buttons = document.getElementsByClassName("button-value");
-  console.log(buttons[0]);
+  // console.log(buttons[0]);
   if (buttons[0].classList.contains("activeSearch")) {
     pageContainer1.classList.add("pagination");
     pageContainer1.classList.remove("hide");
     pageContainer2.classList.add("pagination");
     pageContainer2.classList.remove("hide");
   }
+  //Counter for all projects
+  const parentStat = document.getElementById("stat");
+  const allCards = projects.data;
+  let counter = 0;
+  allCards.forEach((card) => (counter += 1));
+  parentStat.innerHTML = "";
+  parentStat.innerHTML = `
+  <p><span class="numStat">${counter}</span> Projects in section : <span class="sectionStat">All</span></p>
+  `;
 }
 
 //Initially display all projects
 window.onload = () => {
   animeLine();
-  changePage(projects.data, cardsContainer, cards_per_page, 1);
+  // changePage(projects.data, cardsContainer, cards_per_page, 1);
+  displayAll();
 };
 
 /*

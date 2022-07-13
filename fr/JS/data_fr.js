@@ -4,6 +4,28 @@
 let projects = {
   data: [
     {
+      projectName: "Boutique en ligne",
+      image: "./img/projects/garatimbi.png",
+      category: [
+        "Full-stack",
+        "MongoDB",
+        "Heroku",
+        "Express.JS",
+        "React.JS",
+        "Node.JS",
+        "E-commerce",
+        "Utilitaire",
+      ],
+      date: "12-07-2022",
+      stack: "MongoDB, Express.js, React.js Node.js",
+      description:
+        "Réalisation d'une boutique en ligne qui permet de vendre et de gérer des produits. Il est fait avec la pile MERN. Il implémente de nombreuses fonctionnalités telles que la gestion du panier, l'opération CRUD sur le profil utilisateur, la fonction de recherche, la fonction de paiement, etc.",
+      feedback:
+        "Dans ce projet, j'ai d'abord créé un serveur node.js et je l'ai déployé sur heroku. puis j'ai implémenté des routes API, des modèles et des contrôleurs pour l'utilisateur, les produits, les commandes, etc. Ensuite, j'ai utilisé la bibliothèque react-bootstrap pour créer l'interface utilisateur. J'ai également utilisé des React Hooks comme useState, useReducer, useNavigate, useEffect pour implémenter la logique de mon application et gérer l'état des données.",
+      link1: "https://garatimbi-ecommerce.herokuapp.com/",
+      link2: "https://github.com/jokoul/project-33-garatimbi-ecommerce",
+    },
+    {
       projectName: "Planificateur de projet",
       image: "./img/projects/project-planner.png",
       category: [
@@ -599,6 +621,16 @@ let acaReferences = {
       year: "2014",
       school: "University of Grenoble, FR",
       address: "https://www.univ-grenoble-alpes.fr/",
+      dimension: 250,
+    },
+    {
+      image: "../img/aca-references/freecodecamp-javascript.png",
+      title: "Algorithmes JavaScript et structures de données",
+      level: "Certification",
+      year: "2022",
+      school: "FreeCodeCamp, US",
+      address:
+        "https://www.freecodecamp.org/certification/joankouloumba/javascript-algorithms-and-data-structures",
       dimension: 250,
     },
   ],

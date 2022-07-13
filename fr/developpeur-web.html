@@ -174,6 +174,7 @@
                       >Réalisation</a
                     >
                   </li>
+                  <li><hr class="dropdown-divider" /></li>
                   <li>
                     <a class="dropdown-item" href="#media">Média</a>
                   </li>
@@ -302,6 +303,25 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
+                src="./img/carousel/garatimbi.png"
+                class="d-block w-100"
+                alt="orinoco"
+                loading="lazy"
+              />
+              <h3 class="text-center mt-2">Réalisation : Boutique en ligne.</h3>
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>
+                  Un nouveau projet réalisé, il s'agit d'une boutique de vente
+                  en ligne qui permet de vendre et de gérer des produits. Il est
+                  fait avec la pile MERN. Il implémente de nombreuses
+                  fonctionnalités telles que la gestion du panier, l'opération
+                  CRUD sur le profil utilisateur, la fonction de recherche, la
+                  fonction de paiement, etc.
+                </h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
                 src="./img/carousel/project-planner.png"
                 class="d-block w-100"
                 alt="banana"
@@ -335,26 +355,6 @@
                   pour tester vos connaissances sur les villes Capitale
                   Africaine. Il est construit avec le mode procédural de PHP et
                   le système de gestion de base de données MySQL.
-                </h4>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./img/carousel/contact-register.png"
-                class="d-block w-100"
-                alt="orinoco"
-                loading="lazy"
-              />
-              <h3 class="text-center mt-2">
-                Réalisation : Application d'enregistrement de contacts.
-              </h3>
-              <div class="carousel-caption d-none d-sm-block">
-                <h4>
-                  Un nouveau projet réalisé, il s'agit d'une application qui
-                  permet d'enregistrer des informations de contacts telles que
-                  l'adresse, le numéro de téléphone, etc. J'ai utilisé le
-                  framework PHP appelé Laravel pour réaliser cette application
-                  en implémentant les opérations CRUD.
                 </h4>
               </div>
             </div>
@@ -436,6 +436,9 @@
             <button class="button-value" onclick="filterProject('Site-Web')">
               Site-Web
             </button>
+            <button class="button-value" onclick="filterProject('E-commerce')">
+              E-commerce
+            </button>
             <button
               class="button-value"
               onclick="filterProject('Application-Web')"
@@ -455,19 +458,19 @@
               PHP
             </button>
             <button class="button-value" onclick="filterProject('React.JS')">
-              React.js
+              React.JS
             </button>
             <button class="button-value" onclick="filterProject('Vue.JS')">
-              Vue.js
+              Vue.JS
             </button>
             <button class="button-value" onclick="filterProject('Laravel')">
               Laravel
             </button>
             <button class="button-value" onclick="filterProject('Node.JS')">
-              Node.js
+              Node.JS
             </button>
             <button class="button-value" onclick="filterProject('Express.JS')">
-              Express.js
+              Express.JS
             </button>
             <button
               class="button-value"
@@ -524,6 +527,9 @@
               Google-API-GCP
             </button>
           </div>
+          <!---STATISTIQUE PROJECT-->
+          <div id="stat" class="mt-3"></div>
+          <!--PAGINATION 1-->
           <div id="pagination1" class="container-fluid pagination mt-3">
             <p class="page-title">page</p>
             <div class="page-btn-wrapper">
@@ -537,6 +543,7 @@
             </div>
           </div>
           <div id="projects"><!--javascript : appendChild()--></div>
+          <!--PAGINATION 2-->
           <div id="pagination2" class="container-fluid pagination">
             <p class="page-title">page</p>
             <div class="page-btn-wrapper">
