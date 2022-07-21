@@ -4,6 +4,26 @@
 let projects = {
   data: [
     {
+      projectName: "Web Scraper App.",
+      image: "./img/projects/web-scraper.png",
+      category: [
+        "Back-end-development",
+        "Web-App",
+        "Heroku",
+        "Functionality",
+        "Express.JS",
+        "Node.JS",
+      ],
+      date: "21-07-2022",
+      stack: "Express.js, Node.js",
+      description:
+        "Achievement of a Web Scraper app deployed on Heroku that allows to grab all the headings in a website only by entering its url address. It allows also to get the screenshot of all the page targeted with url. This app is made with Node.js and many package like puppeteer and cheerio.",
+      feedback:
+        "In this project, 'cheerio.load()' method allows to select element in the copied HTML document then I can proceed the data like I want. For 'puppeteer' package, First I launched a browser with the method 'puppeteer.launch()' then I created a new page with the method 'browser.newPage()' next I went to the url with the method 'page.goto(url)' and lastly I proceeded the data like I want.",
+      link1: "https://web-scraper-joan.herokuapp.com/",
+      link2: "https://github.com/jokoul/project-34-web-scraper",
+    },
+    {
       projectName: "Online Shopping Store.",
       image: "./img/projects/garatimbi.png",
       category: [

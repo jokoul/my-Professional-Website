@@ -4,6 +4,26 @@
 let projects = {
   data: [
     {
+      projectName: "Application Web Scrapper",
+      image: "./img/projects/web-scraper.png",
+      category: [
+        "Back-end",
+        "Fonctionnalité",
+        "Heroku",
+        "Express.JS",
+        "Application-Web",
+        "Node.JS",
+      ],
+      date: "21-07-2022",
+      stack: " Express.js, Node.js",
+      description:
+        "Réalisation d'une application Web Scraper déployée sur Heroku qui permet de récupérer toutes les rubriques d'un site web uniquement en saisissant son adresse url. Il permet également d'obtenir la capture d'écran de toutes les pages ciblées par l'url. Cette application est faite avec Node.js et de nombreux packages comme puppeteer et cheerio.",
+      feedback:
+        "Dans ce projet, la méthode 'cheerio.load()' permet de sélectionner un élément dans le document HTML copié, puis je peux traiter les données comme je le souhaite. Pour le package 'puppeteer', j'ai d'abord lancé un navigateur avec la méthode 'puppeteer.launch()' puis j'ai créé une nouvelle page avec la méthode 'browser.newPage()' ensuite je suis allé à l'url avec la méthode 'page.goto (url)' et enfin j'ai procédé aux données comme je veux.",
+      link1: "https://web-scraper-joan.herokuapp.com/",
+      link2: "https://github.com/jokoul/project-34-web-scraper",
+    },
+    {
       projectName: "Boutique en ligne",
       image: "./img/projects/garatimbi.png",
       category: [
