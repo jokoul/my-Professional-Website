@@ -4,6 +4,25 @@
 let projects = {
   data: [
     {
+      projectName: "Application de Citation à twitter",
+      image: "./img/projects/quote-twitter.png",
+      category: [
+        "Front-end",
+        "Divertissement",
+        "Javascript",
+        "Application-Web",
+        "HTML-CSS",
+      ],
+      date: "28-07-2022",
+      stack: "Javascript, HTML-CSS",
+      description:
+        "Réalisation d'une application de génération de citations qui extrait des citations d'une API et l'affiche avec une fonctionnalité de partage Twitter. ",
+      feedback:
+        "Dans ce projet,  j'ai effectué un appel d'API avec la méthode fetch et défini un chargeur car il s'agit d'une fonction asynchrone. J'ai géré les erreurs potentielles dans un bloc 'try/catch'.",
+      link1: "https://jokoul.github.io/project-37-quote-twitter/",
+      link2: "https://github.com/jokoul/project-37-quote-twitter",
+    },
+    {
       projectName: "Application Web Scrapper",
       image: "./img/projects/web-scraper.png",
       category: [

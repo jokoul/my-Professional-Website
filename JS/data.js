@@ -4,6 +4,25 @@
 let projects = {
   data: [
     {
+      projectName: "Quote Twitter App.",
+      image: "./img/projects/quote-twitter.png",
+      category: [
+        "Front-end-development",
+        "Web-App",
+        "HTML-CSS",
+        "Entertainment",
+        "Javascript",
+      ],
+      date: "28-07-2022",
+      stack: "Javascript, HTML, CSS",
+      description:
+        "Achievement of a quote generator app that pull quotes from an API and show it with a twitter share feature.",
+      feedback:
+        "In this project, I made an API call with fetch method and set a loader because it's an asynchronous function. I managed potential errors in a 'try/catch' block.",
+      link1: "https://jokoul.github.io/project-37-quote-twitter/",
+      link2: "https://github.com/jokoul/project-37-quote-twitter",
+    },
+    {
       projectName: "Web Scraper App.",
       image: "./img/projects/web-scraper.png",
       category: [
@@ -398,7 +417,7 @@ let projects = {
         "Entertainment",
         "web-App",
       ],
-      date: "03-29-2022",
+      date: "29-03-2022",
       stack: "jQuery, HTML, CSS",
       description:
         "Achievement of a Fruits Slice Game website for entertainment.",
@@ -411,7 +430,7 @@ let projects = {
       projectName: "generalWP, an entrepreneur website.",
       image: "./img/projects/general-wp.png",
       category: ["Wordpress", "Docker", "Web-site"],
-      date: "04-02-2022",
+      date: "02-04-2022",
       stack: "Docker, Wordpress, Plugin Elementor",
       description:
         "Achievement of a business promotional website wich can fit any kind of business activities.",
@@ -432,7 +451,7 @@ let projects = {
         "Web-site",
         "Web-App",
       ],
-      date: "03-23-2022",
+      date: "23-03-2022",
       stack: "Javascript, HTML, CSS",
       description:
         "Achievement of a Maths learning website including a game of Maths for practice.",
@@ -466,7 +485,7 @@ let projects = {
         "Tool",
         "Web-App",
       ],
-      date: "02-12-2022",
+      date: "12-02-2022",
       stack: "ReactJS, Redux",
       description:
         "This application is useful to follow and register a score of tennis game.",
@@ -487,7 +506,7 @@ let projects = {
         "Tool",
         "Web-site",
       ],
-      date: "08-23-2021",
+      date: "23-08-2021",
       stack: "HTML, CSS, Sass preprocessor ",
       description:
         "Integration of several pages of the website model by using HTML, CSS and Sass from scratch.",
@@ -502,7 +521,7 @@ let projects = {
       projectName: "Banana-design, web agency showcase site",
       image: "./img/projects/banana-design.png",
       category: ["Wordpress", "Docker", "Web-site"],
-      date: "02-20-2022",
+      date: "20-02-2022",
       stack: "Wordpress, Docker, Plugin Elementor",
       description:
         "Achievement of a showcase website to promote the activities of the agency.",
@@ -521,7 +540,7 @@ let projects = {
         "framework-Bootstrap",
         "Web-site",
       ],
-      date: "10-25-2021",
+      date: "25-10-2021",
       stack: "Javascript Vanilla, Node.JS, Express.js, framework Bootstrap",
       description:
         "Achievement of e-commerce site with basket managing system using data mocking and payment simulation. ",
@@ -536,7 +555,7 @@ let projects = {
       projectName: "La chouette web agency",
       image: "./img/projects/chouette.png",
       category: ["SEO", "HTML-CSS", "Web-site"],
-      date: "10-07-2021",
+      date: "07-10-2021",
       stack: "SEO, HTML, CSS",
       description:
         "enhancing web visibility of the agency and the website performance by increasing loading speed, by reducing size of images, etc.",
@@ -559,7 +578,7 @@ let projects = {
         "Tool",
         "Web-App",
       ],
-      date: "11-15-2021",
+      date: "15-11-2021",
       stack: "Node.js, Express.js, MongoDB",
       description:
         "Achievement of an API REST to run CRUD operations on the Front-end application.",
@@ -579,7 +598,7 @@ let projects = {
         "Vue.JS",
         "Web-App",
       ],
-      date: "01-15-2022",
+      date: "15-01-2022",
       stack: "Vue.JS, Node.js, Express.js, MySQL",
       description:
         "Achievement of an entreprise social network with the framework VueJS.",
