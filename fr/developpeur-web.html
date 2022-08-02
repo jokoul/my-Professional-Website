@@ -39,6 +39,8 @@
       type="image/png"
       href="./img/favicon_io/logomakr.png"
     />
+    <!--D3js CDN-->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
     <!--A) ajout d'une description attrayante (language parlé ex questionnement, mot d'appel à l'action ex achetez, 
 		faites-le,etc argument convainquant) pour le lecteur et qui reprend certain mot-clé-->
     <meta
@@ -305,6 +307,42 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
+                src="./img/carousel/usa-gdp-d3.png"
+                class="d-block w-100"
+                alt="banana"
+                loading="lazy"
+              />
+              <h3 class="text-center mt-2">
+                Réalisation : Graphique à barres du PIB des États-Unis
+              </h3>
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>
+                  Un nouveau projet réalisé, il s'agit d'une application de
+                  graphique à barres de visualisation de données montrant
+                  l'évolution du produit intérieur brut (pib) des États-Unis.
+                  Pour réaliser ce graphique, j'ai utilisé la bibliothèque
+                  D3.js.
+                </h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/carousel/php-fans-blog.png"
+                class="d-block w-100"
+                alt="banana"
+                loading="lazy"
+              />
+              <h3 class="text-center mt-2">Réalisation : PHP Fans Blog</h3>
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>
+                  Un nouveau projet réalisé, il s'agit d'un PHP Fans Blog
+                  réalisé avec PHP POO et MySQL. J'ai utilisé des données
+                  factices pour remplir le contenu.
+                </h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
                 src="./img/carousel/quote-twitter.png"
                 class="d-block w-100"
                 alt="banana"
@@ -317,63 +355,6 @@
                   génération de citations qui extrait des citations d'une API et
                   les affiche avec une fonctionnalité de partage Twitter. Elle
                   est réalisée avec Javascript Vanilla.
-                </h4>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./img/carousel/web-scraper.png"
-                class="d-block w-100"
-                alt="banana"
-                loading="lazy"
-              />
-              <h3 class="text-center mt-2">Réalisation : Web scraper</h3>
-              <div class="carousel-caption d-none d-sm-block">
-                <h4>
-                  Un nouveau projet abouti, il s'agit d'une application Web
-                  Scraper qui permet de récupérer toutes les rubriques d'un site
-                  web uniquement en saisissant son adresse url. Il permet
-                  également d'obtenir la capture d'écran de toutes les pages
-                  ciblées par l'url. Cette application est faite avec Node.js et
-                  de nombreux packages comme puppeteer et cheerio.
-                </h4>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./img/carousel/garatimbi.png"
-                class="d-block w-100"
-                alt="orinoco"
-                loading="lazy"
-              />
-              <h3 class="text-center mt-2">Réalisation : Boutique en ligne.</h3>
-              <div class="carousel-caption d-none d-sm-block">
-                <h4>
-                  Un nouveau projet réalisé, il s'agit d'une boutique de vente
-                  en ligne qui permet de vendre et de gérer des produits. Il est
-                  fait avec la pile MERN. Il implémente de nombreuses
-                  fonctionnalités telles que la gestion du panier, l'opération
-                  CRUD sur le profil utilisateur, la fonction de recherche, la
-                  fonction de paiement, etc.
-                </h4>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./img/carousel/project-planner.png"
-                class="d-block w-100"
-                alt="banana"
-                loading="lazy"
-              />
-              <h3 class="text-center mt-2">
-                Réalisation : Planificateur de projet
-              </h3>
-              <div class="carousel-caption d-none d-sm-block">
-                <h4>
-                  Un nouveau projet réalisé, il s'agit d'une application de
-                  planification de projet réalisée avec Vue.js et vous
-                  permettant d'organiser les étapes du projet. Il a été déployé
-                  avec Netlify.
                 </h4>
               </div>
             </div>
@@ -545,6 +526,9 @@
             >
               Google-API-GCP
             </button>
+            <button class="button-value" onclick="filterProject('D3.js')">
+              D3.js
+            </button>
           </div>
           <!---STATISTIQUE PROJECT-->
           <div
@@ -582,6 +566,12 @@
           </div>
         </div>
       </section>
+      <!--D3 DATA VISUALIZATION-->
+      <div class="canvasWrapper m-3">
+        <svg id="canvas">
+          <text id="title" x="15%" y="30">Evolution Projets</text>
+        </svg>
+      </div>
       <!--MEDIA-->
       <section id="media" class="achievementSection pt-5">
         <h2 class="sectionTitle text-center display-4">Média</h2>
@@ -689,8 +679,8 @@
       function googleTranslateElementInit() {
         new google.translate.TranslateElement(
           {
-            pageLanguage: "fr",
-            includedLanguages: "en,fr,zh,yo,sw,de,ha,es,zu,ru,ig,sv,ar,pt,hi",
+            pageLanguage: "en",
+            includedLanguages: "fr,en,zh,yo,sw,de,ha,es,zu,ru,ig,sv,ar,pt,hi",
           },
           "google_translate_element"
         );
@@ -728,5 +718,7 @@
     <!--AOS Animation-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./JS/aos.js"></script>
+    <!--D3.js data visualization-->
+    <script src="./JS/d3_fr.js"></script>
   </body>
 </html>

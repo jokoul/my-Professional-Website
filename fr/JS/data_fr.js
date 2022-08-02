@@ -4,6 +4,44 @@
 let projects = {
   data: [
     {
+      projectName: "Graphique à Barres du PIB USA",
+      image: "./img/projects/usa-gdp-d3.png",
+      category: [
+        "Front-end",
+        "Utilitaire",
+        "D3.js",
+        "HTML-CSS",
+        "Application-Web",
+      ],
+      date: "02-08-2022",
+      stack: "D3.js, HTML, CSS",
+      description:
+        "Réalisation d'une application d'histogramme de visualisation de données montrant l'évolution du Produit Intérieur Brut (PIB) des États-Unis.",
+      feedback:
+        "Pour réaliser ce graphique, j'ai utilisé la bibliothèque D3.js pour définir un canevas svg. À l'intérieur du svg, j'ai créé plusieurs fonctions pour générer une échelle, dessiner des barres basées sur des données PIB récupérées à partir de l'API et générer des axes.",
+      link1: "https://jokoul.github.io/data-visualization-bar-chart-usa-gdp/",
+      link2: "https://github.com/jokoul/data-visualization-bar-chart-usa-gdp",
+    },
+    {
+      projectName: "PHP Fans Blog",
+      image: "./img/projects/php-fans-blog.png",
+      category: [
+        "Full-stack",
+        "PHP",
+        "MySQL",
+        "framework-Bootstrap",
+        "Site-Web",
+      ],
+      date: "30-07-2022",
+      stack: "PHP, MySQL, Bootstrap",
+      description:
+        "Réalisation d'un Blog réalisé avec PHP POO et MySQL. J'ai utilisé des données factices pour remplir le contenu.",
+      feedback:
+        "dans ce projet, j'ai séparé mon code dans des fichiers de module et je les ai inclus là où il est nécessaire afin de suivre le principe DRY et de produire un code propre et maintenable.",
+      link1: "https://joan-kouloumba.in/php-fans-blog/",
+      link2: "https://github.com/jokoul/project-35-php-fans-blog",
+    },
+    {
       projectName: "Application de Citation à twitter",
       image: "./img/projects/quote-twitter.png",
       category: [
@@ -414,6 +452,19 @@ let projects = {
       link2: "https://github.com/jokoul/project-SS-BP-Holidious-holiday-finder",
     },
     {
+      projectName: "Generalwp, un site Web entreprenarial.",
+      image: "./img/projects/general-wp.png",
+      category: ["Wordpress", "Docker", "Site-Web"],
+      date: "02-04-2022",
+      stack: "Docker, Wordpress, Plugin Elementor",
+      description:
+        "Réalisation d'un site web promotionnel d'entreprise pouvant s'adapter à tout type d'activités commerciales.",
+      feedback:
+        "ce projet me permet de manipuler le thème wordpress Phlox, les plugins Elementor, etc.",
+      link1: "https://joan-kouloumba.in/general-wp",
+      link3: "https://hub.docker.com/r/joandock/wordpress_generalwp",
+    },
+    {
       projectName: "Jeu de tranches de fruits",
       image: "./img/projects/fruits-game.png",
       category: [
@@ -431,19 +482,6 @@ let projects = {
         "ce projet m'a permis de manipuler les fonctions jQuery et la logique algorithmique.",
       link1: "https://joan-kouloumba.in/fruits-game",
       link2: "https://github.com/jokoul/project-JQ-01-Fruit-slice-game",
-    },
-    {
-      projectName: "Generalwp, un site Web entreprenarial.",
-      image: "./img/projects/general-wp.png",
-      category: ["Wordpress", "Docker", "Site-Web"],
-      date: "02-04-2022",
-      stack: "Docker, Wordpress, Plugin Elementor",
-      description:
-        "Réalisation d'un site web promotionnel d'entreprise pouvant s'adapter à tout type d'activités commerciales.",
-      feedback:
-        "ce projet me permet de manipuler le thème wordpress Phlox, les plugins Elementor, etc.",
-      link1: "https://joan-kouloumba.in/general-wp",
-      link3: "https://hub.docker.com/r/joandock/wordpress_generalwp",
     },
     {
       projectName:
@@ -467,19 +505,18 @@ let projects = {
       link2: "https://github.com/jokoul/project-8-Maths-the-Fun-way",
     },
     {
-      projectName: "Reservia, accomodation booking website",
-      image: "./img/projects/reservia.png",
-      category: ["Front-end", "HTML-CSS", "Site-Web"],
-      date: "08-01-2021",
-      stack: "HTML, CSS",
+      projectName: "Banana-design, site vitrine agence web",
+      image: "./img/projects/banana-design.png",
+      category: ["Wordpress", "Docker", "Site-Web"],
+      date: "20-02-2022",
+      stack: "Wordpress, Docker, Plugin Elementor",
       description:
-        "Intégration de modèles de page d'accueil de site Web en utilisant uniquement HTML et CSS à partir de zéro.",
+        "Réalisation d'un site vitrine pour promouvoir les activités de l'agence.",
       feedback:
-        "ce projet m'a permis de comprendre et d'utiliser le système flexbox.",
-      link1:
-        "https://jokoul.github.io/Projet-2-Transformer-une-maquette-en-site-web-avec-HTML5-CSS3/",
-      link2:
-        "https://github.com/jokoul/Projet-2-Transformer-une-maquette-en-site-web-avec-HTML5-CSS3",
+        "ce projet a été très utile pour manipuler les fonctionnalités de base du système de gestion de contenu wordpress comme les plugins, les thèmes, etc.",
+      link1: "https://joan-kouloumba.in/banana-design",
+      link3:
+        "https://hub.docker.com/r/joandock/wordpress_agence_web_banana_design",
     },
     {
       projectName: "Application compteur de score de tennis",
@@ -504,39 +541,45 @@ let projects = {
       link3: "https://hub.docker.com/r/joandock/tennis-score-counter",
     },
     {
-      projectName: "Ohmyfood, site de réservation de restaurant",
-      image: "./img/projects/ohmyfood.png",
+      projectName: "Groupomania, réseau social privé",
+      image: "./img/projects/groupomania.png",
       category: [
-        "Front-end",
-        "HTML-CSS",
-        "Sass-préprocesseur",
-        "Utilitaire",
-        "Site-Web",
+        "Full-stack",
+        "Node.JS",
+        "Express.JS",
+        "MySQL",
+        "Vue.JS",
+        "Application-Web",
       ],
-      date: "23-08-2021",
-      stack: "HTML, CSS, préprocesseur Sass ",
+      date: "15-01-2022",
+      stack: "Vue.JS, Node.js, Express.js, MySQL",
       description:
-        " Intégration de plusieurs pages du modèle de site Web en utilisant HTML, CSS et Sass à partir de zéro.",
+        "Réalisation d'un réseau social d'entreprise avec le framework VueJS.",
       feedback:
-        "ce projet m'a permis de créer des animations avancées avec des images clés et d'utiliser le préprocesseur Sass pour structurer mon code CSS en utilisant des imbrications, des variables, des mixins, etc.",
-      link1:
-        "https://jokoul.github.io/Projet-3-Dynamiser-une-page-web-avec-des-animations-CSS",
+        "ce projet m'a permis de me familiariser avec la logique des composants pour obtenir une base de code modulaire et maintenable. J'ai également utilisé l'Object Relational Model Sequelize pour manipuler la base de données SQL.",
       link2:
-        "https://github.com/jokoul/Projet-3-Dynamiser-une-page-web-avec-des-animations-CSS",
+        "https://github.com/jokoul/Projet-7-Construire-un-reseau-social-d-entreprise-avec-le-framework-Vue.js",
     },
     {
-      projectName: "Banana-design, site vitrine agence web",
-      image: "./img/projects/banana-design.png",
-      category: ["Wordpress", "Docker", "Site-Web"],
-      date: "20-02-2022",
-      stack: "Wordpress, Docker, Plugin Elementor",
+      projectName: "Hot_takes, Application de notation de sauce",
+      image: "./img/projects/hottakes.png",
+      category: [
+        "Back-end",
+        "Node.JS",
+        "Express.JS",
+        "MongoDB",
+        "API-REST",
+        "Utilitaire",
+        "Application-Web",
+      ],
+      date: "15-11-2021",
+      stack: "Node.js, Express.js, MongoDB",
       description:
-        "Réalisation d'un site vitrine pour promouvoir les activités de l'agence.",
+        "Réalisation d'une API REST pour exécuter des opérations CRUD sur l'application Front-end.",
       feedback:
-        "ce projet a été très utile pour manipuler les fonctionnalités de base du système de gestion de contenu wordpress comme les plugins, les thèmes, etc.",
-      link1: "https://joan-kouloumba.in/banana-design",
-      link3:
-        "https://hub.docker.com/r/joandock/wordpress_agence_web_banana_design",
+        "ce projet m'a permis d'utiliser l'Object Data Model Mongoose pour manipuler une base de données NoSQL.",
+      link2:
+        "https://github.com/jokoul/Projet-6-Construire-une-API-pour-une-application-web",
     },
     {
       projectName: "Orinoco, site e-commerce",
@@ -569,45 +612,40 @@ let projects = {
         "https://github.com/jokoul/Projet-4-Optimiser-un-site-web-existant-avec-des-outils-SEO",
     },
     {
-      projectName: "Hot_takes, Application de notation de sauce",
-      image: "./img/projects/hottakes.png",
+      projectName: "Ohmyfood, site de réservation de restaurant",
+      image: "./img/projects/ohmyfood.png",
       category: [
-        "Back-end",
-        "Node.JS",
-        "Express.JS",
-        "MongoDB",
-        "API-REST",
+        "Front-end",
+        "HTML-CSS",
+        "Sass-préprocesseur",
         "Utilitaire",
-        "Application-Web",
+        "Site-Web",
       ],
-      date: "15-11-2021",
-      stack: "Node.js, Express.js, MongoDB",
+      date: "23-08-2021",
+      stack: "HTML, CSS, préprocesseur Sass ",
       description:
-        "Réalisation d'une API REST pour exécuter des opérations CRUD sur l'application Front-end.",
+        " Intégration de plusieurs pages du modèle de site Web en utilisant HTML, CSS et Sass à partir de zéro.",
       feedback:
-        "ce projet m'a permis d'utiliser l'Object Data Model Mongoose pour manipuler une base de données NoSQL.",
+        "ce projet m'a permis de créer des animations avancées avec des images clés et d'utiliser le préprocesseur Sass pour structurer mon code CSS en utilisant des imbrications, des variables, des mixins, etc.",
+      link1:
+        "https://jokoul.github.io/Projet-3-Dynamiser-une-page-web-avec-des-animations-CSS",
       link2:
-        "https://github.com/jokoul/Projet-6-Construire-une-API-pour-une-application-web",
+        "https://github.com/jokoul/Projet-3-Dynamiser-une-page-web-avec-des-animations-CSS",
     },
     {
-      projectName: "Groupomania, réseau social privé",
-      image: "./img/projects/groupomania.png",
-      category: [
-        "Full-stack",
-        "Node.JS",
-        "Express.JS",
-        "MySQL",
-        "Vue.JS",
-        "Application-Web",
-      ],
-      date: "15-01-2022",
-      stack: "Vue.JS, Node.js, Express.js, MySQL",
+      projectName: "Reservia, accomodation booking website",
+      image: "./img/projects/reservia.png",
+      category: ["Front-end", "HTML-CSS", "Site-Web"],
+      date: "01-08-2021",
+      stack: "HTML, CSS",
       description:
-        "Réalisation d'un réseau social d'entreprise avec le framework VueJS.",
+        "Intégration de modèles de page d'accueil de site Web en utilisant uniquement HTML et CSS à partir de zéro.",
       feedback:
-        "ce projet m'a permis de me familiariser avec la logique des composants pour obtenir une base de code modulaire et maintenable. J'ai également utilisé l'Object Relational Model Sequelize pour manipuler la base de données SQL.",
+        "ce projet m'a permis de comprendre et d'utiliser le système flexbox.",
+      link1:
+        "https://jokoul.github.io/Projet-2-Transformer-une-maquette-en-site-web-avec-HTML5-CSS3/",
       link2:
-        "https://github.com/jokoul/Projet-7-Construire-un-reseau-social-d-entreprise-avec-le-framework-Vue.js",
+        "https://github.com/jokoul/Projet-2-Transformer-une-maquette-en-site-web-avec-HTML5-CSS3",
     },
   ],
 };

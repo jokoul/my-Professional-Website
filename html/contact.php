@@ -129,7 +129,7 @@
         id="mynavBar"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">JK</a>
+          <a class="navbar-brand logo" href="../index.html">JK</a>
           <button
             class="navbar-toggler"
             type="button"

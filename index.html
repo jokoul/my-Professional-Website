@@ -39,6 +39,8 @@
       type="image/png"
       href="./img/favicon_io/logomakr.png"
     />
+    <!--D3js CDN-->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
     <!--A) ajout d'une description attrayante (language parlé ex questionnement, mot d'appel à l'action ex achetez, 
 		faites-le,etc argument convainquant) pour le lecteur et qui reprend certain mot-clé-->
     <meta
@@ -298,6 +300,37 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
+                src="./img/carousel/usa-gdp-d3.png"
+                class="d-block w-100"
+                alt="image-b"
+                loading="lazy"
+              />
+              <h3 class="text-center mt-2">Achievement : Bar Chart USA GDP</h3>
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>
+                  A new project achieved, this is a data visualization bar chart
+                  app showing the USA Gross Domestic Product (gdp) evolution.To
+                  achieve this chart, I used D3.js library.
+                </h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/carousel/php-fans-blog.png"
+                class="d-block w-100"
+                alt="image-a"
+                loading="lazy"
+              />
+              <h3 class="text-center mt-2">Achievement : PHP Fans Blog</h3>
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>
+                  A new project achieved, this is a PHP Fans Blog made with PHP
+                  POO and MySQL. I used dummy data to fill content.
+                </h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
                 src="./img/carousel/quote-twitter.png"
                 class="d-block w-100"
                 alt="image-c"
@@ -327,26 +360,6 @@
                   by entering its url address. It allows also to get the
                   screenshot of all the page targeted with url. This app is made
                   with Node.js and many package like puppeteer and cheerio.
-                </h4>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./img/carousel/garatimbi.png"
-                class="d-block w-100"
-                alt="image-a"
-                loading="lazy"
-              />
-              <h3 class="text-center mt-2">
-                Achievement : Online Shopping Store
-              </h3>
-              <div class="carousel-caption d-none d-sm-block">
-                <h4>
-                  A new project achieved, this is an online shopping store that
-                  allows to sell and manage products. It is made with MERN
-                  stack. It implements many features like cart managing, CRUD
-                  operation on user profile, search feature, payment
-                  feature,etc.
                 </h4>
               </div>
             </div>
@@ -524,6 +537,9 @@
             >
               Google-API-GCP
             </button>
+            <button class="button-value" onclick="filterProject('D3.js')">
+              D3.js
+            </button>
           </div>
           <!---STATISTIQUE PROJECT-->
           <div
@@ -559,10 +575,14 @@
               ></a>
             </div>
           </div>
-          <!--D3 DATA VISUALIZATION-->
-          <div id="chart"></div>
         </div>
       </section>
+      <!--D3 DATA VISUALIZATION-->
+      <div class="canvasWrapper m-3">
+        <svg id="canvas">
+          <text id="title" x="15%" y="30">Projects Evolution</text>
+        </svg>
+      </div>
       <!--MEDIA-->
       <section id="media" class="achievementSection pt-5">
         <h2 class="sectionTitle text-center display-4">Media</h2>
@@ -672,7 +692,7 @@
       function googleTranslateElementInit() {
         new google.translate.TranslateElement(
           {
-            pageLanguage: "en",
+            pageLanguage: "fr",
             includedLanguages: "en,fr,zh,yo,sw,de,ha,es,zu,ru,ig,sv,ar,pt,hi",
           },
           "google_translate_element"
@@ -712,12 +732,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./JS/aos.js"></script>
     <!--D3.js data visualization-->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.6.1/d3.min.js"
-      integrity="sha512-MefNfAGJ/pEy89xLOFs3V6pYPs6AmUhXJrRlydI/9wZuGrqxmrdQ80zKHUcyadAcpH67teDZcBeS6oMJLPtTqw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
     <script src="./JS/d3.js"></script>
   </body>
 </html>

@@ -142,9 +142,7 @@ let drawBars = () => {
     .on("mouseover", (item, index) => {
       tooltip.transition().style("visibility", "visible");
 
-      tooltip.text(
-        item["numProject"] + " projects achieved in " + item["date"]
-      );
+      tooltip.text(item["numProject"] + " projets réalisés en " + item["date"]);
 
       tooltip.style(
         "top",
