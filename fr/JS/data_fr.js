@@ -4,6 +4,25 @@
 let projects = {
   data: [
     {
+      projectName: "Application image dans image",
+      image: "./img/projects/pic-in-pic.png",
+      category: [
+        "Front-end",
+        "Fonctionnalité",
+        "Javascript",
+        "HTML-CSS",
+        "Application-Web",
+      ],
+      date: "04-08-2022",
+      stack: "Javascript, HTML, CSS",
+      description:
+        "Réalisation d'une application qui permet de réduire un partage d'écran ou de fenêtre avec lecture vidéo et de travailler sur d'autres fenêtres en même temps. Il est fait avec Javascript.",
+      feedback:
+        "Pour réaliser ce projet,  j'ai créé un flux multimédia avec getDisplayMedia() et appliqué la méthode requestPictureInPicture sur l'élément vidéo.",
+      link1: "https://jokoul.github.io/project-39-picture-in-picture",
+      link2: "https://github.com/jokoul/project-39-picture-in-picture",
+    },
+    {
       projectName: "Graphique à Barres du PIB USA",
       image: "./img/projects/usa-gdp-d3.png",
       category: [

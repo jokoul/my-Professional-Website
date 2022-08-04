@@ -4,6 +4,25 @@
 let projects = {
   data: [
     {
+      projectName: "Pic in Pic App.",
+      image: "./img/projects/pic-in-pic.png",
+      category: [
+        "Front-end-development",
+        "Web-App",
+        "Javascript",
+        "Functionality",
+        "HTML-CSS",
+      ],
+      date: "04-08-2022",
+      stack: "Javascript, HTML, CSS",
+      description:
+        "Achievement of an application that allows to reduce a share screen or window with video playing and work on other windows at the same time. It is made with Javascript vanilla.",
+      feedback:
+        "To achieve this project, I created a media stream with getDisplayMedia() and applied requestPictureInPicture method on video element.",
+      link1: "https://jokoul.github.io/project-39-picture-in-picture",
+      link2: "https://github.com/jokoul/project-39-picture-in-picture",
+    },
+    {
       projectName: "Bar Chart USA GDP.",
       image: "./img/projects/usa-gdp-d3.png",
       category: [
