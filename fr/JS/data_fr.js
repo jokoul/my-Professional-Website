@@ -4,6 +4,25 @@
 let projects = {
   data: [
     {
+      projectName: "fonctionnalité Mode clair-sombre",
+      image: "./img/projects/light-dark-mode.png",
+      category: [
+        "Front-end",
+        "Fonctionnalité",
+        "Javascript",
+        "HTML-CSS",
+        "Site-Web",
+      ],
+      date: "12-08-2022",
+      stack: "Javascript, HTML, CSS",
+      description:
+        "Réalisation d'un site Web de démonstration conçu pour montrer les fonctionnalités des modes clair et sombre en javascript. Cette fonctionnalité permet aux utilisateurs d'utiliser le bouton bascule pour changer la couleur du site Web.",
+      feedback:
+        "Pour réaliser ce projet, j'ai appliqué le principe DRY sur la fonction personnalisée que j'ai créée pour modifier dynamiquement l'attribut de classe et le style css en utilisant les méthodes setAttribute et classList.",
+      link1: "https://jokoul.github.io/project-44-Light-Dark-Mode",
+      link2: "https://github.com/jokoul/project-44-Light-Dark-Mode",
+    },
+    {
       projectName: "Application image dans image",
       image: "./img/projects/pic-in-pic.png",
       category: [

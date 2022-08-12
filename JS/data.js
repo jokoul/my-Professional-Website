@@ -4,6 +4,25 @@
 let projects = {
   data: [
     {
+      projectName: "Light-Dark Mode Feature.",
+      image: "./img/projects/light-dark-mode.png",
+      category: [
+        "Front-end-development",
+        "Web-site",
+        "Javascript",
+        "Functionality",
+        "HTML-CSS",
+      ],
+      date: "12-08-2022",
+      stack: "Javascript, HTML, CSS",
+      description:
+        "Achievement of a demo website designed to show light and Dark mode feature made with javascript. This functionality allows users to use toggle button to switch the color of the website.",
+      feedback:
+        "To achieve this project, I applied DRY principle on custom function that I created to change dynamically class attribute and css style by using setAttribute and classList method.",
+      link1: "https://jokoul.github.io/project-44-Light-Dark-Mode",
+      link2: "https://github.com/jokoul/project-44-Light-Dark-Mode",
+    },
+    {
       projectName: "Pic in Pic App.",
       image: "./img/projects/pic-in-pic.png",
       category: [

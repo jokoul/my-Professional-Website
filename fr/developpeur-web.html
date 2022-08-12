@@ -39,8 +39,7 @@
       type="image/png"
       href="./img/favicon_io/logomakr.png"
     />
-    <!--D3js CDN-->
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+
     <!--A) ajout d'une description attrayante (language parlé ex questionnement, mot d'appel à l'action ex achetez, 
 		faites-le,etc argument convainquant) pour le lecteur et qui reprend certain mot-clé-->
     <meta
@@ -307,9 +306,27 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
+                src="./img/carousel/light-dark-mode.png"
+                class="d-block w-100"
+                alt="carousel-image"
+                loading="lazy"
+              />
+              <h3 class="text-center mt-2">Réalisation : Mode clair-sombre</h3>
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>
+                  Un nouveau projet réalisé, il s'agit d'un site Web de
+                  démonstration conçu pour montrer les fonctionnalités des modes
+                  clair et sombre réalisées avec javascript. Cette
+                  fonctionnalité permet aux utilisateurs d'utiliser le bouton
+                  bascule pour changer la couleur du site Web.
+                </h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
                 src="./img/carousel/pic-in-pic.png"
                 class="d-block w-100"
-                alt="banana"
+                alt="carousel-image"
                 loading="lazy"
               />
               <h3 class="text-center mt-2">
@@ -328,7 +345,7 @@
               <img
                 src="./img/carousel/usa-gdp-d3.png"
                 class="d-block w-100"
-                alt="banana"
+                alt="carousel-image"
                 loading="lazy"
               />
               <h3 class="text-center mt-2">
@@ -341,22 +358,6 @@
                   l'évolution du produit intérieur brut (pib) des États-Unis.
                   Pour réaliser ce graphique, j'ai utilisé la bibliothèque
                   D3.js.
-                </h4>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./img/carousel/php-fans-blog.png"
-                class="d-block w-100"
-                alt="banana"
-                loading="lazy"
-              />
-              <h3 class="text-center mt-2">Réalisation : PHP Fans Blog</h3>
-              <div class="carousel-caption d-none d-sm-block">
-                <h4>
-                  Un nouveau projet réalisé, il s'agit d'un PHP Fans Blog
-                  réalisé avec PHP POO et MySQL. J'ai utilisé des données
-                  factices pour remplir le contenu.
                 </h4>
               </div>
             </div>
@@ -720,6 +721,8 @@
     <!--AOS Animation-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./JS/aos.js"></script>
+    <!--D3js CDN-->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
     <!--D3.js data visualization-->
     <script src="./JS/d3_fr.js"></script>
   </body>
