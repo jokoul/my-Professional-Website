@@ -4,6 +4,26 @@
 let projects = {
   data: [
     {
+      projectName: "Application de commande de pizza",
+      image: "./img/projects/pizzajo.png",
+      category: [
+        "Full-stack",
+        "Utilitaire",
+        "Laravel",
+        "framework-Bootstrap",
+        "Application-Web",
+        "MySQL",
+      ],
+      date: "1-08-2022",
+      stack: "Laravel, Bootstrap, MySQL",
+      description:
+        "Réalisation d'une application de commande de pizza réalisée avec Laravel qui permet de gérer le commerce de restauration rapide de pizza. Les clients peuvent commander des pizzas via l'application et le gestionnaire peut gérer les informations des clients et il peut ajouter, modifier, supprimer des pizzas dans le tableau de menu.",
+      feedback:
+        "Pour réaliser ce projet, j'ai commencé par créer une base de données MySQL avec des modèles et des migrations. Ensuite, j'ai généré des contrôleurs pour gérer les formulaires et les opérations crud sur différentes ressources comme les pizzas, les utilisateurs, les commandes. Enfin, j'ai créé des modèle de vues appropriés avec l'extension blade pour obtenir une interface utilisateur affichant les données. Mon application respecte le design pattern MVC.",
+      link1: "https://joan-kouloumba.in/pizzajo",
+      link2: "https://github.com/jokoul/project-38-pizza-ordering",
+    },
+    {
       projectName: "fonctionnalité Mode clair-sombre",
       image: "./img/projects/light-dark-mode.png",
       category: [
@@ -852,6 +872,20 @@ let skills = {
     },
   ],
   tool: [
+    {
+      image: "../img/tools/jenkins.png",
+      name: "Jenkins",
+      description:
+        "Jenkins est un serveur d`automatisation open source qui permet aux développeurs du monde entier de créer, tester et déployer leurs logiciels de manière fiable.",
+      dimension: 190,
+    },
+    {
+      image: "../img/tools/jira.webp",
+      name: "Jira",
+      description:
+        "Jira est une application logicielle utilisée pour le suivi des problèmes et la gestion de projet. L`outil, développé par la société Atlassian, est devenu largement utilisé par les équipes de développement agiles pour suivre les bogues, les histoires, les épopées et d`autres tâches.",
+      dimension: 190,
+    },
     {
       image: "../img/tools/github.png",
       name: "GitHub",

@@ -4,6 +4,26 @@
 let projects = {
   data: [
     {
+      projectName: "Pizza Ordering App.",
+      image: "./img/projects/pizzajo.png",
+      category: [
+        "Full-stack-development",
+        "Web-App",
+        "Laravel",
+        "Tool",
+        "framework-Bootstrap",
+        "MySQL"
+      ],
+      date: "19-08-2022",
+      stack: "Laravel, Bootstrap, MySQL",
+      description:
+        "Achievement of a pizza ordering app made with Laravel that allows to manage pizza fast food business. Clients can order pizza through the application and manager can manage customer informations and he can add, edit, delete pizza into the Menu board.",
+      feedback:
+        "To achieve this project, I started by creating a MySQL database with models and migrations. Then, I generated controllers to handle form and crud opration on different ressources like pizzas, users, orders. Finally, I created corresponding template views with blade extension to get an user interface showing data. My application respect MVC design pattern.",
+      link1: "https://joan-kouloumba.in/pizzajo",
+      link2: "https://github.com/jokoul/project-38-pizza-ordering",
+    },
+    {
       projectName: "Light-Dark Mode Feature.",
       image: "./img/projects/light-dark-mode.png",
       category: [
@@ -849,6 +869,20 @@ let skills = {
     },
   ],
   tool: [
+    {
+      image: "../img/tools/jenkins.png",
+      name: "Jenkins",
+      description:
+        "Jenkins is an open source automation server which enables developers around the world to reliably build, test, and deploy their software.",
+      dimension: 190,
+    },
+    {
+      image: "../img/tools/jira.webp",
+      name: "Jira",
+      description:
+        "Jira is a software application used for issue tracking and project management. The tool, developed by the Australian software company Atlassian, has become widely used by agile development teams to track bugs, stories, epics, and other tasks.",
+      dimension: 190,
+    },
     {
       image: "../img/tools/github.png",
       name: "GitHub",
