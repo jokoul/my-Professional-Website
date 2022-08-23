@@ -4,6 +4,26 @@
 let projects = {
   data: [
     {
+      projectName: "Application d'assistant vocal",
+      image: "./img/projects/voice-assistant.png",
+      category: [
+        "Full-stack",
+        "Utilitaire",
+        "React.JS",
+        "Node.JS",
+        "Application-Web",
+        "Heroku",
+      ],
+      date: "23-08-2022",
+      stack: "React.js, Node.js",
+      description:
+        "Réalisation d'une application d'assistant vocal avec reconnaissance vocale réalisée avec React et Node.js permettant de retranscrire un message vocal en message texte. Ensuite, vous pouvez modifier et envoyer le message texte par e-mail directement et recevoir un e-mail de confirmation parfois dans la boîte de spam.",
+      feedback:
+        "Pour réaliser ce projet, j'ai créé en frontend deux composants React pour gérer l'interface utilisateur, puis en backend, j'ai utilisé le package Nodemailer pour envoyer le message texte converti par e-mail.",
+      link1: "https://voice-assistant-jo.herokuapp.com/",
+      link2: "https://github.com/jokoul/project-46-voice-assistant",
+    },
+    {
       projectName: "Application de commande de pizza",
       image: "./img/projects/pizzajo.png",
       category: [
@@ -11,10 +31,10 @@ let projects = {
         "Utilitaire",
         "Laravel",
         "framework-Bootstrap",
-        "Application-Web",
+        "E-commerce",
         "MySQL",
       ],
-      date: "1-08-2022",
+      date: "19-08-2022",
       stack: "Laravel, Bootstrap, MySQL",
       description:
         "Réalisation d'une application de commande de pizza réalisée avec Laravel qui permet de gérer le commerce de restauration rapide de pizza. Les clients peuvent commander des pizzas via l'application et le gestionnaire peut gérer les informations des clients et il peut ajouter, modifier, supprimer des pizzas dans le tableau de menu.",

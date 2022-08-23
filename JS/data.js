@@ -4,15 +4,35 @@
 let projects = {
   data: [
     {
+      projectName: "Voice Assistant App.",
+      image: "./img/projects/voice-assistant.png",
+      category: [
+        "Full-stack-development",
+        "React.JS",
+        "Node.JS",
+        "Tool",
+        "Web-App",
+        "Heroku"
+      ],
+      date: "23-08-2022",
+      stack: "React.js, Node.js",
+      description:
+        "Achievement of a voice-assistant app with speech recognition made with React and Node.js that allows to transcribe vocal message into text message. Then you can edit and send the text message by email directly and receive confirmation email sometime in spam box.",
+      feedback:
+        "To achieve this project,  In the frontend, I created two react components to manage UI, then in the backend, I used Nodemailer package to send the converted text message by email.",
+      link1: "https://voice-assistant-jo.herokuapp.com/",
+      link2: "https://github.com/jokoul/project-46-voice-assistant",
+    },
+    {
       projectName: "Pizza Ordering App.",
       image: "./img/projects/pizzajo.png",
       category: [
         "Full-stack-development",
-        "Web-App",
+        "E-commerce",
         "Laravel",
         "Tool",
         "framework-Bootstrap",
-        "MySQL"
+        "MySQL",
       ],
       date: "19-08-2022",
       stack: "Laravel, Bootstrap, MySQL",
