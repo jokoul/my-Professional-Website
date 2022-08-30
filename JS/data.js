@@ -4,6 +4,25 @@
 let projects = {
   data: [
     {
+      projectName: "Audit Form App.",
+      image: "./img/projects/audiform.png",
+      category: [
+        "Front-end-development",
+        "React.JS",
+        "Tool",
+        "Web-App",
+        "Firebase",
+      ],
+      date: "30-08-2022",
+      stack: "React.js, Bootstrap, Firebase",
+      description:
+        "Achievement of an Audit Form App made with react that allows auditors to perform audit easily. You can use the digital form to fill audit quiz and the score will be calculated automatically then you can download it as pdf file.",
+      feedback:
+        "Through this app, I digitalized a business process formerly paper-based. I used React and Bootstrap to design app UI then I used jspdf and html2canvas node package to implement pdf conversion feature. I deployed app on firebase google Backend as a service (BaaS). I plan to improve the app by implementing take photo as evidence feature to attach into the digital form.",
+      link1: "https://audiform-46aa4.web.app/",
+      link2: "https://github.com/jokoul/project-50-AudiForm-App",
+    },
+    {
       projectName: "Voice Assistant App.",
       image: "./img/projects/voice-assistant.png",
       category: [
@@ -12,7 +31,7 @@ let projects = {
         "Node.JS",
         "Tool",
         "Web-App",
-        "Heroku"
+        "Heroku",
       ],
       date: "23-08-2022",
       stack: "React.js, Node.js",

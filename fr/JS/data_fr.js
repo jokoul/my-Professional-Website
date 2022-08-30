@@ -4,6 +4,25 @@
 let projects = {
   data: [
     {
+      projectName: "Application de formulaire d'audit",
+      image: "./img/projects/audiform.png",
+      category: [
+        "Front-end",
+        "Utilitaire",
+        "React.JS",
+        "Application-Web",
+        "Firebase",
+      ],
+      date: "30-08-2022",
+      stack: "React.js, Bootstrap, Firebase",
+      description:
+        "Réalisation d'une application de formulaire d'audit réalisée avec React qui permet aux auditeurs d'effectuer facilement des audits. Vous pouvez utiliser le formulaire numérique pour remplir le questionnaire d'audit et le score sera calculé automatiquement, puis vous pourrez le télécharger en tant que fichier pdf.",
+      feedback:
+        "Grâce à cette application, j'ai digitalisé un processus métier autrefois basé sur le papier. J'ai utilisé React et Bootstrap pour concevoir l'interface utilisateur de l'application, puis j'ai utilisé les packages node jspdf et html2canvas pour implémenter la fonction de conversion pdf. J'ai déployé l'application sur firebase google Backend en tant que service (BaaS). Je prévois d'améliorer l'application en implémentant la fonction de prise de photo comme preuve à joindre au formulaire numérique.",
+      link1: "https://audiform-46aa4.web.app/",
+      link2: "https://github.com/jokoul/project-50-AudiForm-App",
+    },
+    {
       projectName: "Application d'assistant vocal",
       image: "./img/projects/voice-assistant.png",
       category: [
