@@ -5,6 +5,25 @@ let projects = {
   data: [
     {
       projectName: "Application de formulaire d'audit",
+      image: "./img/projects/chat.png",
+      category: [
+        "Front-end",
+        "Utilitaire",
+        "React.JS",
+        "Application-Web",
+        "Firebase",
+      ],
+      date: "03-09-2022",
+      stack: "React.js, Firebase",
+      description:
+        "Réalisation d'une application basique de chat en temps réel basée sur Firebase et sur React permettant de communiquer en temps réel.",
+      feedback:
+        "Dans ce projet, j'ai commencé par créer une nouvelle application dans firebase, puis j'ai configuré firestore pour gérer la base de données nosql. J'ai défini la règle d'authentification sur les informations d'identification du compte Google. Ensuite, j'ai créé mes composants react en utilisant des hooks firebase et des méthodes comme useCollectionData, GoogleAuthProvider() pour gérer le message de chat, le formulaire. Pour finir, j'ai utilisé l'hébergement firebase pour déployer mon application.",
+      link1: "https://two-person-chat-app.web.app/",
+      link2: "https://github.com/jokoul/project-48-two-person-chat-app",
+    },
+    {
+      projectName: "Application de formulaire d'audit",
       image: "./img/projects/audiform.png",
       category: [
         "Front-end",

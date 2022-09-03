@@ -4,6 +4,25 @@
 let projects = {
   data: [
     {
+      projectName: "Chat App.",
+      image: "./img/projects/chat.png",
+      category: [
+        "Front-end-development",
+        "React.JS",
+        "Tool",
+        "Web-App",
+        "Firebase",
+      ],
+      date: "03-09-2022",
+      stack: "React.js, Firebase",
+      description:
+        "Achievement of a basic realtime chat app based on Firebase and on React that allow to communicate in realtime.",
+      feedback:
+        "In this project, I started by creating new app in firebase, then I set firestore to manage nosql database. I set authentication rule on google account credential. Then, I created my react components by using firebase hooks and methods like useCollectionData, GoogleAuthProvider() to manage Chat message, form. To finish, I used firebase hosting to deploy my app.",
+      link1: "https://two-person-chat-app.web.app/",
+      link2: "https://github.com/jokoul/project-48-two-person-chat-app",
+    },
+    {
       projectName: "Audit Form App.",
       image: "./img/projects/audiform.png",
       category: [
